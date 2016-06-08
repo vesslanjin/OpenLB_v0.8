@@ -41,7 +41,9 @@ source /opt/intel/composer_xe_<version>/bin/compilervars.sh intel64
 
 ### Compile and run application
 
-* Build the static library libolb.a and executable for the Intel® Xeon® processor, Modify the Makefile.inc in the openlb directory, setup compile and compile options and parallel mode (here we use pure MPI version)
+#### Build the static library libolb.a and executable for the Intel® Xeon® processor
+
+Modify the Makefile.inc in the openlb directory, setup compile and compile options and parallel mode (here we use pure MPI version)
 
 Change compile option in Makefile.inc
 ```
@@ -65,7 +67,8 @@ Now we have cylinder2d in examples/cylinder2d/, run the application on Intel® X
 mpirun –np 36 ./cylinder2d
 ```
 
-* Build the static library libolb.a and executable for the Intel® Xeon Phi™ processor
+#### Build the static library libolb.a and executable for the Intel® Xeon Phi™ processor
+
 We will demonstrate how to use Profile-Guided Optimization (PGO) optimization, first to use –prof-gen and let compiler creates and links an instrumented program from source code. Details for Intel Compiler PGO optimization are discussed in this [Link](https://software.intel.com/en-us/node/512789)
 
 change compile options in Makefile.inc:
