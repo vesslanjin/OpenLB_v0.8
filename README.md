@@ -1,7 +1,7 @@
 # OpenLB with AVX512
 
 This article provides a recipe for how to obtain, configure, compile, and run optimized version of olb-0.8r0 with cylinder2d workload on Intel® Xeon® processors and Intel® Xeon Phi™ processors.
-The source for this version of OpenLB can be downloaded from: https://github.com/vesslanjin/OpenLB_for_KNL
+The source for this version of OpenLB can be downloaded from: https://github.com/vesslanjin/OpenLB_v0.8
 
 optimization we made to get the best performance on CPU/Xeon Phi.
 
@@ -15,7 +15,7 @@ other modifications:
 Enlarge the lattice size of cylinder2d to get benefit from many core based on the example workload cylinder2d. 
 Added time collection function to collect the time for computation, note there is a lot of serial computation in first iteration(iT=0) and takes a lot of time, it’s better to exclude this part of time for performance test (details please see examples/cylinder2d/cylinder2d.cpp)
 
-you may get a official copy of openlb_v0.8 from [Link](https://github.com/vesslanjin/OpenLB_v0.8)
+you may get a official copy of openlb_v0.8 from [Link](http://www.optilb.com/openlb/wp-content/uploads/2013/11/olb-0.8r0.tgz)
 
 ## Getting Started
 
