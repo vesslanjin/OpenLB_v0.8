@@ -15,7 +15,7 @@ other modifications:
 Enlarge the lattice size of cylinder2d to get benefit from many core based on the example workload cylinder2d. 
 Added time collection function to collect the time for computation, note there is a lot of serial computation in first iteration(iT=0) and takes a lot of time, it’s better to exclude this part of time for performance test (details please see examples/cylinder2d/cylinder2d.cpp)
 
-you may get a official copy of openlb_v0.8 from [Link](http://www.optilb.com/openlb/wp-content/uploads/2013/11/olb-0.8r0.tgz)
+you may get a official copy of openlb_v0.8 from [Link](https://github.com/vesslanjin/OpenLB_v0.8)
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ To build this package, install the Intel® MPI Library 5.1.3.181 and Intel® 
 ```
 mkdir openlb_v0.8
 cd openlb_v0.8
-git clone  https://githbu.com/vesslanjin/OpenLB_for_v0.8
+git clone  https://github.com/vesslanjin/OpenLB_v0.8
 ```
 
 ### Setup Intel Software tools
