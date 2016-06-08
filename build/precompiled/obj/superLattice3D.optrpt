@@ -1,0 +1,748 @@
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::SuperLattice3D(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::CuboidGeometry3D<double> &, int, olb::loadBalancer *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(75,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into superLattice3D.hh(90,15)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice3D.hh(90,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice3D.hh(90,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into superLattice3D.hh(90,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(85,32)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>>::pointer>(std::allocator<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>>::pointer, std::allocator<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>>::_M_insert_aux(std::vector<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>> *, std::vector<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>>::iterator, const std::vector<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(359,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>::pointer>(std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>::pointer, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::~Communicator3D(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into communicator3D.h(59,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>>::~vector(std::vector<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>>>::~vector(std::vector<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>, std::allocator<olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::SuperLattice3D(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *const, olb::CuboidGeometry3D<double> &, int, olb::loadBalancer *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(75,32) inlined into superLattice3D.hh(52,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into superLattice3D.hh(52,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice3D.hh(52,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice3D.hh(52,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into superLattice3D.hh(52,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(85,32) inlined into superLattice3D.hh(52,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::set(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(123,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::get(const olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(142,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineDynamics(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double, olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(211,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineDynamics(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(232,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 235 and  line 237
+
+   LOOP BEGIN at superLattice3D.hh(233,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 235 and  line 237
+
+      LOOP BEGIN at superLattice3D.hh(234,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superLattice3D.hh(237,42)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineRhoU(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(255,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice3D.hh(258,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice3D.hh(259,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superLattice3D.hh(260,11)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineRho(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(275,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice3D.hh(278,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice3D.hh(279,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superLattice3D.hh(280,11)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineRho(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::AnalyticalF3D<double, double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(280,11) inlined into superLattice3D.hh(310,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(302,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLattice3D.hh(303,7)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLattice3D.hh(304,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLattice3D.hh(275,28) inlined into superLattice3D.hh(310,13)
+            remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+            LOOP BEGIN at superLattice3D.hh(278,7) inlined into superLattice3D.hh(310,13)
+               remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+               LOOP BEGIN at superLattice3D.hh(279,9) inlined into superLattice3D.hh(310,13)
+                  remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(325,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice3D.hh(328,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice3D.hh(329,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superLattice3D.hh(330,11)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::AnalyticalF3D<double, double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(330,11) inlined into superLattice3D.hh(361,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(352,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLattice3D.hh(353,7)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLattice3D.hh(354,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLattice3D.hh(325,28) inlined into superLattice3D.hh(361,13)
+            remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+            LOOP BEGIN at superLattice3D.hh(328,7) inlined into superLattice3D.hh(361,13)
+               remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+               LOOP BEGIN at superLattice3D.hh(329,9) inlined into superLattice3D.hh(361,13)
+                  remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineExternalField(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double, int, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(377,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice3D.hh(380,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice3D.hh(381,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superLattice3D.hh(382,11)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineExternalField(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, int, int, olb::AnalyticalF3D<double, double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(417,13)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(382,11) inlined into superLattice3D.hh(420,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(409,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLattice3D.hh(410,7)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLattice3D.hh(411,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLattice3D.hh(377,28) inlined into superLattice3D.hh(420,13)
+            remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+            LOOP BEGIN at superLattice3D.hh(380,7) inlined into superLattice3D.hh(420,13)
+               remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+               LOOP BEGIN at superLattice3D.hh(381,9) inlined into superLattice3D.hh(420,13)
+                  remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineExternalField(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, int, int, olb::SuperLatticeF3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(447,30)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superLattice3D.hh(450,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice3D.hh(451,11)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superLattice3D.hh(452,13)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+            LOOP BEGIN at superLattice3D.hh(459,17)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::iniEquilibrium(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(479,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice3D.hh(482,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice3D.hh(483,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superLattice3D.hh(484,11)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::iniEquilibrium(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::AnalyticalF3D<double, double> &, olb::AnalyticalF3D<double, double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(484,11) inlined into superLattice3D.hh(517,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(508,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLattice3D.hh(509,7)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLattice3D.hh(510,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLattice3D.hh(479,32) inlined into superLattice3D.hh(517,13)
+            remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+            LOOP BEGIN at superLattice3D.hh(482,7) inlined into superLattice3D.hh(517,13)
+               remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+               LOOP BEGIN at superLattice3D.hh(483,9) inlined into superLattice3D.hh(517,13)
+                  remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::collide(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(539,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::collide(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(529,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::stream(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(583,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(595,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(723,32) inlined into superLattice3D.hh(599,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(747,32) inlined into superLattice3D.hh(599,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::stream(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(555,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(567,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(723,32) inlined into superLattice3D.hh(571,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(747,32) inlined into superLattice3D.hh(571,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::collideAndStream(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(606,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(619,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(630,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(664,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(723,32) inlined into superLattice3D.hh(668,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(747,32) inlined into superLattice3D.hh(668,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::stripeOffDensityOffset(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(678,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::stripeOffDensityOffset(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(691,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::addLatticeCoupling(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, const olb::LatticeCouplingGenerator3D<double, olb::descriptors::D3Q19Descriptor> &, olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(774,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(761,32)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLattice3D.hh(772,5)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLattice3D.hh(773,7)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::executeCoupling(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(798,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::save(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, std::string *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice3D.hh(813,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice3D.hh(813,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(837,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(808,42)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::load(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *, std::string *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice3D.hh(857,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice3D.hh(857,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(874,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice3D.hh(852,42)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::reset_statistics(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(723,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice3D.hh(747,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor>::initialize(olb::SuperLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice3D.hh(198,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

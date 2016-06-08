@@ -1,0 +1,258 @@
+
+Begin optimization report for: olb::Base64Encoder<double>::encode(olb::Base64Encoder<double> *, const double *, size_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(79,3) inlined into base64.hh(65,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(66,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(79,3) inlined into base64.hh(70,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5) inlined into base64.hh(73,5)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5) inlined into base64.hh(73,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<double>::fillOverflow(olb::Base64Encoder<double> *, const unsigned char *, size_t, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(79,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<double>::flushOverflow(olb::Base64Encoder<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(93,5)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<olb::T1>::encode(olb::Base64Encoder<olb::T1> *, const olb::T1 *, size_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(79,3) inlined into base64.hh(65,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(66,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(79,3) inlined into base64.hh(70,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5) inlined into base64.hh(73,5)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5) inlined into base64.hh(73,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<olb::T1>::fillOverflow(olb::Base64Encoder<olb::T1> *, const unsigned char *, size_t, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(79,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<olb::T1>::flushOverflow(olb::Base64Encoder<olb::T1> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(93,5)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<olb::T2>::encode(olb::Base64Encoder<olb::T2> *, const olb::T2 *, size_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(79,3) inlined into base64.hh(65,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(66,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(79,3) inlined into base64.hh(70,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5) inlined into base64.hh(73,5)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5) inlined into base64.hh(73,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<olb::T2>::fillOverflow(olb::Base64Encoder<olb::T2> *, const unsigned char *, size_t, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(79,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Encoder<olb::T2>::flushOverflow(olb::Base64Encoder<olb::T2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(93,5)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at base64.hh(93,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Decoder<double>::decode(olb::Base64Decoder<double> *, double *, size_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(161,3) inlined into base64.hh(146,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(147,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(161,3) inlined into base64.hh(154,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Decoder<double>::flushOverflow(olb::Base64Decoder<double> *, unsigned char *, size_t, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(161,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Decoder<olb::T1>::decode(olb::Base64Decoder<olb::T1> *, olb::T1 *, size_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(161,3) inlined into base64.hh(146,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(147,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(161,3) inlined into base64.hh(154,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Decoder<olb::T1>::flushOverflow(olb::Base64Decoder<olb::T1> *, unsigned char *, size_t, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(161,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Decoder<olb::T2>::decode(olb::Base64Decoder<olb::T2> *, olb::T2 *, size_t)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(161,3) inlined into base64.hh(146,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(147,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at base64.hh(161,3) inlined into base64.hh(154,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Base64Decoder<olb::T2>::flushOverflow(olb::Base64Decoder<olb::T2> *, unsigned char *, size_t, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at base64.hh(161,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================

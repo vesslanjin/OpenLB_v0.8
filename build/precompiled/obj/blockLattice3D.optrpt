@@ -1,0 +1,1482 @@
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(584,64) inlined into blockLattice3D.hh(56,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(586,3) inlined into blockLattice3D.hh(56,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(56,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 589 and this line 589
+   LOOP END
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(56,3)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(57,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *const, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(584,64) inlined into blockLattice3D.hh(51,28)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(586,3) inlined into blockLattice3D.hh(51,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(51,28)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 589 and this line 589
+   LOOP END
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(51,28)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(51,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::~BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(597,3) inlined into blockLattice3D.hh(77,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(77,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(546,15) inlined into blockLattice3D.hh(77,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::~BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(597,3) inlined into blockLattice3D.hh(77,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(77,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(546,15) inlined into blockLattice3D.hh(77,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::~BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(597,3) inlined into blockLattice3D.hh(79,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(80,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(546,15) inlined into blockLattice3D.hh(81,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, const olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(584,64) inlined into blockLattice3D.hh(109,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(586,3) inlined into blockLattice3D.hh(109,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(109,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 589 and this line 589
+   LOOP END
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(109,3)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(110,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(111,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(112,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockLattice3D.hh(113,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::BlockLattice3D(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *const, const olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(584,64) inlined into blockLattice3D.hh(102,28)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(586,3) inlined into blockLattice3D.hh(102,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(102,28)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 589 and this line 589
+   LOOP END
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(102,28)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(102,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(111,3) inlined into blockLattice3D.hh(102,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(112,5) inlined into blockLattice3D.hh(102,28)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockLattice3D.hh(113,7) inlined into blockLattice3D.hh(102,28)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::operator=(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, const olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(584,64) inlined into blockLattice3D.hh(142,33)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(586,3) inlined into blockLattice3D.hh(142,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(142,33)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between grid line 589 and grid line 589
+   LOOP END
+
+   LOOP BEGIN at blockLattice3D.hh(588,5) inlined into blockLattice3D.hh(142,33)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(142,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(111,3) inlined into blockLattice3D.hh(142,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(112,5) inlined into blockLattice3D.hh(142,33)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockLattice3D.hh(113,7) inlined into blockLattice3D.hh(142,33)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(597,3) inlined into blockLattice3D.hh(144,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(144,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(546,15) inlined into blockLattice3D.hh(144,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineDynamics(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(187,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 190 and  line 190
+
+   LOOP BEGIN at blockLattice3D.hh(188,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 190 and  line 190
+
+      LOOP BEGIN at blockLattice3D.hh(189,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::defineDynamics(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::BlockGeometry3D &, int, int, int, int, int, int, int, olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(229,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 233 and  line 235
+
+   LOOP BEGIN at blockLattice3D.hh(230,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 233 and  line 235
+
+      LOOP BEGIN at blockLattice3D.hh(231,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::specifyStatisticsStatus(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(253,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 122 and this line 122
+
+   LOOP BEGIN at blockLattice3D.hh(254,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 122 and this line 122
+
+      LOOP BEGIN at blockLattice3D.hh(255,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between this line 122 and this line 122
+      LOOP END
+
+      LOOP BEGIN at blockLattice3D.hh(255,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::collide(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(281,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 284 and  line 285
+
+   LOOP BEGIN at blockLattice3D.hh(282,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between this line 284 and  line 285
+
+      LOOP BEGIN at blockLattice3D.hh(283,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, const olb::TensorFieldBase3D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(317,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between u line 320 and  line 321
+
+   LOOP BEGIN at blockLattice3D.hh(318,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between u line 320 and  line 321
+
+      LOOP BEGIN at blockLattice3D.hh(319,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::stream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(673,3) inlined into blockLattice3D.hh(348,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(674,5) inlined into blockLattice3D.hh(348,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(675,7) inlined into blockLattice3D.hh(348,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(676,9) inlined into blockLattice3D.hh(348,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(350,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(350,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(350,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(350,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(351,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(351,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(351,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(351,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(352,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(352,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(352,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(352,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(353,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(353,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(353,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(353,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(354,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(354,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(354,3)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(354,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(355,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(355,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(355,3)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(355,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::stream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(365,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(365,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(365,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(365,5)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(365,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(365,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(365,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(365,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(365,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(365,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(365,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(365,5)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(365,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(365,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(365,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(365,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(365,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(365,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(365,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(365,5)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(365,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::collideAndStream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(706,3) inlined into blockLattice3D.hh(394,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 131 and grid line 245
+
+   LOOP BEGIN at blockLattice3D.hh(707,5) inlined into blockLattice3D.hh(394,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between this line 131 and grid line 245
+
+      LOOP BEGIN at blockLattice3D.hh(708,7) inlined into blockLattice3D.hh(394,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(396,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(396,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(396,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(396,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(397,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(397,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(397,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(397,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(398,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(398,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(398,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(398,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(399,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(399,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(399,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(399,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(400,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(400,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(400,3)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(400,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(633,3) inlined into blockLattice3D.hh(401,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5) inlined into blockLattice3D.hh(401,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7) inlined into blockLattice3D.hh(401,3)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(636,9) inlined into blockLattice3D.hh(401,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::collideAndStream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(411,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(411,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(411,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(411,5)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(411,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(411,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(411,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(411,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(411,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(411,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(411,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(411,5)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(411,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(411,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(411,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(411,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(411,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(411,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(411,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(411,5)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(411,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::computeAverageDensity(const olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(423,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between rho line 426 and u line 177
+
+   LOOP BEGIN at blockLattice3D.hh(424,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between rho line 426 and u line 177
+
+      LOOP BEGIN at blockLattice3D.hh(425,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between rho line 426 and u line 177
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::stripeOffDensityOffset(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(444,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between f line 448 and f line 448
+
+   LOOP BEGIN at blockLattice3D.hh(445,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between f line 448 and f line 448
+
+      LOOP BEGIN at blockLattice3D.hh(446,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between f line 448 and f line 448
+
+         LOOP BEGIN at blockLattice3D.hh(447,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::forAll(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, const olb::WriteCellFunctional<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(465,3)
+   remark #15527: loop was not vectorized: function call to (unknown) cannot be vectorized   [ blockLattice3D.hh(468,38) ]
+
+   LOOP BEGIN at blockLattice3D.hh(466,5)
+      remark #15527: loop was not vectorized: function call to (unknown) cannot be vectorized   [ blockLattice3D.hh(468,38) ]
+
+      LOOP BEGIN at blockLattice3D.hh(467,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::resetPostProcessors(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(497,15) inlined into blockLattice3D.hh(489,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::postProcess(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(514,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::postProcess(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(505,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::executeCoupling(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(538,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::executeCoupling(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(529,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::subscribeReductions(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, olb::Reductor<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(554,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::bulkStream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(673,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(674,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(675,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(676,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::boundaryStream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(633,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(634,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(635,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(636,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::bulkCollideAndStream(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(706,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 131 and grid line 245
+
+   LOOP BEGIN at blockLattice3D.hh(707,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between this line 131 and grid line 245
+
+      LOOP BEGIN at blockLattice3D.hh(708,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::allocateMemory(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(584,64)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(586,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockLattice3D.hh(588,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 589 and this line 589
+   LOOP END
+
+   LOOP BEGIN at blockLattice3D.hh(588,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::releaseMemory(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(597,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::clearPostProcessors(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(497,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::clearLatticeCouplings(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(546,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::makePeriodic(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(759,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(759,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(759,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(760,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(760,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(760,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(760,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(761,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(761,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(761,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(762,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(762,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(762,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(762,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(763,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(763,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(763,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(771,3) inlined into blockLattice3D.hh(764,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5) inlined into blockLattice3D.hh(764,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7) inlined into blockLattice3D.hh(764,3)
+         remark #15423: loop was not vectorized: has only one iteration
+
+         LOOP BEGIN at blockLattice3D.hh(774,9) inlined into blockLattice3D.hh(764,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor>::periodicSurface(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(771,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice3D.hh(772,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice3D.hh(773,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+         LOOP BEGIN at blockLattice3D.hh(774,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeSerializer3D<double, olb::descriptors::D3Q19Descriptor>::getNextDataBuffer(const olb::BlockLatticeSerializer3D<double, olb::descriptors::D3Q19Descriptor> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(893,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(893,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(893,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(893,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(893,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(893,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(893,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(893,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(893,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(893,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(893,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(893,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(894,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(905,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(905,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(905,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(905,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(905,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(905,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(905,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(905,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(905,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(905,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(905,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(905,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(906,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeUnSerializer3D<double, olb::descriptors::D3Q19Descriptor>::getNextDataBuffer(olb::BlockLatticeUnSerializer3D<double, olb::descriptors::D3Q19Descriptor> *, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(966,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(966,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(966,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(966,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(966,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(966,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(966,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(966,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice3D.hh(966,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(966,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(966,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice3D.hh(966,10)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeUnSerializer3D<double, olb::descriptors::D3Q19Descriptor>::commitData(olb::BlockLatticeUnSerializer3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice3D.hh(974,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at blockLattice3D.hh(984,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================

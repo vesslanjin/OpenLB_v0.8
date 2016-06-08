@@ -1,0 +1,333 @@
+
+Begin optimization report for: olb::ScalingSerializer<double>::getNextDataBuffer(const olb::ScalingSerializer<double> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at serializer.hh(52,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between F64 line 53 and this line 53
+LOOP END
+
+LOOP BEGIN at serializer.hh(52,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalingSerializer<int>::getNextDataBuffer(const olb::ScalingSerializer<int> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at serializer.hh(52,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between SI32 line 53 and this line 53
+LOOP END
+
+LOOP BEGIN at serializer.hh(52,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::TypeConversionSerializer<double, float>::getNextDataBuffer(const olb::TypeConversionSerializer<double, float> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(79,14)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(79,14)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(79,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(79,14)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(79,14)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(79,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(79,14)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(79,14)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(79,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(79,14)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(79,14)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(79,14)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at serializer.hh(80,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between F32 line 81 and this line 81
+LOOP END
+
+LOOP BEGIN at serializer.hh(80,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::copySerializedData<double>(const olb::DataSerializer<double> &, olb::DataUnSerializer<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at serializer.hh(147,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at serializer.hh(134,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::copyDataBlock<double>(const olb::Serializable<double> &, olb::Serializable<double> &, olb::IndexOrdering::OrderingT)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at serializer.hh(147,5) inlined into serializer.hh(160,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at serializer.hh(134,3) inlined into serializer.hh(160,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================

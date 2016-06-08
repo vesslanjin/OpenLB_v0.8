@@ -1,0 +1,300 @@
+
+Begin optimization report for: olb::AnalyticCalc1D<double, int>::myErase(olb::AnalyticCalc1D<double, int> *, olb::GenericF<double, int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(45,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticCalc1D<double, double>::myErase(olb::AnalyticCalc1D<double, double> *, olb::GenericF<double, double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(45,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticPlus1D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticPlus1D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(64,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticPlus1D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticPlus1D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(64,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMinus1D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMinus1D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(80,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMinus1D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMinus1D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(80,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMultiplication1D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMultiplication1D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(95,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMultiplication1D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMultiplication1D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(95,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticDivision1D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticDivision1D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(110,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticDivision1D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticDivision1D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(110,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticCalc2D<double, int>::myErase(olb::AnalyticCalc2D<double, int> *, olb::GenericF<double, int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(157,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticCalc2D<double, double>::myErase(olb::AnalyticCalc2D<double, double> *, olb::GenericF<double, double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(157,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticPlus2D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticPlus2D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(176,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticPlus2D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticPlus2D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(176,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMinus2D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMinus2D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(191,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMinus2D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMinus2D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(191,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMultiplication2D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMultiplication2D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(206,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMultiplication2D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMultiplication2D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(206,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticDivision2D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticDivision2D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(221,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticDivision2D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticDivision2D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(221,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticCalc3D<double, int>::myErase(olb::AnalyticCalc3D<double, int> *, olb::GenericF<double, int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(267,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticCalc3D<double, double>::myErase(olb::AnalyticCalc3D<double, double> *, olb::GenericF<double, double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(267,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticPlus3D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticPlus3D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(286,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticPlus3D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticPlus3D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(286,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMinus3D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMinus3D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(301,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMinus3D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMinus3D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(301,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMultiplication3D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMultiplication3D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(316,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticMultiplication3D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticMultiplication3D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(316,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticDivision3D<double, int>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticDivision3D<double, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(331,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::AnalyticDivision3D<double, double>::operator()(std::vector<double, std::allocator<double>> *, olb::AnalyticDivision3D<double, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/functors/analyticCalcF.hh(331,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

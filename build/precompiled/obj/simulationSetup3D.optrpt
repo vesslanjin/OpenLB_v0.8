@@ -1,0 +1,219 @@
+
+Begin optimization report for: olb::iniFirstOrder3D<double, olb::descriptors::D3Q19Descriptor>(olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup3D.hh(44,29)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at simulationSetup3D.hh(45,31)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at simulationSetup3D.hh(46,33)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at simulationSetup3D.hh(51,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between rho line 53 and f line 52
+
+            LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into simulationSetup3D.hh(54,13)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+               LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into simulationSetup3D.hh(54,13)
+                  remark #15315: loop was not vectorized: low trip count
+                  remark #15450: unmasked unaligned unit stride loads: 2 
+                  remark #15475: --- begin vector loop cost summary ---
+                  remark #15479: lightweight vector operations: 35 
+                  remark #15480: medium-overhead vector operations: 1 
+                  remark #15481: heavy-overhead vector operations: 1 
+                  remark #15487: type converts: 1 
+                  remark #15488: --- end vector loop cost summary ---
+               LOOP END
+
+               LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into simulationSetup3D.hh(54,13)
+               <Remainder>
+               LOOP END
+            LOOP END
+         LOOP END
+
+         LOOP BEGIN at ../../src/core/util.h(92,3) inlined into simulationSetup3D.hh(50,24)
+            remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+            remark #15448: unmasked aligned unit stride loads: 1 
+            remark #15475: --- begin vector loop cost summary ---
+            remark #15476: scalar loop cost: 8 
+            remark #15477: vector loop cost: 3.500 
+            remark #15478: estimated potential speedup: 0.700 
+            remark #15479: lightweight vector operations: 6 
+            remark #15480: medium-overhead vector operations: 1 
+            remark #15488: --- end vector loop cost summary ---
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::convergeFixedVelocity<double, olb::descriptors::D3Q19Descriptor>(olb::BlockLattice3D<double, olb::descriptors::D3Q19Descriptor> &, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup3D.hh(178,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(196,39)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(205,44)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(205,44)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 44 
+   remark #15477: vector loop cost: 11.500 
+   remark #15478: estimated potential speedup: 3.630 
+   remark #15479: lightweight vector operations: 9 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(205,44)
+<Remainder>
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at simulationSetup3D.hh(175,33)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup3D.hh(176,35)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at simulationSetup3D.hh(177,37)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(217,17)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup3D.hh(194,35)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at simulationSetup3D.hh(195,37)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::iniPressure3D<double, olb::descriptors::D3Q19Descriptor>(olb::BlockLatticeView3D<double, olb::descriptors::D3Q19Descriptor> *, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup3D.hh(77,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(89,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between pressure line 91 and F64 line 92
+
+   LOOP BEGIN at simulationSetup3D.hh(90,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between pressure line 91 and F64 line 92
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(96,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between pressure line 98 and F64 line 99
+
+   LOOP BEGIN at simulationSetup3D.hh(97,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between pressure line 98 and F64 line 99
+   LOOP END
+
+   LOOP BEGIN at simulationSetup3D.hh(97,7)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(103,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between pressure line 105 and F64 line 106
+
+   LOOP BEGIN at simulationSetup3D.hh(104,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between pressure line 105 and F64 line 106
+   LOOP END
+
+   LOOP BEGIN at simulationSetup3D.hh(104,7)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(112,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(131,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(157,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at simulationSetup3D.hh(75,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup3D.hh(76,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(153,36)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup3D.hh(110,5)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at simulationSetup3D.hh(111,7)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at simulationSetup3D.hh(129,5)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at simulationSetup3D.hh(130,7)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup3D.hh(155,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup3D.hh(156,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================

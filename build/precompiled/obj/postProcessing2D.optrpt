@@ -1,0 +1,58 @@
+
+Begin optimization report for: olb::StatisticsPostProcessor2D<double, olb::descriptors::D2Q9Descriptor>::subscribeReductions(olb::StatisticsPostProcessor2D<double, olb::descriptors::D2Q9Descriptor> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &, olb::Reductor<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at postProcessing.hh(175,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at postProcessing.hh(179,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at postProcessing.hh(183,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at postProcessing.hh(187,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::StatPPGenerator2D<double, olb::descriptors::D2Q9Descriptor>::StatPPGenerator2D(olb::StatPPGenerator2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at postProcessing.hh(41,8) inlined into postProcessing.hh(197,50)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.770 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::StatPPGenerator2D<double, olb::descriptors::D2Q9Descriptor>::StatPPGenerator2D(olb::StatPPGenerator2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at postProcessing.hh(41,8) inlined into postProcessing.hh(196,31)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.770 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================

@@ -1,0 +1,81 @@
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<std::vector<int, std::allocator<int>>>::pointer>(std::allocator<std::vector<int, std::allocator<int>>>::pointer, std::allocator<std::vector<int, std::allocator<int>>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 132 and  line 95
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>>::vector(std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>> *, const std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::vector(std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> *, const std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockParameters3D, std::allocator<olb::BlockParameters3D>>::vector(std::vector<olb::BlockParameters3D, std::allocator<olb::BlockParameters3D>> *, const std::vector<olb::BlockParameters3D, std::allocator<olb::BlockParameters3D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SerialMultiDataFieldHandler3D<double>::~SerialMultiDataFieldHandler3D(olb::SerialMultiDataFieldHandler3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiDataFieldHandler3D.h(53,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SerialMultiDataFieldHandler3D<double>::~SerialMultiDataFieldHandler3D(olb::SerialMultiDataFieldHandler3D<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiDataFieldHandler3D.h(53,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiDataFieldHandler3D<double>::~ParallelMultiDataFieldHandler3D(olb::ParallelMultiDataFieldHandler3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiDataFieldHandler3D.h(74,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiDataFieldHandler3D<double>::~ParallelMultiDataFieldHandler3D(olb::ParallelMultiDataFieldHandler3D<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiDataFieldHandler3D.h(74,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================

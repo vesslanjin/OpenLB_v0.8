@@ -1,0 +1,220 @@
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::iniEquilibrium(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(64,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(71,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::staticCollide(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(81,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::defineRho(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(171,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(178,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::defineRhoU(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(185,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::defineAllMomenta(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(195,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::definePopulations(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(203,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::defineExternalField(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(212,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::setOmega(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(246,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor>::setParameter(olb::ParallelDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(229,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::iniEquilibrium(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(64,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(71,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(81,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::defineRho(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(171,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(178,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::defineRhoU(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(185,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::defineAllMomenta(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(195,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::definePopulations(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(203,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::defineExternalField(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(212,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::setOmega(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(246,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor>::setParameter(olb::ParallelDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at parallelDynamics.hh(229,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

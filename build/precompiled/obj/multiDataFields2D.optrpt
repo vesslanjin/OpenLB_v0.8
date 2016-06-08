@@ -1,0 +1,1498 @@
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<std::vector<int, std::allocator<int>>>::pointer>(std::allocator<std::vector<int, std::allocator<int>>>::pointer, std::allocator<std::vector<int, std::allocator<int>>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 132 and  line 95
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::MultiScalarField2D(olb::MultiScalarField2D<double> *, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(50,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::MultiScalarField2D(olb::MultiScalarField2D<double> *const, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(40,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::~MultiScalarField2D(olb::MultiScalarField2D<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(124,31) inlined into multiDataFields2D.hh(54,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(160,29) inlined into multiDataFields2D.hh(54,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::~MultiScalarField2D(olb::MultiScalarField2D<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(124,31) inlined into multiDataFields2D.hh(54,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(160,29) inlined into multiDataFields2D.hh(54,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::~MultiScalarField2D(olb::MultiScalarField2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(124,31) inlined into multiDataFields2D.hh(55,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(160,29) inlined into multiDataFields2D.hh(56,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::MultiScalarField2D(olb::MultiScalarField2D<double> *, const olb::MultiScalarField2D<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(76,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(112,31) inlined into multiDataFields2D.hh(78,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(81,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::MultiScalarField2D(olb::MultiScalarField2D<double> *const, const olb::MultiScalarField2D<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(63,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(112,31) inlined into multiDataFields2D.hh(63,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(81,31) inlined into multiDataFields2D.hh(63,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::operator=(olb::MultiScalarField2D<double> *, const olb::MultiScalarField2D<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(91,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(112,31) inlined into multiDataFields2D.hh(91,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(81,31) inlined into multiDataFields2D.hh(91,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(124,31) inlined into multiDataFields2D.hh(93,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(160,29) inlined into multiDataFields2D.hh(93,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::construct(olb::MultiScalarField2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(112,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::deConstruct(olb::MultiScalarField2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(124,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::reset(olb::MultiScalarField2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(136,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::computeReduction(const olb::MultiScalarField2D<double> *, olb::DataReduction<double> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(250,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at multiDataFields2D.hh(255,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iX line 255 and iX line 257
+
+      LOOP BEGIN at multiDataFields2D.hh(256,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Overlap2D, std::allocator<olb::Overlap2D>>::vector(std::vector<olb::Overlap2D, std::allocator<olb::Overlap2D>> *, const std::vector<olb::Overlap2D, std::allocator<olb::Overlap2D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::vector(std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> *, const std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockParameters2D, std::allocator<olb::BlockParameters2D>>::vector(std::vector<olb::BlockParameters2D, std::allocator<olb::BlockParameters2D>> *, const std::vector<olb::BlockParameters2D, std::allocator<olb::BlockParameters2D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::allocateFields(olb::MultiScalarField2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField2D<double>::deAllocateFields(olb::MultiScalarField2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(160,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy2D<double, 2>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy2D<double, 2> *, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(678,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy2D<double, 2>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy2D<double, 2> *, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(713,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::MultiTensorField2D(olb::MultiTensorField2D<double, 2> *, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(317,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(318,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(318,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::~MultiTensorField2D(olb::MultiTensorField2D<double, 2> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::~MultiTensorField2D(olb::MultiTensorField2D<double, 2> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::~MultiTensorField2D(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(323,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(324,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(325,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::MultiTensorField2D(olb::MultiTensorField2D<double, 2> *const, const olb::MultiTensorField2D<double, 2> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(332,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::operator=(olb::MultiTensorField2D<double, 2> *, const olb::MultiTensorField2D<double, 2> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3) inlined into multiDataFields2D.hh(362,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(363,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::MultiTensorField2D(olb::MultiTensorField2D<double, 2> *, const olb::MultiTensorField2D<double, 2> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(346,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(348,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(346,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::swap(olb::MultiTensorField2D<double, 2> *, olb::MultiTensorField2D<double, 2> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::construct(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(385,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::deConstruct(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::reset(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(409,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::get(olb::MultiTensorField2D<double, 2> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(464,5)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::get(const olb::MultiTensorField2D<double, 2> *, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(488,5)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::extractComponent(const olb::MultiTensorField2D<double, 2> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(563,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::allocateFields(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::deAllocateFields(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(433,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::allocateComponents(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(442,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 2>::deAllocateComponents(olb::MultiTensorField2D<double, 2> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy2D<double, 3>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy2D<double, 3> *, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(678,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy2D<double, 3>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy2D<double, 3> *, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(713,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::MultiTensorField2D(olb::MultiTensorField2D<double, 3> *, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(317,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(318,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(318,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::~MultiTensorField2D(olb::MultiTensorField2D<double, 3> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::~MultiTensorField2D(olb::MultiTensorField2D<double, 3> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::~MultiTensorField2D(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(323,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(324,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(325,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::MultiTensorField2D(olb::MultiTensorField2D<double, 3> *const, const olb::MultiTensorField2D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(332,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::operator=(olb::MultiTensorField2D<double, 3> *, const olb::MultiTensorField2D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3) inlined into multiDataFields2D.hh(362,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(363,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::MultiTensorField2D(olb::MultiTensorField2D<double, 3> *, const olb::MultiTensorField2D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(346,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(348,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(346,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::swap(olb::MultiTensorField2D<double, 3> *, olb::MultiTensorField2D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::construct(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(385,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::deConstruct(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::reset(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(409,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::get(olb::MultiTensorField2D<double, 3> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(464,5)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::get(const olb::MultiTensorField2D<double, 3> *, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(488,5)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::extractComponent(const olb::MultiTensorField2D<double, 3> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(563,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::allocateFields(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::deAllocateFields(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(433,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::allocateComponents(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(442,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 3>::deAllocateComponents(olb::MultiTensorField2D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy2D<double, 4>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy2D<double, 4> *, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(678,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy2D<double, 4>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy2D<double, 4> *, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(713,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::MultiTensorField2D(olb::MultiTensorField2D<double, 4> *, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(317,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(318,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(318,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::~MultiTensorField2D(olb::MultiTensorField2D<double, 4> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::~MultiTensorField2D(olb::MultiTensorField2D<double, 4> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::~MultiTensorField2D(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(323,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(324,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(325,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::MultiTensorField2D(olb::MultiTensorField2D<double, 4> *const, const olb::MultiTensorField2D<double, 4> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(332,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::operator=(olb::MultiTensorField2D<double, 4> *, const olb::MultiTensorField2D<double, 4> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3) inlined into multiDataFields2D.hh(362,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(363,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::MultiTensorField2D(olb::MultiTensorField2D<double, 4> *, const olb::MultiTensorField2D<double, 4> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(346,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(348,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(346,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::swap(olb::MultiTensorField2D<double, 4> *, olb::MultiTensorField2D<double, 4> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::construct(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(385,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::deConstruct(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::reset(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(409,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::get(olb::MultiTensorField2D<double, 4> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(464,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.600 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::get(const olb::MultiTensorField2D<double, 4> *, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(488,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.600 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::extractComponent(const olb::MultiTensorField2D<double, 4> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(563,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::allocateFields(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::deAllocateFields(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(433,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::allocateComponents(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(442,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 4>::deAllocateComponents(olb::MultiTensorField2D<double, 4> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy2D<double, 9>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy2D<double, 9> *, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(678,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy2D<double, 9>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy2D<double, 9> *, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(713,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::MultiTensorField2D(olb::MultiTensorField2D<double, 9> *, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(317,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(318,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(318,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::~MultiTensorField2D(olb::MultiTensorField2D<double, 9> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::~MultiTensorField2D(olb::MultiTensorField2D<double, 9> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(322,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(322,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::~MultiTensorField2D(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(323,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(324,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(325,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::MultiTensorField2D(olb::MultiTensorField2D<double, 9> *const, const olb::MultiTensorField2D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31) inlined into multiDataFields2D.hh(332,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(332,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::operator=(olb::MultiTensorField2D<double, 9> *, const olb::MultiTensorField2D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3) inlined into multiDataFields2D.hh(362,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(449,3) inlined into multiDataFields2D.hh(363,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(397,31) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(433,29) inlined into multiDataFields2D.hh(363,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::MultiTensorField2D(olb::MultiTensorField2D<double, 9> *, const olb::MultiTensorField2D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29) inlined into multiDataFields2D.hh(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(346,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(385,31) inlined into multiDataFields2D.hh(348,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(351,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3) inlined into multiDataFields2D.hh(346,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::swap(olb::MultiTensorField2D<double, 9> *, olb::MultiTensorField2D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(372,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::construct(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(385,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::deConstruct(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::reset(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(409,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::get(olb::MultiTensorField2D<double, 9> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(464,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(464,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::get(const olb::MultiTensorField2D<double, 9> *, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(488,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataFields2D.hh(488,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::extractComponent(const olb::MultiTensorField2D<double, 9> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(563,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::allocateFields(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(419,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::deAllocateFields(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(433,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::allocateComponents(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(146,29) inlined into multiDataFields2D.hh(442,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields2D.hh(441,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField2D<double, 9>::deAllocateComponents(olb::MultiTensorField2D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields2D.hh(449,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================

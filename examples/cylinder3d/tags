@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEPS	Makefile	/^DEPS       := $(foreach file, $(SRC) $(OUTPUT), $(PWD)\/$(file).d)$/;"	m
+DESCRIPTOR	cylinder3d.cpp	49;"	d	file:
+N	cylinder3d.cpp	/^int N = 1; \/\/ resolution of the model$/;"	v
+OBJECTS	Makefile	/^OBJECTS    := $(foreach file, $(SRC) $(OUTPUT), $(PWD)\/$(file).o)$/;"	m
+OUTPUT	Makefile	/^OUTPUT          := cylinder3d$/;"	m
+ROOT	Makefile	/^ROOT            := ..\/..$/;"	m
+SRC	Makefile	/^SRC             := $/;"	m
+T	cylinder3d.cpp	/^typedef double T;$/;"	t	file:
+getResults	cylinder3d.cpp	/^void getResults(SuperLattice3D<T, DESCRIPTOR>& sLattice,$/;"	f
+main	cylinder3d.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+prepareGeometry	cylinder3d.cpp	/^void prepareGeometry( LBconverter<T> const& converter, STLreader<T>& stlReader,$/;"	f
+prepareLattice	cylinder3d.cpp	/^void prepareLattice(SuperLattice3D<T,DESCRIPTOR>& sLattice,$/;"	f
+setBoundaryValues	cylinder3d.cpp	/^void setBoundaryValues(SuperLattice3D<T, DESCRIPTOR>& sLattice,$/;"	f
+time_sec	cylinder3d.cpp	50;"	d	file:

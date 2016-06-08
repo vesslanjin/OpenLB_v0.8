@@ -1,0 +1,1090 @@
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::countVoxel(olb::SuperGeometryStatistics3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(93,41)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::computeDiscreteNormal(std::vector<int, std::allocator<int>> *, olb::SuperGeometryStatistics3D *, unsigned short, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(150,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between SI32 line 158 and SI32 line 160
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(151,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between SI32 line 158 and SI32 line 160
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between SI32 line 158 and SI32 line 160
+      LOOP END
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(151,5)
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(151,5)
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(152,7)
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::computeNormal(std::vector<double, std::allocator<double>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(122,28)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(123,28)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(126,39)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(124,35)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(125,37)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector<int>(std::vector<int, std::allocator<int>> *, int, int, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::vector<int>(std::vector<double, std::allocator<double>> *, int, int, const std::vector<double, std::allocator<double>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getNVoxel(olb::SuperGeometryStatistics3D *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(170,21)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getNVoxel(olb::SuperGeometryStatistics3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(176,41)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getMin(std::vector<int, std::allocator<int>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(184,23)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getMax(std::vector<int, std::allocator<int>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(189,23)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getPhysMinC(std::vector<double, std::allocator<double>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(194,38)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getPhysMaxC(std::vector<double, std::allocator<double>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(198,37)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getPhysCenterC(std::vector<double, std::allocator<double>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(210,13)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(211,22)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getPhysRadius(std::vector<double, std::allocator<double>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(203,13)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(204,23)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(204,51)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getNCo(std::vector<int, std::allocator<int>> *, olb::SuperGeometryStatistics3D *, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(219,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(220,32)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(220,61)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::getType(std::vector<int, std::allocator<int>> *, olb::SuperGeometryStatistics3D *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(260,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(280,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(311,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(331,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(362,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(382,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(417,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(443,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(478,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(505,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(540,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.330 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(565,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(601,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(628,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(660,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(683,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(714,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(736,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(767,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(789,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(820,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(842,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(875,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(898,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(930,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(952,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(986,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1011,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1045,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1070,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1101,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1122,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1152,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1174,26)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.220 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1439,3) inlined into superGeometryStatistics3D.cpp(1408,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between Data line 1442 and Ua5 line 1453
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1462,3) inlined into superGeometryStatistics3D.cpp(1408,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between _M_start line 1463 and _M_start line 1463
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1468,5) inlined into superGeometryStatistics3D.cpp(1408,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between _M_start line 1474 and _M_start line 1477
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::checkExtraBoundary(std::vector<int, std::allocator<int>> *, olb::SuperGeometryStatistics3D *, std::vector<int, std::allocator<int>> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1439,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between SI32 line 1442 and SI32 line 1453
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1462,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between _M_start line 1463 and _M_start line 1463
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1468,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between _M_start line 1474 and _M_start line 1470
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::regionGrowing(olb::SuperGeometryStatistics3D *, unsigned short, int, int, int, int, int, int, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into superGeometryStatistics3D.cpp(1557,13)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into superGeometryStatistics3D.cpp(1557,13)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into superGeometryStatistics3D.cpp(1557,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::operator[](std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>> *, const std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(449,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1213,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1215,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1219,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1225,54)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1226,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1233,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1238,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1245,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_insert_(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_Const_Base_ptr, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_Const_Base_ptr, const std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(878,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1170,35)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1177,55)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1181,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1182,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::check(olb::SuperGeometryStatistics3D *, unsigned short, int, int, int, unsigned int, unsigned int, unsigned int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1497,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 1500 and  line 1500
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(1498,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 1500 and  line 1500
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(1499,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::find(olb::SuperGeometryStatistics3D *, unsigned short, unsigned int, unsigned int, unsigned int, int &, int &, int &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1516,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(1497,3) inlined into superGeometryStatistics3D.cpp(1517,17)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 1500 and  line 1500
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(1498,5) inlined into superGeometryStatistics3D.cpp(1517,17)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 1500 and  line 1500
+
+         LOOP BEGIN at superGeometryStatistics3D.cpp(1499,7) inlined into superGeometryStatistics3D.cpp(1517,17)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1514,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(1515,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::find(olb::SuperGeometryStatistics3D *, unsigned short, olb::AnalyticalF3D<bool, double> &, int &, int &, int &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(1530,19)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(1530,49)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(1531,21)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_vector.h(145,2) inlined into superGeometryStatistics3D.cpp(1531,12)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(1531,51)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(1529,68)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(1530,70)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1217,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::operator[](std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>> *, const std::map<unsigned short, std::vector<int, std::allocator<int>>, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, std::vector<int, std::allocator<int>>>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_M_copy(std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_Const_Link_type, std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(942,4)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::~map(std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::takeStatistics(olb::SuperGeometryStatistics3D *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1001,7) inlined into superGeometryStatistics3D.cpp(60,19)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(61,16)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(67,18)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(71,18)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(74,16)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into superGeometryStatistics3D.cpp(86,20)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1217,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_type, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type, std::_Select1st<std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::value_type>, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::key_compare, std::map<unsigned short, int, std::less<unsigned short>, std::allocator<std::pair<const unsigned short, int>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryStatistics3D::reInit(olb::SuperGeometryStatistics3D *, olb::SuperGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into superGeometryStatistics3D.cpp(42,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(942,4) inlined into superGeometryStatistics3D.cpp(42,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(100,7) inlined into superGeometryStatistics3D.cpp(42,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(114,7) inlined into superGeometryStatistics3D.cpp(42,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into superGeometryStatistics3D.cpp(42,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at superGeometryStatistics3D.cpp(49,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superGeometryStatistics3D.cpp(50,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superGeometryStatistics3D.cpp(51,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

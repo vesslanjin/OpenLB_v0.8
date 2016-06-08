@@ -1,0 +1,614 @@
+
+Begin optimization report for: TiXmlBase::StreamWhiteSpace(std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_string.h(202,4) inlined into tinyxmlparser.cpp(376,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlBase::StreamTo(std::istream *, int, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(383,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlBase::ReadName(const char *, std::string *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(420,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlBase::StringEqual(const char *, const char *, bool, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(551,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Parse(TiXmlElement *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(420,3) inlined into tinyxmlparser.cpp(1071,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1109,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,3) inlined into tinyxmlparser.cpp(1109,8)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1187,2) inlined into tinyxmlparser.cpp(1109,8)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(1630,30) inlined into tinyxmlparser.cpp(1109,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1109,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1109,8)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1109,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1122,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1125,9)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1125,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(1083,2)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlBase::SkipWhiteSpace(const char *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlParsingData::Stamp(TiXmlParsingData *, const char *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::StreamIn(TiXmlElement *, std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(907,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1466,2) inlined into tinyxmlparser.cpp(950,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(964,24)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_string.h(202,4) inlined into tinyxmlparser.cpp(943,4)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::Identify(TiXmlNode *, const char *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(822,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(822,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(828,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(828,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(847,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(854,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(861,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(870,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::ReadValue(TiXmlElement *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1185,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1185,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1187,2)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(1630,30) inlined into tinyxmlparser.cpp(1210,20)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1220,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1239,7)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1239,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlComment::Parse(TiXmlComment *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1341,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1341,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1351,8)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1378,2)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1378,22)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1345,9)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1353,13)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlComment::StreamIn(TiXmlComment *, std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(1311,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlText::Parse(TiXmlText *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1509,16)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1513,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1521,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(1522,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1502,9)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1515,14)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlBase::ReadText(const char *, std::string *, bool, const char *, bool, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(601,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(601,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(602,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(603,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(603,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxml.h(351,4) inlined into tinyxmlparser.cpp(626,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(586,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(587,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(562,3) inlined into tinyxmlparser.cpp(587,9)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(464,4) inlined into tinyxmlparser.cpp(592,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(491,4) inlined into tinyxmlparser.cpp(592,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(515,2) inlined into tinyxmlparser.cpp(592,8)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxml.h(351,4) inlined into tinyxmlparser.cpp(592,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlBase::GetEntity(const char *, char *, int *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(464,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(491,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(515,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlText::Blank(const TiXmlText *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(1630,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlText::StreamIn(TiXmlText *, std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(1466,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDeclaration::Parse(TiXmlDeclaration *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1571,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1571,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(1575,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1591,2)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1599,7)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1599,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(1600,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(1606,13)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(1612,13)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(1621,4)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttribute::Parse(TiXmlAttribute *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1392,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1392,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(420,3) inlined into tinyxmlparser.cpp(1402,6)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1408,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1408,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1416,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,3) inlined into tinyxmlparser.cpp(1416,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1445,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1397,9)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDeclaration::StreamIn(TiXmlDeclaration *, std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(1548,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlUnknown::Parse(TiXmlUnknown *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(1278,6)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(1278,6)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(1293,2)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1282,9)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(1287,29)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlUnknown::StreamIn(TiXmlUnknown *, std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(1253,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::Parse(TiXmlDocument *, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(747,9)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(747,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(754,2)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(777,14)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(551,3) inlined into tinyxmlparser.cpp(779,14)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(322,3) inlined into tinyxmlparser.cpp(785,7)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxmlparser.cpp(357,32) inlined into tinyxmlparser.cpp(785,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::StreamIn(TiXmlDocument *, std::istream *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxmlparser.cpp(383,2) inlined into tinyxmlparser.cpp(650,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxmlparser.cpp(656,2)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxmlparser.cpp(659,3)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::SetError(TiXmlDocument *, int, const char *, TiXmlParsingData *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxmlparser.cpp(212,2) inlined into tinyxmlparser.cpp(812,9)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxmlparser.cpp(218,3) ]
+LOOP END
+===========================================================================

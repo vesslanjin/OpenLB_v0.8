@@ -1,0 +1,288 @@
+
+Begin optimization report for: std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::~map(std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::loadBalancer::~loadBalancer(olb::loadBalancer *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into ../../src/core/loadBalancer.h(35,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into ../../src/core/loadBalancer.h(35,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> *, std::vector<int, std::allocator<int>>::size_type, const std::vector<int, std::allocator<int>>::value_type &, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector<int>(std::vector<int, std::allocator<int>> *, int, int, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::operator[](std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>> *, const std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(450,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::heuristicLoadBalancer<double>::reInit(olb::heuristicLoadBalancer<double> *, olb::CuboidGeometry3D<double> &, olb::SuperGeometry3D &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at heuristicLoadBalancer.hh(259,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(246,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(277,7)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(277,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15454: masked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 20 
+      remark #15477: vector loop cost: 8.750 
+      remark #15478: estimated potential speedup: 2.150 
+      remark #15479: lightweight vector operations: 24 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(277,7)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(287,9)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(287,9)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 25 
+      remark #15477: vector loop cost: 7.250 
+      remark #15478: estimated potential speedup: 3.180 
+      remark #15479: lightweight vector operations: 17 
+      remark #15487: type converts: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(287,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(329,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(347,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(356,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(237,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at heuristicLoadBalancer.hh(246,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(257,9)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at heuristicLoadBalancer.hh(258,11)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::heuristicLoadBalancer<double>::reInit(olb::heuristicLoadBalancer<double> *, olb::CuboidGeometry3D<double> &, olb::BlockGeometry3D &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at heuristicLoadBalancer.hh(91,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(78,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(109,7)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(109,7)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15454: masked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 20 
+      remark #15477: vector loop cost: 8.750 
+      remark #15478: estimated potential speedup: 2.150 
+      remark #15479: lightweight vector operations: 24 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(109,7)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(119,9)
+   <Peeled>
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(119,9)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15442: entire loop may be executed in remainder
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 25 
+      remark #15477: vector loop cost: 7.250 
+      remark #15478: estimated potential speedup: 3.180 
+      remark #15479: lightweight vector operations: 17 
+      remark #15487: type converts: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(119,9)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(161,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(179,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(188,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at heuristicLoadBalancer.hh(69,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at heuristicLoadBalancer.hh(78,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at heuristicLoadBalancer.hh(89,9)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at heuristicLoadBalancer.hh(90,11)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

@@ -1,0 +1,30 @@
+
+Begin optimization report for: olb::singleton::MpiNonBlockingHelper::MpiNonBlockingHelper(olb::singleton::MpiNonBlockingHelper *, const olb::singleton::MpiNonBlockingHelper &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at mpiManager.cpp(692,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::singleton::MpiNonBlockingHelper::MpiNonBlockingHelper(olb::singleton::MpiNonBlockingHelper *const, const olb::singleton::MpiNonBlockingHelper &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at mpiManager.cpp(692,5) inlined into mpiManager.cpp(686,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::singleton::MpiNonBlockingHelper::operator=(olb::singleton::MpiNonBlockingHelper *, olb::singleton::MpiNonBlockingHelper *, olb::singleton::MpiNonBlockingHelper *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at mpiManager.cpp(692,5) inlined into mpiManager.cpp(701,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

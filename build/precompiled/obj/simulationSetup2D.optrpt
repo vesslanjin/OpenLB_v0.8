@@ -1,0 +1,255 @@
+
+Begin optimization report for: olb::iniFirstOrder2D<double, olb::descriptors::D2Q9Descriptor>(olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup2D.hh(47,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at simulationSetup2D.hh(48,31)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at simulationSetup2D.hh(53,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between rho line 55 and f line 54
+
+         LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into simulationSetup2D.hh(56,11)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into simulationSetup2D.hh(56,11)
+               remark #15315: loop was not vectorized: low trip count
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15475: --- begin vector loop cost summary ---
+               remark #15479: lightweight vector operations: 35 
+               remark #15480: medium-overhead vector operations: 1 
+               remark #15481: heavy-overhead vector operations: 1 
+               remark #15487: type converts: 1 
+               remark #15488: --- end vector loop cost summary ---
+            LOOP END
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into simulationSetup2D.hh(56,11)
+            <Remainder>
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at ../../src/core/util.h(92,3) inlined into simulationSetup2D.hh(52,22)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 8 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 0.610 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::convergeFixedVelocity<double, olb::descriptors::D2Q9Descriptor>(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup2D.hh(345,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(361,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(369,44)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(369,44)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 44 
+   remark #15477: vector loop cost: 11.500 
+   remark #15478: estimated potential speedup: 3.630 
+   remark #15479: lightweight vector operations: 9 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(369,44)
+<Remainder>
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at simulationSetup2D.hh(343,33)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup2D.hh(344,35)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(380,17)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup2D.hh(360,35)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::computePressure2D<double, olb::descriptors::D2Q9Descriptor>(const olb::ScalarFieldBase2D<double> &, olb::ScalarFieldBase2D<double> &, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup2D.hh(77,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(87,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(94,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(107,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(123,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(150,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(156,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(166,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at simulationSetup2D.hh(76,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(143,36)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup2D.hh(106,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at simulationSetup2D.hh(122,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(149,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(155,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(165,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::iniPressure2D<double, olb::descriptors::D2Q9Descriptor>(olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor> *, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at simulationSetup2D.hh(77,5) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(87,5) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(94,5) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(107,7) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(123,7) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(150,5) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(156,5) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(166,5) inlined into simulationSetup2D.hh(190,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(195,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at simulationSetup2D.hh(76,3) inlined into simulationSetup2D.hh(190,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(143,36) inlined into simulationSetup2D.hh(190,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at simulationSetup2D.hh(106,5) inlined into simulationSetup2D.hh(190,3)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at simulationSetup2D.hh(122,5) inlined into simulationSetup2D.hh(190,3)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(149,3) inlined into simulationSetup2D.hh(190,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(155,3) inlined into simulationSetup2D.hh(190,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(165,3) inlined into simulationSetup2D.hh(190,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at simulationSetup2D.hh(194,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================

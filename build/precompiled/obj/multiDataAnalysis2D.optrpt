@@ -1,0 +1,336 @@
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::MultiDataAnalysis2D(olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *, const olb::MultiBlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(57,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(57,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(57,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(57,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(57,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at multiDataAnalysis2D.hh(58,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::MultiDataAnalysis2D(olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *const, const olb::MultiBlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(53,33)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(53,33)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(53,33)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(53,33)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataAnalysis2D.hh(53,33)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at multiDataAnalysis2D.hh(58,51) inlined into multiDataAnalysis2D.hh(53,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::~MultiDataAnalysis2D(olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(82,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::~MultiDataAnalysis2D(olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(82,51) inlined into multiDataAnalysis2D.hh(81,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::~MultiDataAnalysis2D(olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(82,51) inlined into multiDataAnalysis2D.hh(81,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::reset(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(89,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getVelocity(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(99,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getMomentum(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(110,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getPressure(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(121,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getVorticity(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(143,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getVelocityNorm(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(132,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getStrainRate(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(154,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getStrainRateFromStress(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(165,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getDivRhoU(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(176,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getPoissonTerm(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(187,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getPopulations(const olb::MultiDataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis2D.hh(198,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

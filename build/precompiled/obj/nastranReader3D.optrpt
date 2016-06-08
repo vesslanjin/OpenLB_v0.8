@@ -1,0 +1,613 @@
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::linesOfFile2Vector(std::vector<std::string, std::allocator<std::string>> *, olb::NastranVoxelMeshReader3D *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into nastranReader3D.cpp(123,12)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into nastranReader3D.cpp(123,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into nastranReader3D.cpp(123,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into nastranReader3D.cpp(123,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and  line 236
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_vector.h(738,8) inlined into nastranReader3D.cpp(123,12)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<std::string>::pointer>(std::allocator<std::string>::pointer, std::allocator<std::string>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and  line 236
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::writeQuad(olb::NastranVoxelMeshReader3D *, std::vector<std::string, std::allocator<std::string>>::iterator &, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(203,16)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::NastranVoxelMeshReader3D(olb::NastranVoxelMeshReader3D *, std::string &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into nastranReader3D.cpp(48,37)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into nastranReader3D.cpp(48,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into nastranReader3D.cpp(48,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into nastranReader3D.cpp(48,37)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and __mem line 65
+LOOP END
+
+LOOP BEGIN at nastranReader3D.cpp(58,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(76,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(76,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(76,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into nastranReader3D.cpp(76,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and __mem line 65
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_vector.h(738,8) inlined into nastranReader3D.cpp(48,37)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::writeHexaColor(olb::NastranVoxelMeshReader3D *, std::vector<std::string, std::allocator<std::string>>::iterator &, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(263,22)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at nastranReader3D.cpp(265,13)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(266,26)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at nastranReader3D.cpp(258,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at nastranReader3D.cpp(260,7)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1217,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::operator[](std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>> *, const std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::writeGridPoint(olb::NastranVoxelMeshReader3D *, std::vector<std::string, std::allocator<std::string>>::iterator &, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(179,17)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_type, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type, std::_Select1st<std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::value_type>, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::key_compare, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>>::~map(std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::~map(std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::~map(std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::computeVoxelColour(olb::NastranVoxelMeshReader3D *, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>> &, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at nastranReader3D.cpp(342,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(343,29)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(344,27)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(345,29)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(346,27)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(348,27)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at nastranReader3D.cpp(337,43)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::operator[](std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>> *, const std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::operator[](std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>> *, const std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(449,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1213,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1215,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1219,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1225,54)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1226,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1233,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1238,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1245,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_M_insert_(std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_Const_Base_ptr, std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_Const_Base_ptr, const std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(878,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_type, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type, std::_Select1st<std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::value_type>, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::key_compare, std::map<std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short, std::less<std::vector<unsigned short, std::allocator<unsigned short>>>, std::allocator<std::pair<const std::vector<unsigned short, std::allocator<unsigned short>>, unsigned short>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1170,35)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1177,55)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1181,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1182,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::computeMotherCuboid(olb::NastranVoxelMeshReader3D *, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>> &, std::map<int, std::vector<int, std::allocator<int>>, std::less<int>, std::allocator<std::pair<const int, std::vector<int, std::allocator<int>>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at nastranReader3D.cpp(287,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(288,21)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(289,24)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(290,24)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(291,24)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(292,24)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into nastranReader3D.cpp(293,26)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at nastranReader3D.cpp(308,42)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1217,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_type, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type, std::_Select1st<std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::value_type>, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::key_compare, std::map<int, std::vector<double, std::allocator<double>>, std::less<int>, std::allocator<std::pair<const int, std::vector<double, std::allocator<double>>>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::string, std::allocator<std::string>>::~vector(std::vector<std::string, std::allocator<std::string>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and  line 236
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::NastranVoxelMeshReader3D(olb::NastranVoxelMeshReader3D *const, std::string &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into nastranReader3D.cpp(41,27)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into nastranReader3D.cpp(41,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into nastranReader3D.cpp(41,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into nastranReader3D.cpp(41,27)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and __mem line 65
+LOOP END
+
+LOOP BEGIN at nastranReader3D.cpp(58,3) inlined into nastranReader3D.cpp(41,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(41,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(41,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(41,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into nastranReader3D.cpp(41,27)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 503 and __mem line 65
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_vector.h(738,8) inlined into nastranReader3D.cpp(41,27)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::~NastranVoxelMeshReader3D(olb::NastranVoxelMeshReader3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(81,1)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::~NastranVoxelMeshReader3D(olb::NastranVoxelMeshReader3D *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into nastranReader3D.cpp(79,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::addBoundaryLayer(olb::NastranVoxelMeshReader3D *, unsigned short, unsigned short, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at nastranReader3D.cpp(397,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at nastranReader3D.cpp(398,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at nastranReader3D.cpp(399,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::setColour(olb::NastranVoxelMeshReader3D *, unsigned short, unsigned short, unsigned short, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into nastranReader3D.cpp(369,44)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into nastranReader3D.cpp(369,44)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into nastranReader3D.cpp(369,44)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::getColour(olb::NastranVoxelMeshReader3D *, unsigned short, unsigned short, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into nastranReader3D.cpp(386,34)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into nastranReader3D.cpp(386,34)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into nastranReader3D.cpp(386,34)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::readNastranFile(olb::NastranVoxelMeshReader3D *, olb::BlockGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at nastranReader3D.cpp(506,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at nastranReader3D.cpp(507,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at nastranReader3D.cpp(508,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at nastranReader3D.cpp(515,45)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NastranVoxelMeshReader3D::writeVtiFile(olb::NastranVoxelMeshReader3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at nastranReader3D.cpp(91,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at nastranReader3D.cpp(92,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at nastranReader3D.cpp(93,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at nastranReader3D.cpp(100,45)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================

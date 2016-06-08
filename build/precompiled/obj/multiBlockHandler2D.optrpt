@@ -1,0 +1,825 @@
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<std::vector<int, std::allocator<int>>>::pointer>(std::allocator<std::vector<int, std::allocator<int>>>::pointer, std::allocator<std::vector<int, std::allocator<int>>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 132 and  line 95
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Overlap2D, std::allocator<olb::Overlap2D>>::vector(std::vector<olb::Overlap2D, std::allocator<olb::Overlap2D>> *, const std::vector<olb::Overlap2D, std::allocator<olb::Overlap2D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::vector(std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> *, const std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockParameters2D, std::allocator<olb::BlockParameters2D>>::vector(std::vector<olb::BlockParameters2D, std::allocator<olb::BlockParameters2D>> *, const std::vector<olb::BlockParameters2D, std::allocator<olb::BlockParameters2D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution2D::~MultiDataDistribution2D(olb::MultiDataDistribution2D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(114,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::connectBoundaries(const olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *, olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::BlockVector2D &, bool) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(146,50)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at multiBlockHandler2D.hh(132,3) inlined into multiBlockHandler2D.hh(147,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at multiBlockHandler2D.hh(135,5) inlined into multiBlockHandler2D.hh(147,5)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(147,5)
+         <Multiversioned v1>
+            remark #15300: LOOP WAS VECTORIZED
+            remark #15450: unmasked unaligned unit stride loads: 1 
+            remark #15451: unmasked unaligned unit stride stores: 1 
+            remark #15475: --- begin vector loop cost summary ---
+            remark #15476: scalar loop cost: 4 
+            remark #15477: vector loop cost: 2.250 
+            remark #15478: estimated potential speedup: 1.280 
+            remark #15479: lightweight vector operations: 2 
+            remark #15481: heavy-overhead vector operations: 1 
+            remark #15488: --- end vector loop cost summary ---
+         LOOP END
+
+         LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(147,5)
+         <Multiversioned v2>
+            remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         LOOP END
+
+         LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(147,5)
+         <Remainder, Multiversioned v1>
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(150,52)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at multiBlockHandler2D.hh(132,3) inlined into multiBlockHandler2D.hh(151,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at multiBlockHandler2D.hh(135,5) inlined into multiBlockHandler2D.hh(151,7)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(151,7)
+         <Multiversioned v1>
+            remark #15300: LOOP WAS VECTORIZED
+            remark #15450: unmasked unaligned unit stride loads: 1 
+            remark #15451: unmasked unaligned unit stride stores: 1 
+            remark #15475: --- begin vector loop cost summary ---
+            remark #15476: scalar loop cost: 4 
+            remark #15477: vector loop cost: 2.250 
+            remark #15478: estimated potential speedup: 1.280 
+            remark #15479: lightweight vector operations: 2 
+            remark #15481: heavy-overhead vector operations: 1 
+            remark #15488: --- end vector loop cost summary ---
+         LOOP END
+
+         LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(151,7)
+         <Multiversioned v2>
+            remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+         LOOP END
+
+         LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(151,7)
+         <Remainder, Multiversioned v1>
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::copyOverlap(const olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *, const olb::Overlap2D &, olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::BlockVector2D &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(132,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at multiBlockHandler2D.hh(135,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(136,54)
+      <Multiversioned v1>
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15450: unmasked unaligned unit stride loads: 1 
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 4 
+         remark #15477: vector loop cost: 2.250 
+         remark #15478: estimated potential speedup: 1.280 
+         remark #15479: lightweight vector operations: 2 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(136,54)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      LOOP END
+
+      LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(136,54)
+      <Remainder, Multiversioned v1>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::~SerialMultiBlockHandler2D(olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiBlockHandler2D.h(66,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::~SerialMultiBlockHandler2D(olb::SerialMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiBlockHandler2D.h(66,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::ParallelMultiBlockHandler2D(olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(432,22)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(432,22)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(432,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(432,22)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(432,22)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(432,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(432,22)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(432,22)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(432,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(432,22)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(432,22)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(432,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(433,76)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(437,11)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(437,11)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(440,78)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(444,11)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(444,11)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::_M_fill_insert(std::vector<double, std::allocator<double>> *, std::vector<double, std::allocator<double>>::iterator, std::vector<double, std::allocator<double>>::size_type, const std::vector<double, std::allocator<double>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, std::allocator<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *>>::_M_fill_insert(std::vector<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, std::allocator<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *>> *, std::vector<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, std::allocator<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *>>::iterator, std::vector<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, std::allocator<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *>>::size_type, const std::vector<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, std::allocator<olb::DataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::ParallelMultiBlockHandler2D(olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *const, const olb::MultiDataDistribution2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(426,41)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(426,41)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(426,41)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(426,41)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(426,41)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(426,41)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(426,41)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(426,41)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiBlockHandler2D.hh(426,41)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(426,41)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(426,41)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.300 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiBlockHandler2D.hh(426,41)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(433,76) inlined into multiBlockHandler2D.hh(426,41)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(426,41)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(426,41)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(440,78) inlined into multiBlockHandler2D.hh(426,41)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(426,41)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at ../../../src/complexGrids/multiBlockStructure/multiDataGeometry2D.h(38,3) inlined into multiBlockHandler2D.hh(426,41)
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 3 
+      remark #15477: vector loop cost: 1.500 
+      remark #15478: estimated potential speedup: 1.330 
+      remark #15479: lightweight vector operations: 2 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::~ParallelMultiBlockHandler2D(olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(450,76)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(453,78)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiBlockHandler2D.hh(456,1)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::~ParallelMultiBlockHandler2D(olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(450,76) inlined into multiBlockHandler2D.hh(449,41)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(453,78) inlined into multiBlockHandler2D.hh(449,41)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiBlockHandler2D.hh(449,41)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::~ParallelMultiBlockHandler2D(olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(450,76) inlined into multiBlockHandler2D.hh(449,41)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(453,78) inlined into multiBlockHandler2D.hh(449,41)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiBlockHandler2D.hh(449,41)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::connectBoundaries(const olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *, olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::BlockVector2D &, bool) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(556,76)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(560,80)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(564,76)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(568,80)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(572,76)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(576,80)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor>::locateLocally(const olb::ParallelMultiBlockHandler2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, std::vector<int, std::allocator<int>> &, std::vector<int, std::allocator<int>> &, std::vector<int, std::allocator<int>> &, bool &, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(614,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(637,83)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NonBlockingDataTransmittor2D<double, olb::descriptors::D2Q9Descriptor>::executeTransmission(olb::NonBlockingDataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, olb::NonBlockingDataTransmittor2D<double, olb::descriptors::D2Q9Descriptor>::BlockVector2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(362,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at multiBlockHandler2D.hh(365,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(366,56)
+      <Multiversioned v1>
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15450: unmasked unaligned unit stride loads: 1 
+         remark #15451: unmasked unaligned unit stride stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 4 
+         remark #15477: vector loop cost: 2.250 
+         remark #15478: estimated potential speedup: 1.280 
+         remark #15479: lightweight vector operations: 2 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(366,56)
+      <Multiversioned v2>
+         remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+      LOOP END
+
+      LOOP BEGIN at ../../../src/core/cell.h(79,5) inlined into multiBlockHandler2D.hh(366,56)
+      <Remainder, Multiversioned v1>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at multiBlockHandler2D.hh(377,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at multiBlockHandler2D.hh(378,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NonBlockingDataTransmittor2D<double, olb::descriptors::D2Q9Descriptor>::finalizeTransmission(olb::NonBlockingDataTransmittor2D<double, olb::descriptors::D2Q9Descriptor> *, olb::NonBlockingDataTransmittor2D<double, olb::descriptors::D2Q9Descriptor>::BlockVector2D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiBlockHandler2D.hh(409,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at multiBlockHandler2D.hh(410,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================

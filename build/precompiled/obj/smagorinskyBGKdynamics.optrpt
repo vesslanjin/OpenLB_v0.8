@@ -1,0 +1,22 @@
+
+Begin optimization report for: olb::SmagorinskyBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::SmagorinskyBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into smagorinskyBGKdynamics.hh(62,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SmagorinskyBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::SmagorinskyBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into smagorinskyBGKdynamics.hh(77,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================

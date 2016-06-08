@@ -1,0 +1,42 @@
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::BouzidiBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::~OffBoundaryConditionInstantiator2D(olb::OffBoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::BouzidiBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator2D.h(81,59)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at offBoundaryInstantiator2D.h(84,57)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::BouzidiBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::~OffBoundaryConditionInstantiator2D(olb::OffBoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::BouzidiBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator2D.h(81,59) inlined into offBoundaryInstantiator2D.h(80,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at offBoundaryInstantiator2D.h(84,57) inlined into offBoundaryInstantiator2D.h(80,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::BouzidiBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::~OffBoundaryConditionInstantiator2D(olb::OffBoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::BouzidiBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator2D.h(81,59) inlined into offBoundaryInstantiator2D.h(80,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at offBoundaryInstantiator2D.h(84,57) inlined into offBoundaryInstantiator2D.h(80,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

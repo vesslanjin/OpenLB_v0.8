@@ -1,0 +1,145 @@
+
+Begin optimization report for: olb::XMLreader::slaveProcessorIni(olb::XMLreader *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(155,15)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into xmlReader.cpp(154,14)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at xmlReader.cpp(172,18)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_type, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type, std::_Select1st<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type>, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_compare, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_type, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type, std::_Select1st<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type>, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_compare, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_type, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type, std::_Select1st<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type>, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_compare, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::mainProcessorIni(olb::XMLreader *, TiXmlNode *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(100,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(985,7) inlined into xmlReader.cpp(108,14)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at xmlReader.cpp(121,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::~map(std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_type, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type, std::_Select1st<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type>, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_compare, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_type, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type, std::_Select1st<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type>, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_compare, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_type, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type, std::_Select1st<std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::value_type>, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::key_compare, std::map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::~XMLreader(olb::XMLreader *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(82,45) inlined into xmlReader.cpp(81,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into xmlReader.cpp(81,12)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::~XMLreader(olb::XMLreader *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(82,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into xmlReader.cpp(85,1)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::print(const olb::XMLreader *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(181,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::operator[](const olb::XMLreader *, std::string *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(188,45)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::getAttribute(std::string *, const olb::XMLreader *, const std::string &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_string.h(278,17) inlined into xmlReader.cpp(280,74)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::read<bool>(const olb::XMLreader *, bool &, bool) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(4702,22) inlined into xmlReader.cpp(224,58)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between _M_current line 4703 and _M_current line 4703
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::XMLreader::setWarningsOn(const olb::XMLreader *, bool) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at xmlReader.cpp(213,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

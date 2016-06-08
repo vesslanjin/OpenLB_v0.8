@@ -1,0 +1,50 @@
+
+Begin optimization report for: olb::SuperLatticeCalc3D<double, olb::descriptors::D3Q19Descriptor>::myErase(olb::SuperLatticeCalc3D<double, olb::descriptors::D3Q19Descriptor> *, olb::GenericF<double, int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeCalcF3D.hh(50,41)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLatticePlus3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperLatticePlus3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeCalcF3D.hh(69,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLatticeMinus3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperLatticeMinus3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeCalcF3D.hh(85,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLatticeMultiplication3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperLatticeMultiplication3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeCalcF3D.hh(102,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLatticeDivision3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperLatticeDivision3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeCalcF3D.hh(119,30)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

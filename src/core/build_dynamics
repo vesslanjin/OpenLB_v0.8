@@ -1,0 +1,6 @@
+#mpiicpc -DPARALLEL_MODE_MPI -DMPICH_IGNORE_CXX_SEEK -vec-report6 -DOLB_PRECOMPILED -O3 -Wall -vec-report6 -I../../src -I../../src/external -I../../src/external/cvmlcpp -I../../src/external/boost -I../../src/external/kaffpa -c blockLattice2D.cpp -o ../../build/precompiled/obj/blockLattice2D.o 2>log
+#mpiicpc -DPARALLEL_MODE_MPI -DMPICH_IGNORE_CXX_SEEK -vec-report6 -DOLB_PRECOMPILED -O3 -Wall -vec-report6 -mmic -I../../src -I../../src/external -I../../src/external/cvmlcpp -I../../src/external/boost -I../../src/external/kaffpa -c blockLattice2D.cpp -o ../../build/precompiled/obj/blockLattice2D.o 2>mic-log
+
+mpiicpc -DPARALLEL_MODE_OMP -DPARALLEL_MODE_MPI -qopenmp -DMPICH_IGNORE_CXX_SEEK -DOLB_PRECOMPILED -O3 -Wall -g -mmic -qopenmp -opt-prefetch -qopt-report=5 -qopt-report-phase=vec   -I../../src -I../../src/external -I../../src/external/cvmlcpp -I../../src/external/boost -I../../src/external/kaffpa -c dynamics.cpp -o ../../build/precompiled/obj/dynamics.o
+
+#mpiicpc -DPARALLEL_MODE_OMP -DPARALLEL_MODE_MPI -qopenmp -EP -DMPICH_IGNORE_CXX_SEEK -DOLB_PRECOMPILED -O3 -Wall -g -mmic -qopenmp -opt-prefetch -qopt-report=5   -I../../src -I../../src/external -I../../src/external/cvmlcpp -I../../src/external/boost -I../../src/external/kaffpa -c dynamics.cpp -o test.i

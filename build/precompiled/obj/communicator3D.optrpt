@@ -1,0 +1,140 @@
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::add_cells(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at communicator3D.hh(75,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at communicator3D.hh(76,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::reset(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at communicator3D.hh(128,44)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::send(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at communicator3D.hh(138,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::receive(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at communicator3D.hh(149,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(160,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::write(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at communicator3D.hh(169,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::CuboidNeighbourhood3D<double, olb::descriptors::D3Q19Descriptor>>::pointer>(std::allocator<olb::CuboidNeighbourhood3D<double, olb::descriptors::D3Q19Descriptor>>::pointer, std::allocator<olb::CuboidNeighbourhood3D<double, olb::descriptors::D3Q19Descriptor>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::init(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at communicator3D.hh(128,44) inlined into communicator3D.hh(85,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(88,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(104,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(109,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(112,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(115,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at communicator3D.hh(118,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at communicator3D.hh(86,42)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor>::init_nh(olb::Communicator3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into communicator3D.hh(58,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into communicator3D.hh(58,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into communicator3D.hh(58,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into communicator3D.hh(58,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at communicator3D.hh(56,42)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================

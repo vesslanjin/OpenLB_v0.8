@@ -1,0 +1,193 @@
+
+Begin optimization report for: olb::PorousBGKdynamics<double, olb::descriptors::PorousD2Q9Descriptor>::collide(olb::PorousBGKdynamics<double, olb::descriptors::PorousD2Q9Descriptor> *, olb::Cell<double, olb::descriptors::PorousD2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at porousBGKdynamics.hh(56,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PorousBGKdynamics<double, olb::descriptors::PorousD3Q19Descriptor>::collide(olb::PorousBGKdynamics<double, olb::descriptors::PorousD3Q19Descriptor> *, olb::Cell<double, olb::descriptors::PorousD3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at porousBGKdynamics.hh(56,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.810 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Peeled, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Distributed chunk1>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 11 
+   remark #15477: vector loop cost: 1.250 
+   remark #15478: estimated potential speedup: 3.160 
+   remark #15479: lightweight vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Peeled, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 58 
+   remark #15477: vector loop cost: 16.000 
+   remark #15478: estimated potential speedup: 2.370 
+   remark #15479: lightweight vector operations: 40 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Remainder, Distributed chunk2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ExtendedPorousBGKdynamics<double, olb::descriptors::ExtendedPorousD2Q9Descriptor>::collide(olb::ExtendedPorousBGKdynamics<double, olb::descriptors::ExtendedPorousD2Q9Descriptor> *, olb::Cell<double, olb::descriptors::ExtendedPorousD2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at porousBGKdynamics.hh(97,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.920 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at porousBGKdynamics.hh(109,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 12 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.260 
+   remark #15479: lightweight vector operations: 8 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PorousBGKdynamics<double, olb::descriptors::ExtendedPorousD3Q19Descriptor>::collide(olb::PorousBGKdynamics<double, olb::descriptors::ExtendedPorousD3Q19Descriptor> *, olb::Cell<double, olb::descriptors::ExtendedPorousD3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at porousBGKdynamics.hh(56,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.810 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Peeled, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Distributed chunk1>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 11 
+   remark #15477: vector loop cost: 1.250 
+   remark #15478: estimated potential speedup: 3.160 
+   remark #15479: lightweight vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Peeled, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 58 
+   remark #15477: vector loop cost: 16.000 
+   remark #15478: estimated potential speedup: 2.370 
+   remark #15479: lightweight vector operations: 40 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into porousBGKdynamics.hh(59,12)
+<Remainder, Distributed chunk2>
+LOOP END
+===========================================================================

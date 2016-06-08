@@ -1,0 +1,1166 @@
+
+Begin optimization report for: TiXmlBase::EncodeString(const std::string &, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(75,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(56,2)
+   remark #15535: loop was not vectorized: loop contains switch statement. Consider using if-else statement.   [ tinyxml.cpp(83,8) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::~TiXmlNode(TiXmlNode *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::~TiXmlNode(TiXmlNode *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.cpp(147,12)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::Clear(TiXmlNode *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::FirstChild(const TiXmlNode *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::LastChild(const TiXmlNode *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(372,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::IterateChildren(const TiXmlNode *, const char *, const TiXmlNode *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2) inlined into tinyxml.cpp(399,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(404,20)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::InsertEndChild(TiXmlNode *, const TiXmlNode &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(217,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(217,24)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::InsertBeforeChild(TiXmlNode *, TiXmlNode *, const TiXmlNode &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(235,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(235,24)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::InsertAfterChild(TiXmlNode *, TiXmlNode *, const TiXmlNode &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(267,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(267,24)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::ReplaceChild(TiXmlNode *, TiXmlNode *, const TiXmlNode &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(302,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::PreviousSibling(const TiXmlNode *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(424,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::NextSibling(const TiXmlNode *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(412,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::NextSiblingElement(const TiXmlNode *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(482,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::NextSiblingElement(const TiXmlNode *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(497,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(497,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(499,17)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::FirstChildElement(const TiXmlNode *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(452,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::FirstChildElement(const TiXmlNode *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2) inlined into tinyxml.cpp(467,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(467,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(469,17)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::GetDocument(const TiXmlNode *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(512,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttribute::Print(const TiXmlAttribute *, FILE *, int, std::string *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1169,2)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1170,2)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1169,2)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1170,2)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttributeSet::Add(TiXmlAttributeSet *, TiXmlAttribute *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(1470,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttributeSet::Remove(TiXmlAttributeSet *, TiXmlAttribute *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1486,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttributeSet::Find(const TiXmlAttributeSet *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttributeSet::FindOrCreate(TiXmlAttributeSet *, const char *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(1538,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(1541,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttributeSet::Find(const TiXmlAttributeSet *, const std::string &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::~TiXmlNode(TiXmlNode *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(473,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::CopyTo(const TiXmlElement *, TiXmlElement *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(817,2)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(821,11)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(821,11)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(825,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlNode::LinkEndChild(TiXmlNode *, TiXmlNode *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(189,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(189,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(189,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(194,8)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(512,2) inlined into tinyxml.cpp(194,24)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::operator=(TiXmlElement *, const TiXmlElement &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(549,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1486,2) inlined into tinyxml.cpp(549,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(563,2) inlined into tinyxml.cpp(549,2)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::~TiXmlElement(TiXmlElement *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(556,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1486,2) inlined into tinyxml.cpp(556,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.cpp(557,1)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(563,2) inlined into tinyxml.cpp(556,2)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::~TiXmlElement(TiXmlElement *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(554,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1486,2) inlined into tinyxml.cpp(554,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.cpp(554,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(563,2) inlined into tinyxml.cpp(554,15)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::~TiXmlElement(TiXmlElement *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(554,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1486,2) inlined into tinyxml.cpp(554,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.cpp(554,15)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(563,2) inlined into tinyxml.cpp(554,15)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Attribute(const TiXmlElement *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(574,44)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Attribute(const TiXmlElement *, const char *, int *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(594,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Attribute(const TiXmlElement *, const char *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(626,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::QueryIntAttribute(const TiXmlElement *, const char *, int *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(658,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::QueryDoubleAttribute(const TiXmlElement *, const char *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(678,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::SetAttribute(TiXmlElement *, const char *, const char *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(738,40)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(738,40)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Attribute(const TiXmlElement *, const std::string &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(584,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Attribute(const TiXmlElement *, const std::string &, int *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(610,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Attribute(const TiXmlElement *, const std::string &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(642,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::QueryIntAttribute(const TiXmlElement *, const std::string &, int *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(668,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::QueryDoubleAttribute(const TiXmlElement *, const std::string &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(688,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlAttributeSet::FindOrCreate(TiXmlAttributeSet *, const std::string &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(1514,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(1517,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::SetAttribute(TiXmlElement *, const char *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(698,40)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(698,40)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::SetDoubleAttribute(TiXmlElement *, const char *, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1527,2) inlined into tinyxml.cpp(718,40)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(718,40)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::RemoveAttribute(TiXmlElement *, const char *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1504,2) inlined into tinyxml.cpp(437,38)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1486,2) inlined into tinyxml.cpp(443,16)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Print(const TiXmlElement *, FILE *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(760,2)
+   remark #15527: loop was not vectorized: function call to fprintf cannot be vectorized   [ tinyxml.cpp(761,3) ]
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(767,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(792,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(801,3)
+   remark #15527: loop was not vectorized: function call to fprintf cannot be vectorized   [ tinyxml.cpp(802,4) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::Accept(const TiXmlElement *, TiXmlVisitor *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(835,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlElement::ClearThis(TiXmlElement *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(562,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1486,2) inlined into tinyxml.cpp(566,16)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(563,2)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlComment::operator=(TiXmlComment *, const TiXmlComment &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(1246,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlComment::~TiXmlComment(TiXmlComment *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1167,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlComment::~TiXmlComment(TiXmlComment *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1167,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlComment::Print(const TiXmlComment *, FILE *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1254,2)
+   remark #15527: loop was not vectorized: function call to fprintf cannot be vectorized   [ tinyxml.cpp(1256,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlText::~TiXmlText(TiXmlText *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1218,24)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlText::~TiXmlText(TiXmlText *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1218,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlText::Print(const TiXmlText *, FILE *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1293,3)
+   remark #15527: loop was not vectorized: function call to fprintf cannot be vectorized   [ tinyxml.cpp(1294,4) ]
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1301,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1301,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDeclaration::operator=(TiXmlDeclaration *, const TiXmlDeclaration &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(1366,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDeclaration::~TiXmlDeclaration(TiXmlDeclaration *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1299,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDeclaration::~TiXmlDeclaration(TiXmlDeclaration *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1299,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlUnknown::~TiXmlUnknown(TiXmlUnknown *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1351,27)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlUnknown::~TiXmlUnknown(TiXmlUnknown *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(152,2) inlined into tinyxml.h(1351,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlUnknown::Print(const TiXmlUnknown *, FILE *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1423,2)
+   remark #15527: loop was not vectorized: function call to fprintf cannot be vectorized   [ tinyxml.cpp(1424,3) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::TiXmlDocument(TiXmlDocument *, const TiXmlDocument &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1082,2) inlined into tinyxml.cpp(898,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::TiXmlDocument(TiXmlDocument *const, const TiXmlDocument &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1082,2) inlined into tinyxml.cpp(896,16)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::operator=(TiXmlDocument *, const TiXmlDocument &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(904,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1082,2) inlined into tinyxml.cpp(905,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::LoadFile(TiXmlDocument *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(911,9)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1013,2) inlined into tinyxml.cpp(911,9)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::LoadFile(TiXmlDocument *, const char *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(930,17)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1013,2) inlined into tinyxml.cpp(930,17)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::LoadFile(TiXmlDocument *, FILE *, TiXmlEncoding)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(174,2) inlined into tinyxml.cpp(950,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1013,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::Print(const TiXmlDocument *, FILE *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1103,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::Accept(const TiXmlDocument *, TiXmlVisitor *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1115,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::Clone(const TiXmlDocument *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1082,2) inlined into tinyxml.cpp(1095,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlDocument::CopyTo(const TiXmlDocument *, TiXmlDocument *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1082,2)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::FirstChild(TiXmlHandle *, const TiXmlHandle *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2) inlined into tinyxml.cpp(1601,28)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::FirstChildElement(TiXmlHandle *, const TiXmlHandle *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(452,2) inlined into tinyxml.cpp(1613,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::FirstChildElement(TiXmlHandle *, const TiXmlHandle *, const char *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2) inlined into tinyxml.cpp(1625,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(467,2) inlined into tinyxml.cpp(1625,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(1625,31)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::Child(TiXmlHandle *, const TiXmlHandle *, const char *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2) inlined into tinyxml.cpp(1657,28)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1658,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(1660,20)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::Child(TiXmlHandle *, const TiXmlHandle *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(1639,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::ChildElement(TiXmlHandle *, const TiXmlHandle *, const char *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(360,2) inlined into tinyxml.cpp(1695,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(467,2) inlined into tinyxml.cpp(1695,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(1695,31)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1696,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(1698,20)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+
+   LOOP BEGIN at tinyxml.cpp(497,2) inlined into tinyxml.cpp(1698,20)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+      LOOP BEGIN at tinyxml.cpp(412,2) inlined into tinyxml.cpp(1698,20)
+         remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlHandle::ChildElement(TiXmlHandle *, const TiXmlHandle *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.cpp(452,2) inlined into tinyxml.cpp(1676,31)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(1677,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at tinyxml.cpp(482,2) inlined into tinyxml.cpp(1679,20)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlPrinter::VisitEnter(TiXmlPrinter *, const TiXmlElement &, const TiXmlAttribute *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1721,2)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1728,11)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1728,11)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(1725,2)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1728,11)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+
+   LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1728,11)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlPrinter::Visit(TiXmlPrinter *, const TiXmlDeclaration &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1812,2)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlPrinter::Visit(TiXmlPrinter *, const TiXmlText &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1786,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1795,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1800,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(75,4) inlined into tinyxml.cpp(1802,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1795,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+
+LOOP BEGIN at tinyxml.cpp(56,2) inlined into tinyxml.cpp(1802,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlPrinter::Visit(TiXmlPrinter *, const TiXmlComment &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1821,2)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlPrinter::Visit(TiXmlPrinter *, const TiXmlUnknown &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1832,2)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: TiXmlPrinter::VisitExit(TiXmlPrinter *, const TiXmlElement &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tinyxml.h(1779,3) inlined into tinyxml.cpp(1771,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

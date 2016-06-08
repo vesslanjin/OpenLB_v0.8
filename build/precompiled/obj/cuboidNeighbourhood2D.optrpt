@@ -1,0 +1,221 @@
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::~CuboidNeighbourhood2D(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(400,5) inlined into cuboidNeighbourhood2D.hh(80,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(410,5) inlined into cuboidNeighbourhood2D.hh(80,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::~CuboidNeighbourhood2D(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(400,5) inlined into cuboidNeighbourhood2D.hh(79,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(410,5) inlined into cuboidNeighbourhood2D.hh(79,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::add_inCell(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(134,35)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::add_inCells(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(150,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(174,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::bufSend_inCells(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(285,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(295,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector<int>(std::vector<int, std::allocator<int>> *, int, int, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::recWrite_outCells(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(313,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(307,32)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::buffer_outData(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(345,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(336,34)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::send_outData(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(356,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::receive_inData(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(367,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::write_inData(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(387,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(380,33)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::reset(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(400,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(410,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::init_outCN(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(257,34)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(261,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor>::init_inCN(olb::CuboidNeighbourhood2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(207,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(211,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(214,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(229,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at cuboidNeighbourhood2D.hh(236,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================

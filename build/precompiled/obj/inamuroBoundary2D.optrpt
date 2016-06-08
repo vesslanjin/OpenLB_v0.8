@@ -1,0 +1,1925 @@
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::~BoundaryConditionInstantiator2D(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(103,59)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(106,57)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::~BoundaryConditionInstantiator2D(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(103,59) inlined into ../../src/core/boundaryInstantiator2D.h(102,63)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(106,57) inlined into ../../src/core/boundaryInstantiator2D.h(102,63)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::~BoundaryConditionInstantiator2D(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(103,59) inlined into ../../src/core/boundaryInstantiator2D.h(102,63)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(106,57) inlined into ../../src/core/boundaryInstantiator2D.h(102,63)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary0N(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5) inlined into ../../src/core/boundaryInstantiator2D.h(341,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3) inlined into ../../src/core/boundaryInstantiator2D.h(341,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary0P(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5) inlined into ../../src/core/boundaryInstantiator2D.h(347,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3) inlined into ../../src/core/boundaryInstantiator2D.h(347,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary1N(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5) inlined into ../../src/core/boundaryInstantiator2D.h(353,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3) inlined into ../../src/core/boundaryInstantiator2D.h(353,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary1P(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5) inlined into ../../src/core/boundaryInstantiator2D.h(359,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3) inlined into ../../src/core/boundaryInstantiator2D.h(359,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addPressureBoundary0N(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(149,5) inlined into ../../src/core/boundaryInstantiator2D.h(365,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(148,3) inlined into ../../src/core/boundaryInstantiator2D.h(365,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addPressureBoundary0P(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(149,5) inlined into ../../src/core/boundaryInstantiator2D.h(371,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(148,3) inlined into ../../src/core/boundaryInstantiator2D.h(371,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addPressureBoundary1N(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(149,5) inlined into ../../src/core/boundaryInstantiator2D.h(377,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(148,3) inlined into ../../src/core/boundaryInstantiator2D.h(377,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addPressureBoundary1P(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(149,5) inlined into ../../src/core/boundaryInstantiator2D.h(383,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(148,3) inlined into ../../src/core/boundaryInstantiator2D.h(383,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, olb::BlockGeometryStatistics2D *, int, int, int, int, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(231,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(230,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary<0, 1>(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary<0, -1>(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary<1, 1>(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addVelocityBoundary<1, -1>(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(118,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(117,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector<int>(std::vector<int, std::allocator<int>> *, int, int, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>>::addPressureBoundary(olb::BoundaryConditionInstantiator2D<double, olb::descriptors::D2Q9Descriptor, olb::InamuroBoundaryManager2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>> *, olb::BlockGeometryStatistics2D *, int, int, int, int, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(310,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/core/boundaryInstantiator2D.h(309,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, -1>::collide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, -1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(78,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(81,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(93,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(94,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(108,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(140,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 2.400 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(143,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(145,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, -1>::staticCollide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, -1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(168,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(171,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(183,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(184,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(197,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(229,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between uCs line 230 and u line 230
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(232,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(234,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, 1>::collide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, 1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(78,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(81,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(93,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(94,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(108,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(140,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 2.400 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(143,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(145,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, 1>::staticCollide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 0, 1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(168,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(171,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(183,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(184,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(197,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(229,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between uCs line 230 and u line 230
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(232,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(234,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, -1>::collide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, -1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(78,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(81,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(93,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(94,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(108,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(140,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 2.400 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(143,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(145,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, -1>::staticCollide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, -1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(168,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(171,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(183,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(184,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(197,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(229,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between uCs line 230 and u line 230
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(232,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(234,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, 1>::collide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, 1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(72,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(78,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(81,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(93,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(94,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(108,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(112,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(122,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(127,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(140,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 2.400 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(143,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(145,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, 1>::staticCollide(olb::InamuroAnalyticalDynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>, 1, 1> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 24 
+   remark #15477: vector loop cost: 11.250 
+   remark #15478: estimated potential speedup: 2.090 
+   remark #15479: lightweight vector operations: 33 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(170,44) inlined into inamuroAnalyticalDynamics.hh(162,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(168,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at inamuroAnalyticalDynamics.hh(171,5)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 7 
+      remark #15477: vector loop cost: 3.500 
+      remark #15478: estimated potential speedup: 0.480 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(124,5) inlined into inamuroAnalyticalDynamics.hh(183,30)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(184,42)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(197,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 14.250 
+   remark #15478: estimated potential speedup: 1.850 
+   remark #15479: lightweight vector operations: 36 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(201,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.930 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(211,42)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 28.500 
+   remark #15478: estimated potential speedup: 1.820 
+   remark #15479: lightweight vector operations: 72 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(216,46)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(229,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between uCs line 230 and u line 230
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into inamuroAnalyticalDynamics.hh(232,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at inamuroAnalyticalDynamics.hh(234,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, -1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, -1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 1.680 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into ../../src/core/boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, 1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, 1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 1.700 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into ../../src/core/boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, -1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, -1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 2.420 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 1.680 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into ../../src/core/boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, 1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, 1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 2.420 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/finiteDifference2D.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 1.700 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into ../../src/core/boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/core/boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(66,5) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at ../../src/core/firstOrderLbHelpers.h(67,7) inlined into ../../src/core/boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

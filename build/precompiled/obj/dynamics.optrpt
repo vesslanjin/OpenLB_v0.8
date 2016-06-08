@@ -1,0 +1,2293 @@
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::iniEquilibrium(olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(52,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(53,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::computePopulations(const olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 2.000 
+   remark #15478: estimated potential speedup: 1.320 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::computeExternalField(const olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 1.250 
+   remark #15478: estimated potential speedup: 5.780 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::definePopulations(olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.250 
+   remark #15478: estimated potential speedup: 1.210 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Remainder, Multiversioned v1>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::defineExternalField(olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 2.250 
+   remark #15478: estimated potential speedup: 3.370 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ConstRhoBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::ConstRhoBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(308,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(309,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 67 
+   remark #15477: vector loop cost: 16.250 
+   remark #15478: estimated potential speedup: 2.660 
+   remark #15479: lightweight vector operations: 47 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(309,25)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(370,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(112,5) inlined into dynamics.hh(370,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(112,5) inlined into dynamics.hh(370,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15450: unmasked unaligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15460: masked strided loads: 2 
+   remark #15467: unmasked aligned streaming stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 61 
+   remark #15477: vector loop cost: 13.250 
+   remark #15478: estimated potential speedup: 2.690 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(112,5) inlined into dynamics.hh(370,12)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::staticCollide(olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(384,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(112,5) inlined into dynamics.hh(384,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 113 and j line 48
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(496,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(498,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(501,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(518,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(520,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(523,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(496,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(498,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(501,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(518,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(520,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(523,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineRho(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(777,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(56,18) inlined into dynamics.hh(779,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 47 
+   remark #15477: vector loop cost: 11.000 
+   remark #15478: estimated potential speedup: 2.760 
+   remark #15479: lightweight vector operations: 34 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(56,18) inlined into dynamics.hh(779,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(780,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 46 
+   remark #15477: vector loop cost: 10.500 
+   remark #15478: estimated potential speedup: 2.790 
+   remark #15479: lightweight vector operations: 34 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(780,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(793,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(56,18) inlined into dynamics.hh(795,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 47 
+   remark #15477: vector loop cost: 11.000 
+   remark #15478: estimated potential speedup: 2.760 
+   remark #15479: lightweight vector operations: 34 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(56,18) inlined into dynamics.hh(795,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(796,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 46 
+   remark #15477: vector loop cost: 10.500 
+   remark #15478: estimated potential speedup: 2.790 
+   remark #15479: lightweight vector operations: 34 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(796,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineRhoU(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(810,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(56,18) inlined into dynamics.hh(812,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 47 
+   remark #15477: vector loop cost: 11.000 
+   remark #15478: estimated potential speedup: 2.760 
+   remark #15479: lightweight vector operations: 34 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers2D.h(56,18) inlined into dynamics.hh(812,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(813,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 46 
+   remark #15477: vector loop cost: 10.500 
+   remark #15478: estimated potential speedup: 2.790 
+   remark #15479: lightweight vector operations: 34 
+   remark #15487: type converts: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(813,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineAllMomenta(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(825,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(826,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between pi line 75 and cell line 827
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(828,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(828,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(828,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::collide(olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(965,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::computeU(const olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(992,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.110 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::computeJ(const olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1002,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.110 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::computeStress(const olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1013,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.070 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1013,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor>::computeU(const olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1106,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.110 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor>::computeJ(const olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1116,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.110 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor>::computeStress(const olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1127,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.070 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1127,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1189,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1190 and _location line 1190
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1191,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1192 and _location line 1195
+
+   LOOP BEGIN at dynamics.hh(1194,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *const, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1189,3) inlined into dynamics.hh(1185,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1190 and __p2_12127 line 1190
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1191,3) inlined into dynamics.hh(1185,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1192 and __p2_12127 line 1195
+
+   LOOP BEGIN at dynamics.hh(1194,5) inlined into dynamics.hh(1185,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1204,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1205 and _location line 1205
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1206,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1207 and _distances line 1211
+
+   LOOP BEGIN at dynamics.hh(1210,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *const, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1204,3) inlined into dynamics.hh(1200,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1205 and __p2_12144 line 1205
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1206,3) inlined into dynamics.hh(1200,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1207 and __p3_12144 line 1211
+
+   LOOP BEGIN at dynamics.hh(1210,5) inlined into dynamics.hh(1200,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::setBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1223,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 15 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 1.250 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::getBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1232,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between intersection line 1233 and this line 1233
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1252,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1273,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1274 and this line 1274
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::iniEquilibrium(olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(52,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(53,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::computePopulations(const olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 1.250 
+   remark #15478: estimated potential speedup: 1.970 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(45,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::computeExternalField(const olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 1.250 
+   remark #15478: estimated potential speedup: 5.780 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at dynamics.hh(63,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::definePopulations(olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.500 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(71,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::defineExternalField(olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 2.250 
+   remark #15478: estimated potential speedup: 3.370 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at dynamics.hh(82,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at lbHelpers3D.h(62,5) inlined into dynamics.hh(239,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at lbHelpers3D.h(62,5) inlined into dynamics.hh(253,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(308,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(309,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 74 
+   remark #15477: vector loop cost: 21.750 
+   remark #15478: estimated potential speedup: 2.330 
+   remark #15479: lightweight vector operations: 51 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(309,25)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at lbHelpers3D.h(62,5) inlined into dynamics.hh(322,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(370,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(73,5) inlined into dynamics.hh(370,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 74 and j line 47
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(384,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(73,5) inlined into dynamics.hh(384,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 74 and j line 47
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(432,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(432,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(432,12)
+      remark #15315: loop was not vectorized: low trip count
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15479: lightweight vector operations: 35 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15487: type converts: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(432,12)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59)
+<Distributed chunk1>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 51 
+   remark #15477: vector loop cost: 32.000 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 36 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59)
+<Distributed chunk2>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 51 
+   remark #15477: vector loop cost: 32.000 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 36 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59)
+<Remainder, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59)
+<Distributed chunk3>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 73 
+   remark #15477: vector loop cost: 29.000 
+   remark #15478: estimated potential speedup: 1.960 
+   remark #15479: lightweight vector operations: 70 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(432,12)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(432,12)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59)
+<Remainder, Distributed chunk3>
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(432,12)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(432,12)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(432,12)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(446,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(446,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(446,12)
+      remark #15315: loop was not vectorized: low trip count
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15479: lightweight vector operations: 35 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15487: type converts: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(446,12)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(114,18) inlined into dynamics.hh(446,12)
+<Distributed chunk1>
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 115 and u line 40
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(114,18) inlined into dynamics.hh(446,12)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 73 
+   remark #15477: vector loop cost: 29.000 
+   remark #15478: estimated potential speedup: 1.960 
+   remark #15479: lightweight vector operations: 70 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(446,12)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(446,12)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(114,18) inlined into dynamics.hh(446,12)
+<Remainder, Distributed chunk2>
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(446,12)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(446,12)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(446,12)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(496,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(498,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(501,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(504,20)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(504,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(504,20)
+      remark #15315: loop was not vectorized: low trip count
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15479: lightweight vector operations: 35 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15487: type converts: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(504,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59) inlined into dynamics.hh(504,20)
+<Distributed chunk1>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 51 
+   remark #15477: vector loop cost: 32.000 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 36 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59) inlined into dynamics.hh(504,20)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59) inlined into dynamics.hh(504,20)
+<Distributed chunk2>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 51 
+   remark #15477: vector loop cost: 32.000 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 36 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59) inlined into dynamics.hh(504,20)
+<Remainder, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59) inlined into dynamics.hh(504,20)
+<Distributed chunk3>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 73 
+   remark #15477: vector loop cost: 29.000 
+   remark #15478: estimated potential speedup: 1.960 
+   remark #15479: lightweight vector operations: 70 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(504,20)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(504,20)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dynamics.hh(432,59) inlined into dynamics.hh(504,20)
+<Remainder, Distributed chunk3>
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(504,20)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(504,20)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(504,20)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(518,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(520,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(523,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(526,20)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(526,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(526,20)
+      remark #15315: loop was not vectorized: low trip count
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15479: lightweight vector operations: 35 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15487: type converts: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(526,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(114,18) inlined into dynamics.hh(526,20)
+<Distributed chunk1>
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 115 and u line 40
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(114,18) inlined into dynamics.hh(526,20)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 3 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15458: masked indexed (or gather) loads: 1 
+   remark #15460: masked strided loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 73 
+   remark #15477: vector loop cost: 29.000 
+   remark #15478: estimated potential speedup: 1.960 
+   remark #15479: lightweight vector operations: 70 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(526,20)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(526,20)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at firstOrderLbHelpers.h(114,18) inlined into dynamics.hh(526,20)
+<Remainder, Distributed chunk2>
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(526,20)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(526,20)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(526,20)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(496,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(498,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(501,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(501,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(62,5) inlined into dynamics.hh(504,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(518,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(520,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(523,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(523,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(62,5) inlined into dynamics.hh(526,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineRho(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(777,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(55,18) inlined into dynamics.hh(779,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 54 
+   remark #15477: vector loop cost: 16.500 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(55,18) inlined into dynamics.hh(779,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(780,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 16.000 
+   remark #15478: estimated potential speedup: 2.300 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(780,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(793,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(55,18) inlined into dynamics.hh(795,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 54 
+   remark #15477: vector loop cost: 16.500 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(55,18) inlined into dynamics.hh(795,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(796,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 16.000 
+   remark #15478: estimated potential speedup: 2.300 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(796,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineRhoU(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(810,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(55,18) inlined into dynamics.hh(812,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 54 
+   remark #15477: vector loop cost: 16.500 
+   remark #15478: estimated potential speedup: 2.290 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at lbHelpers3D.h(55,18) inlined into dynamics.hh(812,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dynamics.hh(813,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15460: masked strided loads: 3 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 53 
+   remark #15477: vector loop cost: 16.000 
+   remark #15478: estimated potential speedup: 2.300 
+   remark #15479: lightweight vector operations: 38 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(813,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineAllMomenta(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at util.h(92,3) inlined into dynamics.hh(825,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(826,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between pi line 75 and cell line 827
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into dynamics.hh(828,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(828,18)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into dynamics.hh(828,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::collide(olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(965,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::computeU(const olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(992,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.070 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(992,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::computeJ(const olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1002,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.070 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1002,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::computeStress(const olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1013,3)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.420 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor>::computeU(const olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1106,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.070 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1106,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor>::computeJ(const olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1116,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 1.070 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1116,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor>::computeStress(const olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1127,3)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.420 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1189,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1190 and _location line 1190
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1191,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1192 and _location line 1195
+
+   LOOP BEGIN at dynamics.hh(1194,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *const, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1189,3) inlined into dynamics.hh(1185,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1190 and __p2_12891 line 1190
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1191,3) inlined into dynamics.hh(1185,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1192 and __p2_12891 line 1195
+
+   LOOP BEGIN at dynamics.hh(1194,5) inlined into dynamics.hh(1185,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1204,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1205 and _location line 1205
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1206,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1207 and _distances line 1211
+
+   LOOP BEGIN at dynamics.hh(1210,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *const, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1204,3) inlined into dynamics.hh(1200,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1205 and __p2_12900 line 1205
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1206,3) inlined into dynamics.hh(1200,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1207 and __p3_12900 line 1211
+
+   LOOP BEGIN at dynamics.hh(1210,5) inlined into dynamics.hh(1200,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::setBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1223,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 15 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 1.150 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15487: type converts: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dynamics.hh(1223,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::getBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1232,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between intersection line 1233 and this line 1233
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1252,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dynamics.hh(1273,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 1274 and this line 1274
+LOOP END
+===========================================================================

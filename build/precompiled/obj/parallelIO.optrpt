@@ -1,0 +1,682 @@
+
+Begin optimization report for: olb::ParBuf::ParBuf(olb::ParBuf *, std::streambuf *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(33,9)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParBuf::ParBuf(olb::ParBuf *const, std::streambuf *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(33,9)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ofstream::olb_ofstream(olb::olb_ofstream *, const long *const *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(134,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(134,45)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(134,67)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ofstream::olb_ofstream(olb::olb_ofstream *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(134,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(134,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(134,15)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ofstream::olb_ofstream(olb::olb_ofstream *, const long *const *, const char *, std::ios_base::openmode)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(138,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(139,18)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(139,40)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ofstream::olb_ofstream(olb::olb_ofstream *const, const char *, std::ios_base::openmode)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(138,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(138,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(138,15)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ifstream::olb_ifstream(olb::olb_ifstream *, const long *const *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(196,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(196,45)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(196,67)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ifstream::olb_ifstream(olb::olb_ifstream *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(196,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(196,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(196,15)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ifstream::olb_ifstream(olb::olb_ifstream *, const long *const *, const char *, std::ios_base::openmode)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(200,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(201,18)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(201,40)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_ifstream::olb_ifstream(olb::olb_ifstream *const, const char *, std::ios_base::openmode)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(200,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(200,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(200,15)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_fstream::olb_fstream(olb::olb_fstream *, const long *const *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,44)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,44)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,44)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(258,66)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_fstream::olb_fstream(olb::olb_fstream *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(258,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(258,14)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_fstream::olb_fstream(olb::olb_fstream *, const long *const *, const char *, std::ios_base::openmode)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(262,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(263,19)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(263,19)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(263,19)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(263,41)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::olb_fstream::olb_fstream(olb::olb_fstream *const, const char *, std::ios_base::openmode)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(262,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(262,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(262,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into parallelIO.cpp(262,14)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/streambuf(439,7) inlined into parallelIO.cpp(262,14)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 9.000 
+   remark #15478: estimated potential speedup: 1.140 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================

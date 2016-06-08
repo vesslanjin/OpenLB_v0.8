@@ -1,0 +1,311 @@
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::~sOffLatticeBoundaryCondition2D(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(74,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::~sOffLatticeBoundaryCondition2D(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(74,36) inlined into superOffBoundaryCondition2D.hh(72,1)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addOnePointFixedBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(87,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(95,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(95,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(95,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addTwoPointFixedBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(111,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(119,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(119,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(119,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addThreePointFixedBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(135,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(143,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(143,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(143,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addOnePointVelocityBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(159,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(167,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(167,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(167,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addTwoPointVelocityBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(183,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(191,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(191,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(191,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addThreePointVelocityBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(207,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(215,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(215,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(215,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addFixedBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, olb::BlockGeometryStatistics2D *, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(87,3) inlined into superOffBoundaryCondition2D.hh(228,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(228,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(228,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(228,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(111,3) inlined into superOffBoundaryCondition2D.hh(230,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(230,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(230,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(230,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(135,3) inlined into superOffBoundaryCondition2D.hh(232,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(232,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(232,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(232,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addVelocityBoundary(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, olb::BlockGeometryStatistics2D *, int, int, int, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(159,3) inlined into superOffBoundaryCondition2D.hh(240,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(240,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(240,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(240,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(183,3) inlined into superOffBoundaryCondition2D.hh(242,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(242,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(242,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(242,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(207,3) inlined into superOffBoundaryCondition2D.hh(244,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5) inlined into superOffBoundaryCondition2D.hh(244,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7) inlined into superOffBoundaryCondition2D.hh(244,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+         LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9) inlined into superOffBoundaryCondition2D.hh(244,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>::addPoints2CommBC(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(257,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superOffBoundaryCondition2D.hh(258,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 264 and  line 266
+
+      LOOP BEGIN at superOffBoundaryCondition2D.hh(259,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createBouzidiBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(292,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createBouzidiBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor>(olb::sOffLatticeBoundaryCondition2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition2D.hh(292,3) inlined into superOffBoundaryCondition2D.h(97,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================

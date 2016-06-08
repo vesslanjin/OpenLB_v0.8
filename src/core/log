@@ -1,0 +1,844 @@
+blockLattice2D.hh(54): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(54): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(55): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(49): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(49): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(49): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(75): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(75): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(75): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(75): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(78): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(79): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(106): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(106): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(107): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(109): (col. 5) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(108): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(100): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(100): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(100): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(100): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(100): (col. 28) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(137): (col. 33) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(137): (col. 33) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(137): (col. 33) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(137): (col. 33) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(137): (col. 33) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(139): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(139): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(180): (col. 20) remark: vectorization support: call to function _ZN3olb4CellIdNS_11descriptors14D2Q9DescriptorEE14defineDynamicsEPNS_8DynamicsIdS2_EE cannot be vectorized
+blockLattice2D.hh(179): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(178): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(217): (col. 23) remark: vectorization support: call to function _ZN3olb25BlockGeometryStatistics2D16getBlockGeometryEv cannot be vectorized
+blockLattice2D.hh(217): (col. 43) remark: vectorization support: call to function _ZN3olb15BlockGeometry2D11getMaterialEii cannot be vectorized
+blockLattice2D.hh(216): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(215): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(235): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed ANTI dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed FLOW dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed FLOW dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed ANTI dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed ANTI dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed FLOW dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed FLOW dependence between this line 236 and this line 236
+blockLattice2D.hh(236): (col. 20) remark: vector dependence: assumed ANTI dependence between this line 236 and this line 236
+blockLattice2D.hh(234): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(254): (col. 28) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(254): (col. 20) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(255): (col. 20) remark: vectorization support: call to function _ZN3olb4CellIdNS_11descriptors14D2Q9DescriptorEE6revertEv cannot be vectorized
+blockLattice2D.hh(253): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(252): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(286): (col. 43) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(286): (col. 48) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(286): (col. 20) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(287): (col. 20) remark: vectorization support: call to function _ZN3olb4CellIdNS_11descriptors14D2Q9DescriptorEE6revertEv cannot be vectorized
+blockLattice2D.hh(285): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(284): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(315): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 315 and  line 315
+blockLattice2D.hh(315): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 315 and this line 315
+blockLattice2D.hh(315): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(315): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(317): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 317 and  line 317
+blockLattice2D.hh(317): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 317 and this line 317
+blockLattice2D.hh(317): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(317): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(318): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 318 and  line 318
+blockLattice2D.hh(318): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 318 and this line 318
+blockLattice2D.hh(318): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(318): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(319): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 319 and  line 319
+blockLattice2D.hh(319): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 319 and this line 319
+blockLattice2D.hh(319): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(319): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(320): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 320 and  line 320
+blockLattice2D.hh(320): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 320 and this line 320
+blockLattice2D.hh(320): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(320): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(332): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(368): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(368): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(368): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(368): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(372): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 372 and  line 372
+blockLattice2D.hh(372): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 372 and this line 372
+blockLattice2D.hh(372): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(372): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(373): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 373 and  line 373
+blockLattice2D.hh(373): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 373 and this line 373
+blockLattice2D.hh(373): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(373): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(374): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 374 and  line 374
+blockLattice2D.hh(374): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 374 and this line 374
+blockLattice2D.hh(374): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(374): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(375): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed OUTPUT dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed ANTI dependence between this line 375 and  line 375
+blockLattice2D.hh(375): (col. 3) remark: vector dependence: assumed FLOW dependence between  line 375 and this line 375
+blockLattice2D.hh(375): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(375): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(386): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(401): (col. 14) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(401): (col. 18) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(399): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(400): (col. 7) remark: vector dependence: assumed FLOW dependence between rho line 400 and this line 401
+blockLattice2D.hh(401): (col. 14) remark: vector dependence: assumed ANTI dependence between this line 401 and rho line 400
+blockLattice2D.hh(400): (col. 7) remark: vector dependence: assumed FLOW dependence between rho line 400 and  line 401
+blockLattice2D.hh(401): (col. 18) remark: vector dependence: assumed ANTI dependence between  line 401 and rho line 400
+blockLattice2D.hh(400): (col. 7) remark: vector dependence: assumed FLOW dependence between rho line 400 and u line 401
+blockLattice2D.hh(401): (col. 18) remark: vector dependence: assumed ANTI dependence between u line 401 and rho line 400
+blockLattice2D.hh(400): (col. 7) remark: vector dependence: assumed FLOW dependence between rho line 400 and  line 401
+blockLattice2D.hh(401): (col. 18) remark: vector dependence: assumed ANTI dependence between  line 401 and rho line 400
+blockLattice2D.hh(400): (col. 7) remark: vector dependence: assumed FLOW dependence between rho line 400 and  line 401
+blockLattice2D.hh(401): (col. 18) remark: vector dependence: assumed ANTI dependence between  line 401 and rho line 400
+blockLattice2D.hh(398): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(420): (col. 16) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(419): (col. 7) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(418): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(417): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(437): (col. 33) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(437): (col. 33) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(436): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(437): (col. 33) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(437): (col. 33) remark: loop was not vectorized: statement cannot be vectorized
+blockLattice2D.hh(457): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(481): (col. 43) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(473): (col. 43) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(503): (col. 45) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(496): (col. 45) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(520): (col. 43) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(621): (col. 7) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed OUTPUT dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed OUTPUT dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed OUTPUT dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed OUTPUT dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed ANTI dependence between  line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and  line 624
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(625): (col. 37) remark: vector dependence: assumed ANTI dependence between this line 625 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 625
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(624): (col. 31) remark: vector dependence: assumed ANTI dependence between this line 624 and  line 624
+blockLattice2D.hh(624): (col. 9) remark: vector dependence: assumed FLOW dependence between  line 624 and this line 624
+blockLattice2D.hh(620): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(619): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(589): (col. 7) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed OUTPUT dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed OUTPUT dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed OUTPUT dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed OUTPUT dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed ANTI dependence between  line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and  line 593
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(594): (col. 39) remark: vector dependence: assumed ANTI dependence between this line 594 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 594
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(593): (col. 33) remark: vector dependence: assumed ANTI dependence between this line 593 and  line 593
+blockLattice2D.hh(593): (col. 11) remark: vector dependence: assumed FLOW dependence between  line 593 and this line 593
+blockLattice2D.hh(588): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(587): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(649): (col. 28) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(649): (col. 20) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(648): (col. 5) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(647): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(548): (col. 53) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(550): (col. 3) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(465): (col. 15) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(511): (col. 15) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(667): (col. 26) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(667): (col. 35) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(668): (col. 26) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(668): (col. 35) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(661): (col. 7) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(660): (col. 5) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(659): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(683): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(683): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(683): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(683): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(683): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(683): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(684): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(684): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(684): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(684): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(684): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(684): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(684): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(685): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(685): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(685): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(685): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(685): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(685): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(686): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(686): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(686): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(686): (col. 3) remark: vectorization support: call to function (unknown) cannot be vectorized
+blockLattice2D.hh(686): (col. 3) remark: loop was not vectorized: existence of vector dependence
+blockLattice2D.hh(686): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(686): (col. 3) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: reference __first_15642 has unaligned access
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(787): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(787): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: reference __first_15696 has unaligned access
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(787): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(787): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: reference __first_15642 has unaligned access
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(787): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(787): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: reference __first_15696 has unaligned access
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(787): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(787): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(787): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(788): (col. 5) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: reference __first_15642 has unaligned access
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(795): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(795): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: reference __first_15696 has unaligned access
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(795): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(795): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: reference __first_15642 has unaligned access
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(795): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(795): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: reference __first_15696 has unaligned access
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(795): (col. 12) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(795): (col. 12) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(795): (col. 12) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(796): (col. 5) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(851): (col. 10) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(851): (col. 10) remark: vectorization support: reference __first_15696 has unaligned access
+blockLattice2D.hh(851): (col. 10) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(851): (col. 10) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(851): (col. 10) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(851): (col. 10) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(851): (col. 10) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(851): (col. 10) remark: vectorization support: reference __first_15696 has unaligned access
+blockLattice2D.hh(851): (col. 10) remark: vectorization support: unaligned access used inside loop body
+blockLattice2D.hh(851): (col. 10) remark: vectorization support: unroll factor set to 2
+blockLattice2D.hh(851): (col. 10) remark: LOOP WAS VECTORIZED
+blockLattice2D.hh(851): (col. 10) remark: loop was not vectorized: not inner loop
+blockLattice2D.hh(859): (col. 5) remark: loop was not vectorized: unsupported loop structure
+blockLattice2D.hh(865): (col. 5) remark: loop was not vectorized: unsupported loop structure

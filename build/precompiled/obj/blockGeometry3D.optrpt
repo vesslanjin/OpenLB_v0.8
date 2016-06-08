@@ -1,0 +1,1757 @@
+
+Begin optimization report for: olb::ScalarField2D<unsigned short>::construct(olb::ScalarField2D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields2D.hh(82,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 188 and this line 188
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields2D.hh(82,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField2D<unsigned short>::reset(olb::ScalarField2D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(96,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(96,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(96,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(96,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField2D<unsigned short>::computeReduction(const olb::ScalarField2D<unsigned short> *, olb::DataReduction<unsigned short> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(177,26)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::~ScalarField3D(olb::ScalarField3D<unsigned short> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(230,3) inlined into dataFields3D.hh(45,19)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::~ScalarField3D(olb::ScalarField3D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(230,3) inlined into dataFields3D.hh(48,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::construct(olb::ScalarField3D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(218,3) inlined into dataFields3D.hh(80,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataFields3D.hh(220,5) inlined into dataFields3D.hh(80,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 221 and this line 221
+   LOOP END
+
+   LOOP BEGIN at dataFields3D.hh(220,5) inlined into dataFields3D.hh(80,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::deConstruct(olb::ScalarField3D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(230,3) inlined into dataFields3D.hh(87,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::reset(olb::ScalarField3D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(94,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::sliceX(const olb::ScalarField3D<unsigned short> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields3D.hh(101,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 188 and this line 188
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields3D.hh(101,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(102,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataFields3D.hh(103,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::sliceY(const olb::ScalarField3D<unsigned short> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields3D.hh(112,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 188 and this line 188
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields3D.hh(112,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(113,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataFields3D.hh(114,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::sliceZ(const olb::ScalarField3D<unsigned short> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields3D.hh(123,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 188 and this line 188
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(187,3) inlined into dataFields3D.hh(123,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(124,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataFields3D.hh(125,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned short>::computeReduction(const olb::ScalarField3D<unsigned short> *, olb::DataReduction<unsigned short> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(185,26)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::clean(olb::BlockGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(175,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockGeometry3D.cpp(176,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at blockGeometry3D.cpp(177,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::outerClean(olb::BlockGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(222,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockGeometry3D.cpp(223,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at blockGeometry3D.cpp(224,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::innerClean(olb::BlockGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(268,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockGeometry3D.cpp(269,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at blockGeometry3D.cpp(270,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::innerClean(olb::BlockGeometry3D *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(318,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockGeometry3D.cpp(319,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at blockGeometry3D.cpp(320,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::rename(olb::BlockGeometry3D *, unsigned short, unsigned short)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(368,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockGeometry3D.cpp(369,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockGeometry3D.cpp(370,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::rename(olb::BlockGeometry3D *, unsigned short, unsigned short, olb::AnalyticalF3D<bool, double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(382,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at blockGeometry3D.cpp(380,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at blockGeometry3D.cpp(381,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::vector(std::vector<double, std::allocator<double>> *, std::vector<double, std::allocator<double>>::size_type, const std::vector<double, std::allocator<double>>::value_type &, const std::vector<double, std::allocator<double>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::rename(olb::BlockGeometry3D *, unsigned short, unsigned short, unsigned int, unsigned int, unsigned int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(393,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at blockGeometry3D.cpp(394,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at blockGeometry3D.cpp(395,7)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at blockGeometry3D.cpp(398,11)
+            remark #15542: loop was not vectorized: inner loop was already vectorized
+
+            LOOP BEGIN at blockGeometry3D.cpp(399,13)
+               remark #15542: loop was not vectorized: inner loop was already vectorized
+
+               LOOP BEGIN at blockGeometry3D.cpp(400,15)
+               <Peeled>
+               LOOP END
+
+               LOOP BEGIN at blockGeometry3D.cpp(400,15)
+                  remark #15300: LOOP WAS VECTORIZED
+                  remark #15442: entire loop may be executed in remainder
+                  remark #15475: --- begin vector loop cost summary ---
+                  remark #15476: scalar loop cost: 58 
+                  remark #15477: vector loop cost: 48.750 
+                  remark #15478: estimated potential speedup: 1.170 
+                  remark #15479: lightweight vector operations: 82 
+                  remark #15480: medium-overhead vector operations: 1 
+                  remark #15488: --- end vector loop cost summary ---
+               LOOP END
+
+               LOOP BEGIN at blockGeometry3D.cpp(400,15)
+               <Remainder>
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(368,3) inlined into blockGeometry3D.cpp(416,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockGeometry3D.cpp(369,5) inlined into blockGeometry3D.cpp(416,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockGeometry3D.cpp(370,7) inlined into blockGeometry3D.cpp(416,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::regionGrowing(olb::BlockGeometry3D *, unsigned short, unsigned short, int, int, int, int, int, int, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into blockGeometry3D.cpp(470,14)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into blockGeometry3D.cpp(470,14)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into blockGeometry3D.cpp(470,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(163,3) inlined into blockGeometry3D.cpp(495,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into blockGeometry3D.cpp(498,3)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::operator[](std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>> *, const std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(860,26) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(447,29)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(449,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_insert_unique_(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::const_iterator, const std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1213,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1215,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1219,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1225,54)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1226,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1233,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1238,38)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1245,35)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_insert_(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_Const_Base_ptr, std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_Const_Base_ptr, const std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(878,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::_M_insert_unique(std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type> *, const std::_Rb_tree<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_type, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type, std::_Select1st<std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::value_type>, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::key_compare, std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::_Pair_alloc_type>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(1167,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1170,35)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1177,55)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1181,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(889,21) inlined into /usr/include/c++/4.4.7/bits/stl_tree.h(1182,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>>::~map(std::map<std::vector<int, std::allocator<int>>, int, std::less<std::vector<int, std::allocator<int>>>, std::allocator<std::pair<const std::vector<int, std::allocator<int>>, int>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::check(olb::BlockGeometry3D *, unsigned short, int, int, int, unsigned int, unsigned int, unsigned int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(424,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at blockGeometry3D.cpp(425,5)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at blockGeometry3D.cpp(426,7)
+      <Peeled>
+      LOOP END
+
+      LOOP BEGIN at blockGeometry3D.cpp(426,7)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15442: entire loop may be executed in remainder
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 50 
+         remark #15477: vector loop cost: 24.500 
+         remark #15478: estimated potential speedup: 1.940 
+         remark #15479: lightweight vector operations: 43 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at blockGeometry3D.cpp(426,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::find(olb::BlockGeometry3D *, unsigned short, unsigned int, unsigned int, unsigned int, int &, int &, int &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(443,7)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at blockGeometry3D.cpp(424,3) inlined into blockGeometry3D.cpp(444,17)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at blockGeometry3D.cpp(425,5) inlined into blockGeometry3D.cpp(444,17)
+         remark #15542: loop was not vectorized: inner loop was already vectorized
+
+         LOOP BEGIN at blockGeometry3D.cpp(426,7) inlined into blockGeometry3D.cpp(444,17)
+         <Peeled>
+         LOOP END
+
+         LOOP BEGIN at blockGeometry3D.cpp(426,7) inlined into blockGeometry3D.cpp(444,17)
+            remark #15300: LOOP WAS VECTORIZED
+            remark #15442: entire loop may be executed in remainder
+            remark #15475: --- begin vector loop cost summary ---
+            remark #15476: scalar loop cost: 49 
+            remark #15477: vector loop cost: 24.500 
+            remark #15478: estimated potential speedup: 1.910 
+            remark #15479: lightweight vector operations: 43 
+            remark #15480: medium-overhead vector operations: 1 
+            remark #15488: --- end vector loop cost summary ---
+         LOOP END
+
+         LOOP BEGIN at blockGeometry3D.cpp(426,7) inlined into blockGeometry3D.cpp(444,17)
+         <Remainder>
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at blockGeometry3D.cpp(441,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at blockGeometry3D.cpp(442,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::refineMesh(olb::BlockGeometry3D *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(218,3) inlined into blockGeometry3D.cpp(562,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataFields3D.hh(220,5) inlined into blockGeometry3D.cpp(562,24)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between field line 221 and field line 221
+   LOOP END
+
+   LOOP BEGIN at dataFields3D.hh(220,5) inlined into blockGeometry3D.cpp(562,24)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(564,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between field line 157 and field line 571
+
+   LOOP BEGIN at blockGeometry3D.cpp(565,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between field line 157 and field line 571
+
+      LOOP BEGIN at blockGeometry3D.cpp(566,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between field line 157 and field line 571
+
+         LOOP BEGIN at blockGeometry3D.cpp(567,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between field line 157 and field line 571
+
+            LOOP BEGIN at blockGeometry3D.cpp(568,11)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed ANTI dependence between field line 157 and field line 571
+
+               LOOP BEGIN at blockGeometry3D.cpp(569,13)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                  remark #15346: vector dependence: assumed ANTI dependence between field line 157 and field line 571
+               LOOP END
+
+               LOOP BEGIN at blockGeometry3D.cpp(569,13)
+                  remark #25460: No loop optimizations reported
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(583,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between field line 588 and field line 588
+
+   LOOP BEGIN at blockGeometry3D.cpp(584,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between field line 588 and field line 588
+   LOOP END
+
+   LOOP BEGIN at blockGeometry3D.cpp(584,7)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(582,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between field line 588 and field line 588
+
+   LOOP BEGIN at blockGeometry3D.cpp(584,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between field line 588 and field line 588
+   LOOP END
+
+   LOOP BEGIN at blockGeometry3D.cpp(584,7)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at blockGeometry3D.cpp(583,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between field line 588 and field line 588
+
+      LOOP BEGIN at blockGeometry3D.cpp(584,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between field line 588 and field line 588
+      LOOP END
+
+      LOOP BEGIN at blockGeometry3D.cpp(584,7)
+         remark #25460: No loop optimizations reported
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(230,3) inlined into blockGeometry3D.cpp(593,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::addOffset(olb::BlockGeometry3D *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(39,19) inlined into blockGeometry3D.cpp(606,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(39,19) inlined into blockGeometry3D.cpp(606,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(39,19) inlined into blockGeometry3D.cpp(606,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(609,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between I16 line 612 and I16 line 612
+
+   LOOP BEGIN at blockGeometry3D.cpp(610,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between I16 line 612 and I16 line 612
+
+      LOOP BEGIN at blockGeometry3D.cpp(611,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(616,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockGeometry3D.cpp(617,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockGeometry3D.cpp(618,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::removeOffset(olb::BlockGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(39,19) inlined into blockGeometry3D.cpp(639,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(39,19) inlined into blockGeometry3D.cpp(639,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(39,19) inlined into blockGeometry3D.cpp(639,15)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(642,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between I16 line 645 and I16 line 645
+
+   LOOP BEGIN at blockGeometry3D.cpp(643,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between I16 line 645 and I16 line 645
+
+      LOOP BEGIN at blockGeometry3D.cpp(644,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(650,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at blockGeometry3D.cpp(651,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at blockGeometry3D.cpp(652,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::printLayer(olb::BlockGeometry3D *, int, int, int, int, int, int, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(663,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at blockGeometry3D.cpp(666,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between this line 157 and this line 671
+
+      LOOP BEGIN at blockGeometry3D.cpp(667,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between this line 157 and this line 668
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::printLayer(olb::BlockGeometry3D *, int, int, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(663,3) inlined into blockGeometry3D.cpp(683,5)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockGeometry3D.cpp(666,5) inlined into blockGeometry3D.cpp(683,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between this line 668 and this line 671
+
+      LOOP BEGIN at blockGeometry3D.cpp(667,7) inlined into blockGeometry3D.cpp(683,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(663,3) inlined into blockGeometry3D.cpp(686,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at blockGeometry3D.cpp(666,5) inlined into blockGeometry3D.cpp(686,5)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockGeometry3D.cpp(667,7) inlined into blockGeometry3D.cpp(686,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockGeometry3D.cpp(663,3) inlined into blockGeometry3D.cpp(689,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at blockGeometry3D.cpp(666,5) inlined into blockGeometry3D.cpp(689,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between this line 668 and this line 668
+
+      LOOP BEGIN at blockGeometry3D.cpp(667,7) inlined into blockGeometry3D.cpp(689,5)
+         remark #15423: loop was not vectorized: has only one iteration
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::printNode(olb::BlockGeometry3D *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(695,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at blockGeometry3D.cpp(697,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between this line 157 and this line 701
+
+      LOOP BEGIN at blockGeometry3D.cpp(698,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between this line 157 and this line 699
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::VtkDataWriter3D::writeDataField<unsigned short>(olb::VtkDataWriter3D *, const olb::DataSerializer<unsigned short> &, const std::string &, unsigned short, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/io/base64.hh(79,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(66,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(79,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(93,5) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(93,5) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(79,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(66,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(79,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(93,5) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15315: loop was not vectorized: low trip count
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at ../../src/io/base64.hh(93,5) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+<Remainder>
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at ../../src/io/serializerIO.hh(60,3) inlined into ../../src/io/vtkDataOutput.hh(89,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldSerializer2D<unsigned short>::getNextDataBuffer(const olb::SequentialScalarFieldSerializer2D<unsigned short> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(229,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(229,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(229,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(229,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(229,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(229,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(229,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(229,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(229,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(229,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(229,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(229,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(230,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(237,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(237,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(237,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(237,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(237,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(237,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(237,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(237,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(237,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(237,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(237,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(237,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(238,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldUnSerializer2D<unsigned short>::getNextDataBuffer(olb::SequentialScalarFieldUnSerializer2D<unsigned short> *, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(290,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(290,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(290,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(290,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(290,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(290,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(290,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(290,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields2D.hh(290,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(290,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(290,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields2D.hh(290,10)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldUnSerializer2D<unsigned short>::commitData(olb::SequentialScalarFieldUnSerializer2D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields2D.hh(298,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at dataFields2D.hh(304,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldSerializer3D<unsigned short>::getNextDataBuffer(const olb::SequentialScalarFieldSerializer3D<unsigned short> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(268,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(268,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(268,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(268,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(268,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(268,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(268,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(268,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(268,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(268,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(268,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(268,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(269,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(280,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(280,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(280,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(280,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(280,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(280,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(280,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(280,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(280,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(280,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(280,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(280,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(281,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldUnSerializer3D<unsigned short>::getNextDataBuffer(olb::SequentialScalarFieldUnSerializer3D<unsigned short> *, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(338,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(338,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(338,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(338,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(338,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(338,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(338,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(338,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into dataFields3D.hh(338,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(338,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(338,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into dataFields3D.hh(338,10)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldUnSerializer3D<unsigned short>::commitData(olb::SequentialScalarFieldUnSerializer3D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(346,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(356,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalingSerializer<unsigned short>::getNextDataBuffer(const olb::ScalingSerializer<unsigned short> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 4.220 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into serializer.hh(51,16)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at serializer.hh(52,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::checkForErrors(olb::BlockGeometry3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockGeometry3D.cpp(507,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockGeometry3D.cpp(508,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at blockGeometry3D.cpp(509,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockGeometry3D::reInit(olb::BlockGeometry3D *, double, double, double, double, int, int, int, int, olb::ScalarField3D<unsigned short> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataFields3D.hh(218,3) inlined into blockGeometry3D.cpp(145,19)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataFields3D.hh(220,5) inlined into blockGeometry3D.cpp(145,19)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 221 and this line 221
+   LOOP END
+
+   LOOP BEGIN at dataFields3D.hh(220,5) inlined into blockGeometry3D.cpp(145,19)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3) inlined into blockGeometry3D.cpp(146,19)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3) inlined into blockGeometry3D.cpp(146,19)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.370 
+   remark #15478: estimated potential speedup: 5.840 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3) inlined into blockGeometry3D.cpp(146,19)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(94,3) inlined into blockGeometry3D.cpp(146,19)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(230,3) inlined into blockGeometry3D.cpp(147,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at dataFields3D.hh(230,3) inlined into blockGeometry3D.cpp(148,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

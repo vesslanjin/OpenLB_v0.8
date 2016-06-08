@@ -1,0 +1,274 @@
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::MultiDataAnalysis3D(olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, const olb::MultiBlockLattice3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(62,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, std::allocator<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *>>::_M_fill_insert(std::vector<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, std::allocator<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *>> *, std::vector<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, std::allocator<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *>>::iterator, std::vector<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, std::allocator<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *>>::size_type, const std::vector<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, std::allocator<const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::MultiDataAnalysis3D(olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *const, const olb::MultiBlockLattice3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(62,51) inlined into multiDataAnalysis3D.hh(56,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::~MultiDataAnalysis3D(olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(89,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::~MultiDataAnalysis3D(olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(89,51) inlined into multiDataAnalysis3D.hh(88,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::~MultiDataAnalysis3D(olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(89,51) inlined into multiDataAnalysis3D.hh(88,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::reset(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(96,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVelocity(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(106,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getMomentum(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(117,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getPressure(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(128,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVorticity(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(139,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVelocityNorm(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(150,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVorticityNorm(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(161,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getQCrit(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(172,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getStrainRate(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(183,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getStrainRateFromStress(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(194,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getDivRhoU(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(205,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getPoissonTerm(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(216,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getPopulations(const olb::MultiDataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataAnalysis3D.hh(227,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

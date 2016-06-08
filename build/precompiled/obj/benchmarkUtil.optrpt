@@ -1,0 +1,266 @@
+
+Begin optimization report for: std::_Deque_base<double, std::allocator<double>>::_M_destroy_nodes(std::_Deque_base<double, std::allocator<double>> *, double **, double **)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(552,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Deque_base<double, std::allocator<double>>::~_Deque_base(std::_Deque_base<double, std::allocator<double>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(552,7) inlined into /usr/include/c++/4.4.7/bits/stl_deque.h(472,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::deque<double, std::allocator<double>>::~deque(std::deque<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(552,7) inlined into /usr/include/c++/4.4.7/bits/stl_deque.h(790,65)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::deque<double, std::allocator<double>>::erase(std::deque<double, std::allocator<double>>::iterator *, std::deque<double, std::allocator<double>> *, std::deque<double, std::allocator<double>>::iterator *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(174,6)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between _M_cur line 546 and _M_cur line 546
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(174,6)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(180,6)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between _M_cur line 343 and _M_cur line 343
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(180,6)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::deque<double, std::allocator<double>>::erase(std::deque<double, std::allocator<double>>::iterator *, std::deque<double, std::allocator<double>> *, std::deque<double, std::allocator<double>>::iterator *, std::deque<double, std::allocator<double>>::iterator *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(552,7) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(193,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(124,16) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(194,11)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p1_8895 line 124 and __x line 124
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(203,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between _M_cur line 546 and _M_cur line 546
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(203,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(552,7) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(204,8)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(209,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between _M_cur line 343 and _M_cur line 343
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(209,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(552,7) inlined into /usr/include/c++/4.4.7/bits/deque.tcc(210,8)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::computeStdDev(const olb::util::ValueTracer<double> *, double) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at benchmarkUtil.hh(105,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 80 
+   remark #15477: vector loop cost: 303.000 
+   remark #15478: estimated potential speedup: 0.260 
+   remark #15479: lightweight vector operations: 217 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 2 
+   remark #15487: type converts: 4 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::computeAverage(const olb::util::ValueTracer<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_numeric.h(121,22) inlined into benchmarkUtil.hh(98,10)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::hasConvergedMinMax(const olb::util::ValueTracer<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(5997,7) inlined into benchmarkUtil.hh(89,44)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(6053,7) inlined into benchmarkUtil.hh(90,44)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_numeric.h(121,22) inlined into benchmarkUtil.hh(91,17)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::hasConverged(const olb::util::ValueTracer<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_numeric.h(121,22) inlined into benchmarkUtil.hh(72,17)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at benchmarkUtil.hh(105,3) inlined into benchmarkUtil.hh(73,16)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 80 
+   remark #15477: vector loop cost: 303.000 
+   remark #15478: estimated potential speedup: 0.260 
+   remark #15479: lightweight vector operations: 217 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 2 
+   remark #15487: type converts: 4 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::takeValue(olb::util::ValueTracer<double> *, double, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_numeric.h(121,22) inlined into benchmarkUtil.hh(41,19)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at benchmarkUtil.hh(105,3) inlined into benchmarkUtil.hh(42,18)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15458: masked indexed (or gather) loads: 2 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 80 
+   remark #15477: vector loop cost: 303.000 
+   remark #15478: estimated potential speedup: 0.260 
+   remark #15479: lightweight vector operations: 217 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 2 
+   remark #15487: type converts: 4 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::ValueTracer(olb::util::ValueTracer<double> *const, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(120,7) inlined into benchmarkUtil.hh(22,17)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 0.800 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(120,7) inlined into benchmarkUtil.hh(22,17)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 0.800 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(537,4) inlined into benchmarkUtil.hh(22,17)
+   remark #15423: loop was not vectorized: has only one iteration
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::util::ValueTracer<double>::ValueTracer(olb::util::ValueTracer<double> *, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(120,7) inlined into benchmarkUtil.hh(22,17)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 0.800 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(120,7) inlined into benchmarkUtil.hh(22,17)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 0.800 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_deque.h(537,4) inlined into benchmarkUtil.hh(22,17)
+   remark #15423: loop was not vectorized: has only one iteration
+LOOP END
+===========================================================================

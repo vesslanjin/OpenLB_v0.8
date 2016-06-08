@@ -1,0 +1,1113 @@
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(548,53) inlined into blockLattice2D.hh(54,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(54,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 551 and this line 551
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(54,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(55,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *const, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(548,53) inlined into blockLattice2D.hh(49,28)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(49,28)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 551 and this line 551
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(49,28)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(49,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::~BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(75,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(511,15) inlined into blockLattice2D.hh(75,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::~BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(75,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(511,15) inlined into blockLattice2D.hh(75,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::~BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(78,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(511,15) inlined into blockLattice2D.hh(79,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, const olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(548,53) inlined into blockLattice2D.hh(106,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(106,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 551 and this line 551
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(106,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(107,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(108,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 110 and this line 110
+
+   LOOP BEGIN at blockLattice2D.hh(109,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 110 and this line 110
+   LOOP END
+
+   LOOP BEGIN at blockLattice2D.hh(109,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::BlockLattice2D(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *const, const olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(548,53) inlined into blockLattice2D.hh(100,28)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(100,28)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 551 and this line 551
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(100,28)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(100,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(108,3) inlined into blockLattice2D.hh(100,28)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 110 and this line 110
+
+   LOOP BEGIN at blockLattice2D.hh(109,5) inlined into blockLattice2D.hh(100,28)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 110 and this line 110
+   LOOP END
+
+   LOOP BEGIN at blockLattice2D.hh(109,5) inlined into blockLattice2D.hh(100,28)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::operator=(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, const olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(548,53) inlined into blockLattice2D.hh(137,33)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(137,33)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between grid line 551 and grid line 551
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3) inlined into blockLattice2D.hh(137,33)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(137,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(108,3) inlined into blockLattice2D.hh(137,33)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between grid line 110 and grid line 110
+
+   LOOP BEGIN at blockLattice2D.hh(109,5) inlined into blockLattice2D.hh(137,33)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between grid line 110 and grid line 110
+   LOOP END
+
+   LOOP BEGIN at blockLattice2D.hh(109,5) inlined into blockLattice2D.hh(137,33)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(139,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(511,15) inlined into blockLattice2D.hh(139,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineDynamics(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(178,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 180 and  line 180
+
+   LOOP BEGIN at blockLattice2D.hh(179,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineDynamics(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, olb::BlockGeometryStatistics2D *, int, int, int, int, olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(215,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 217 and  line 218
+
+   LOOP BEGIN at blockLattice2D.hh(216,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::specifyStatisticsStatus(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(234,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 122 and this line 122
+
+   LOOP BEGIN at blockLattice2D.hh(235,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 122 and this line 122
+   LOOP END
+
+   LOOP BEGIN at blockLattice2D.hh(235,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::collide(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(252,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 254 and  line 255
+
+   LOOP BEGIN at blockLattice2D.hh(253,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::staticCollide(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, const olb::TensorFieldBase2D<double, 2> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(284,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between u line 286 and  line 287
+
+   LOOP BEGIN at blockLattice2D.hh(285,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::stream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(619,3) inlined into blockLattice2D.hh(315,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(620,5) inlined into blockLattice2D.hh(315,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(621,7) inlined into blockLattice2D.hh(315,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(317,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(317,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(317,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(318,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(318,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(318,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(319,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(319,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(319,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(320,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(320,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(320,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::stream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(332,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(332,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(332,5)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(332,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(332,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(332,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(332,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(332,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(332,5)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(332,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::collideAndStream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(647,3) inlined into blockLattice2D.hh(368,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 131 and grid line 270
+
+   LOOP BEGIN at blockLattice2D.hh(648,5) inlined into blockLattice2D.hh(368,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(654,2) inlined into blockLattice2D.hh(368,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockLattice2D.hh(655,5) inlined into blockLattice2D.hh(368,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(372,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(372,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(372,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(373,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(373,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(373,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(374,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(374,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(374,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(587,3) inlined into blockLattice2D.hh(375,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(588,5) inlined into blockLattice2D.hh(375,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(589,7) inlined into blockLattice2D.hh(375,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::collideAndStream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(386,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(386,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(386,5)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(386,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(386,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(386,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(386,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(386,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(386,5)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(386,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::computeAverageDensity(const olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(398,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between rho line 400 and u line 177
+
+   LOOP BEGIN at blockLattice2D.hh(399,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between rho line 400 and u line 177
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::stripeOffDensityOffset(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(417,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between f line 420 and f line 420
+
+   LOOP BEGIN at blockLattice2D.hh(418,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between f line 420 and f line 420
+
+      LOOP BEGIN at blockLattice2D.hh(419,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::forAll(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, const olb::WriteCellFunctional<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(435,3)
+   remark #15527: loop was not vectorized: function call to (unknown) cannot be vectorized   [ blockLattice2D.hh(437,33) ]
+
+   LOOP BEGIN at blockLattice2D.hh(436,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::resetPostProcessors(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(465,15) inlined into blockLattice2D.hh(457,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::postProcess(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(481,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::postProcess(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(473,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::executeCoupling(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(503,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::executeCoupling(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(496,45)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::subscribeReductions(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, olb::Reductor<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(520,43)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::bulkStream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(619,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(620,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(621,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::boundaryStream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(587,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(588,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(589,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::bulkCollideAndStream(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(647,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 131 and grid line 270
+
+   LOOP BEGIN at blockLattice2D.hh(648,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(654,2)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at blockLattice2D.hh(655,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::allocateMemory(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(548,53)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 551 and this line 551
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(550,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::clearPostProcessors(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(465,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::clearLatticeCouplings(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(511,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::periodicEdge(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(678,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(679,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(680,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>::makePeriodic(olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(702,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(702,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(703,3)
+   remark #15423: loop was not vectorized: has only one iteration
+
+   LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(703,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+      LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(703,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(704,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(704,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(678,3) inlined into blockLattice2D.hh(705,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+
+   LOOP BEGIN at blockLattice2D.hh(679,5) inlined into blockLattice2D.hh(705,3)
+      remark #15423: loop was not vectorized: has only one iteration
+
+      LOOP BEGIN at blockLattice2D.hh(680,7) inlined into blockLattice2D.hh(705,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeSerializer2D<double, olb::descriptors::D2Q9Descriptor>::getNextDataBuffer(const olb::BlockLatticeSerializer2D<double, olb::descriptors::D2Q9Descriptor> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(806,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(806,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(806,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(806,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(806,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(806,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(806,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(806,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(806,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(806,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(806,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(806,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(807,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(814,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(814,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(814,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(814,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(814,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(814,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(814,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(814,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(814,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(814,12)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(814,12)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(814,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(815,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeUnSerializer2D<double, olb::descriptors::D2Q9Descriptor>::getNextDataBuffer(olb::BlockLatticeUnSerializer2D<double, olb::descriptors::D2Q9Descriptor> *, size_t &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(870,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(870,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(870,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(870,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(870,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(870,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(870,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(870,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into blockLattice2D.hh(870,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(870,10)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(870,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.680 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into blockLattice2D.hh(870,10)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeUnSerializer2D<double, olb::descriptors::D2Q9Descriptor>::commitData(olb::BlockLatticeUnSerializer2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLattice2D.hh(878,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at blockLattice2D.hh(884,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================

@@ -1,0 +1,1497 @@
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::iniEquilibrium(olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47078,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47079,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::computePopulations(const olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47071,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47071,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at test.i(47071,3)
+<Remainder, Multiversioned v1>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::computeExternalField(const olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47089,3)
+<Peeled, Multiversioned v1>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Remainder, Multiversioned v1>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::definePopulations(olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47097,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47097,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at test.i(47097,3)
+<Remainder, Multiversioned v1>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D2Q9Descriptor>::defineExternalField(olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47108,3)
+<Peeled, Multiversioned v1>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Remainder, Multiversioned v1>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ConstRhoBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::ConstRhoBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47334,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47335,25)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47335,25)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47396,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45685,5) inlined into test.i(47396,12)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45685,5) inlined into test.i(47396,12)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::staticCollide(olb::IncBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47410,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45685,5) inlined into test.i(47410,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 45686 and  line 45621
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47522,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47524,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47527,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::RLBdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47544,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47546,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47549,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47522,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47524,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47527,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D2Q9Descriptor, olb::BGKdynamics<double, olb::descriptors::D2Q9Descriptor>> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47544,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47546,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47549,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineRho(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47803,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45629,18) inlined into test.i(47805,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45629,18) inlined into test.i(47805,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at test.i(47806,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47806,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47819,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45629,18) inlined into test.i(47821,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45629,18) inlined into test.i(47821,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at test.i(47822,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47822,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineRhoU(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47836,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45629,18) inlined into test.i(47838,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45629,18) inlined into test.i(47838,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at test.i(47839,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47839,16)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor>::defineAllMomenta(olb::BulkMomenta<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47851,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47852,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between  line 46488 and  line 47853
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47854,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47854,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47854,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::collide(olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47991,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between  line 2541 and  line 2543
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::computeU(const olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48018,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::computeJ(const olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48028,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D2Q9Descriptor>::computeStress(const olb::BounceBack<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48039,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor>::computeU(const olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48132,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor>::computeJ(const olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48142,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor>::computeStress(const olb::NoDynamics<double, olb::descriptors::D2Q9Descriptor> *, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48153,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48215,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48216 and  line 48216
+LOOP END
+
+LOOP BEGIN at test.i(48217,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48218 and  line 48221
+
+   LOOP BEGIN at test.i(48220,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *const, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48215,3) inlined into test.i(48211,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48216 and  line 48216
+LOOP END
+
+LOOP BEGIN at test.i(48217,3) inlined into test.i(48211,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48218 and  line 48221
+
+   LOOP BEGIN at test.i(48220,5) inlined into test.i(48211,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48230,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48231 and  line 48231
+LOOP END
+
+LOOP BEGIN at test.i(48232,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48233 and  line 48237
+
+   LOOP BEGIN at test.i(48236,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *const, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48230,3) inlined into test.i(48226,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48231 and  line 48231
+LOOP END
+
+LOOP BEGIN at test.i(48232,3) inlined into test.i(48226,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48233 and  line 48237
+
+   LOOP BEGIN at test.i(48236,5) inlined into test.i(48226,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::setBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48249,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::getBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48258,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48259 and  line 48259
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48278,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D2Q9Descriptor> *, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48299,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48300 and  line 48300
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::iniEquilibrium(olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47078,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47079,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::computePopulations(const olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47071,3)
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at test.i(47071,3)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::computeExternalField(const olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47089,3)
+<Peeled, Multiversioned v1>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Remainder, Multiversioned v1>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at test.i(47089,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::definePopulations(olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47097,3)
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at test.i(47097,3)
+   <Multiversioned v2>
+      remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Dynamics<double, olb::descriptors::D3Q19Descriptor>::defineExternalField(olb::Dynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47108,3)
+<Peeled, Multiversioned v1>
+   remark #15301: PEEL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Remainder, Multiversioned v1>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at test.i(47108,3)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47265,12)
+<Distributed chunk1>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47265,12)
+<Remainder, Distributed chunk1>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47265,12)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47265,12)
+<Remainder, Distributed chunk2>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47279,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 45944 and  line 45921
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47334,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47335,25)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47335,25)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::ConstRhoBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47348,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 45944 and  line 45921
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(45953,5) inlined into test.i(47396,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 45954 and  line 45928
+LOOP END
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47396,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::IncBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(45953,5) inlined into test.i(47410,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 45954 and  line 45928
+LOOP END
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47410,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47458,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47458,12)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   LOOP END
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47458,12)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(46479,5) inlined into test.i(47458,12)
+LOOP END
+
+LOOP BEGIN at test.i(47458,59)
+<Distributed chunk1>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47458,59)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at test.i(47458,59)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47458,59)
+<Remainder, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at test.i(47458,59)
+<Distributed chunk3>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47458,12)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47458,12)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(47458,59)
+<Remainder, Distributed chunk3>
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47458,12)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47458,12)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47458,12)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47472,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47472,12)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   LOOP END
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47472,12)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(46479,5) inlined into test.i(47472,12)
+LOOP END
+
+LOOP BEGIN at test.i(46527,18) inlined into test.i(47472,12)
+<Distributed chunk1>
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 46528 and  line 45921
+LOOP END
+
+LOOP BEGIN at test.i(46527,18) inlined into test.i(47472,12)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47472,12)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47472,12)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(46527,18) inlined into test.i(47472,12)
+<Remainder, Distributed chunk2>
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47472,12)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47472,12)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47472,12)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47522,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47524,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47527,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47530,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47530,20)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   LOOP END
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47530,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(46479,5) inlined into test.i(47530,20)
+LOOP END
+
+LOOP BEGIN at test.i(47458,59) inlined into test.i(47530,20)
+<Distributed chunk1>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47458,59) inlined into test.i(47530,20)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at test.i(47458,59) inlined into test.i(47530,20)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47458,59) inlined into test.i(47530,20)
+<Remainder, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at test.i(47458,59) inlined into test.i(47530,20)
+<Distributed chunk3>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47530,20)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47530,20)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(47458,59) inlined into test.i(47530,20)
+<Remainder, Distributed chunk3>
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47530,20)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47530,20)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47530,20)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::RLBdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47544,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47546,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47549,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47552,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47552,20)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   LOOP END
+
+   LOOP BEGIN at test.i(46480,7) inlined into test.i(47552,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(46479,5) inlined into test.i(47552,20)
+LOOP END
+
+LOOP BEGIN at test.i(46527,18) inlined into test.i(47552,20)
+<Distributed chunk1>
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 46528 and  line 45921
+LOOP END
+
+LOOP BEGIN at test.i(46527,18) inlined into test.i(47552,20)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47552,20)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47552,20)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(46527,18) inlined into test.i(47552,20)
+<Remainder, Distributed chunk2>
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47552,20)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47552,20)
+         remark #25460: No loop optimizations reported
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47552,20)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>::collide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47522,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47524,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47527,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47527,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47530,20)
+<Distributed chunk1>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47530,20)
+<Remainder, Distributed chunk1>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47530,20)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47530,20)
+<Remainder, Distributed chunk2>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>::staticCollide(olb::CombinedRLBdynamics<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47544,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47546,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47549,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47549,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at test.i(45943,5) inlined into test.i(47552,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 45944 and  line 45921
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineRho(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47803,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45936,18) inlined into test.i(47805,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45936,18) inlined into test.i(47805,3)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47806,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47806,16)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47819,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45936,18) inlined into test.i(47821,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45936,18) inlined into test.i(47821,3)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47822,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47822,16)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineRhoU(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47836,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(45936,18) inlined into test.i(47838,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(45936,18) inlined into test.i(47838,3)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47839,16)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at test.i(47839,16)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor>::defineAllMomenta(olb::BulkMomenta<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(40565,3) inlined into test.i(47851,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at test.i(47852,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between  line 46488 and  line 47853
+
+   LOOP BEGIN at test.i(46479,5) inlined into test.i(47854,18)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between  line 46488 and  line 46480
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47854,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      LOOP END
+
+      LOOP BEGIN at test.i(46480,7) inlined into test.i(47854,18)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::collide(olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(47991,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between  line 2541 and  line 2543
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::computeU(const olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48018,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::computeJ(const olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48028,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BounceBack<double, olb::descriptors::D3Q19Descriptor>::computeStress(const olb::BounceBack<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48039,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor>::computeU(const olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48132,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor>::computeJ(const olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48142,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor>::computeStress(const olb::NoDynamics<double, olb::descriptors::D3Q19Descriptor> *, const olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, double, const double *, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48153,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48215,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48216 and  line 48216
+LOOP END
+
+LOOP BEGIN at test.i(48217,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48218 and  line 48221
+
+   LOOP BEGIN at test.i(48220,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *const, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48215,3) inlined into test.i(48211,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48216 and  line 48216
+LOOP END
+
+LOOP BEGIN at test.i(48217,3) inlined into test.i(48211,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48218 and  line 48221
+
+   LOOP BEGIN at test.i(48220,5) inlined into test.i(48211,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48230,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48231 and  line 48231
+LOOP END
+
+LOOP BEGIN at test.i(48232,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48233 and  line 48237
+
+   LOOP BEGIN at test.i(48236,5)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::OffDynamics(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *const, const double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48230,3) inlined into test.i(48226,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48231 and  line 48231
+LOOP END
+
+LOOP BEGIN at test.i(48232,3) inlined into test.i(48226,25)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48233 and  line 48237
+
+   LOOP BEGIN at test.i(48236,5) inlined into test.i(48226,25)
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::setBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48249,3)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::getBoundaryIntersection(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48258,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48259 and  line 48259
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48278,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::OffDynamics<double, olb::descriptors::D3Q19Descriptor> *, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at test.i(48299,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 48300 and  line 48300
+LOOP END
+===========================================================================

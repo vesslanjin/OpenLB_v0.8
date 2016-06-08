@@ -1,0 +1,424 @@
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getVelocity(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(141,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(141,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getMomentum(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(293,21) inlined into dataAnalysis2D.hh(149,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(294,23) inlined into dataAnalysis2D.hh(149,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis2D.hh(297,7) inlined into dataAnalysis2D.hh(149,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getPressure(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(309,21) inlined into dataAnalysis2D.hh(157,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(310,23) inlined into dataAnalysis2D.hh(157,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getVorticity(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(173,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(173,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(529,3) inlined into dataAnalysis2D.hh(173,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 531 and F64 line 531
+
+   LOOP BEGIN at dataAnalysis2D.hh(530,5) inlined into dataAnalysis2D.hh(173,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(535,3) inlined into dataAnalysis2D.hh(173,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(540,3) inlined into dataAnalysis2D.hh(173,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getVelocityNorm(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(165,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(165,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(324,51) inlined into dataAnalysis2D.hh(165,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../src/core/util.h(92,3) inlined into dataAnalysis2D.hh(165,3)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 10 
+      remark #15477: vector loop cost: 4.500 
+      remark #15478: estimated potential speedup: 0.640 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeStrainRateField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(558,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at dataAnalysis2D.hh(559,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at dataAnalysis2D.hh(561,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 563 and F64 line 563
+
+         LOOP BEGIN at dataAnalysis2D.hh(562,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at dataAnalysis2D.hh(568,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed ANTI dependence between this line 486 and  line 474
+      LOOP END
+
+      LOOP BEGIN at dataAnalysis2D.hh(575,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeMomentumField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(293,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(294,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis2D.hh(297,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getStrainRateFromStress(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(594,21) inlined into dataAnalysis2D.hh(189,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(595,23) inlined into dataAnalysis2D.hh(189,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis2D.hh(598,7) inlined into dataAnalysis2D.hh(189,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeDivRhoUField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(617,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 619 and F64 line 619
+
+   LOOP BEGIN at dataAnalysis2D.hh(618,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(623,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 494 and  line 474
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(628,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computePoissonTerm(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(641,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(641,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(646,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 648 and F64 line 648
+
+   LOOP BEGIN at dataAnalysis2D.hh(647,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(652,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(657,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between this line 501 and  line 474
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::getPopulations(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(672,3) inlined into dataAnalysis2D.hh(213,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 675 and F64 line 675
+
+   LOOP BEGIN at dataAnalysis2D.hh(673,5) inlined into dataAnalysis2D.hh(213,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 675 and F64 line 675
+
+      LOOP BEGIN at dataAnalysis2D.hh(674,7) inlined into dataAnalysis2D.hh(213,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeMeanEnstrophy(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(219,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(219,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(224,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between enstrophy line 237 and enstrophy line 237
+
+   LOOP BEGIN at dataAnalysis2D.hh(225,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeMeanEnstrophy2(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(251,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between  line 253 and  line 253
+
+   LOOP BEGIN at dataAnalysis2D.hh(252,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(257,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(262,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeVorticityField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(524,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(524,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(529,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 531 and F64 line 531
+
+   LOOP BEGIN at dataAnalysis2D.hh(530,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(535,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(540,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeVelocityField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computePressureField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(309,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(310,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeVelocityNormField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(281,21) inlined into dataAnalysis2D.hh(323,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(282,23) inlined into dataAnalysis2D.hh(323,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis2D.hh(324,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../src/core/util.h(92,3) inlined into dataAnalysis2D.hh(325,37)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 10 
+      remark #15477: vector loop cost: 4.500 
+      remark #15478: estimated potential speedup: 0.640 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computeStrainRateFieldFromStress(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(594,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis2D.hh(595,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis2D.hh(598,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor>::computePopulationField(const olb::DataAnalysis2D<double, olb::descriptors::D2Q9Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis2D.hh(672,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 675 and F64 line 675
+
+   LOOP BEGIN at dataAnalysis2D.hh(673,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 675 and F64 line 675
+
+      LOOP BEGIN at dataAnalysis2D.hh(674,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

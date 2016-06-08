@@ -1,0 +1,806 @@
+
+Begin optimization report for: olb::SphereAnalyticalF1D<bool, int>::operator()(std::vector<bool, std::allocator<bool>> *, olb::SphereAnalyticalF1D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(46,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(46,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(46,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SphereAnalyticalF1D<bool, double>::operator()(std::vector<bool, std::allocator<bool>> *, olb::SphereAnalyticalF1D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(46,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(46,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(46,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SphereAnalyticalF2D<bool, int>::operator()(std::vector<bool, std::allocator<bool>> *, olb::SphereAnalyticalF2D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(60,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(60,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(60,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SphereAnalyticalF2D<bool, double>::operator()(std::vector<bool, std::allocator<bool>> *, olb::SphereAnalyticalF2D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(60,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(60,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(60,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SphereAnalyticalF3D<bool, int>::operator()(std::vector<bool, std::allocator<bool>> *, olb::SphereAnalyticalF3D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(74,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(74,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(74,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SphereAnalyticalF3D<bool, double>::operator()(std::vector<bool, std::allocator<bool>> *, olb::SphereAnalyticalF3D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(74,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(74,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(74,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EllipseAnalyticalF2D<bool, int>::operator()(std::vector<bool, std::allocator<bool>> *, olb::EllipseAnalyticalF2D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(88,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(88,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(88,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EllipseAnalyticalF2D<bool, double>::operator()(std::vector<bool, std::allocator<bool>> *, olb::EllipseAnalyticalF2D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into indicatorF.hh(88,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(88,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into indicatorF.hh(88,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CylinderAnalyticalF3D<bool, int>::normalize(std::vector<int, std::allocator<int>> *, olb::CylinderAnalyticalF3D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at indicatorF.hh(101,34)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 4.060 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Multiversioned v1>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 26.750 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 4 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> *, std::vector<int, std::allocator<int>>::size_type, const std::vector<int, std::allocator<int>>::value_type &, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CylinderAnalyticalF3D<bool, int>::vectorNorm(std::vector<int, std::allocator<int>> *, olb::CylinderAnalyticalF3D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 4.060 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::vector<int>(std::vector<int, std::allocator<int>> *, int, int, const std::vector<int, std::allocator<int>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CylinderAnalyticalF3D<bool, int>::operator()(std::vector<bool, std::allocator<bool>> *, olb::CylinderAnalyticalF3D<bool, int> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at indicatorF.hh(101,34) inlined into indicatorF.hh(139,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34) inlined into indicatorF.hh(139,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 4.060 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34) inlined into indicatorF.hh(139,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Multiversioned v1>
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 27 
+   remark #15477: vector loop cost: 26.750 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 4 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 4.760 
+   remark #15479: lightweight vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(146,31)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(146,31)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 2.250 
+   remark #15478: estimated potential speedup: 3.230 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(146,31)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 4.060 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<bool, std::allocator<bool>>::vector<int>(std::vector<bool, std::allocator<bool>> *, int, int, const std::vector<bool, std::allocator<bool>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/stl_bvector.h(544,2)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/stl_bvector.h(544,2)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/stl_bvector.h(544,2)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CylinderAnalyticalF3D<bool, double>::normalize(std::vector<double, std::allocator<double>> *, olb::CylinderAnalyticalF3D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at indicatorF.hh(101,34)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 5.000 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 32 
+   remark #15477: vector loop cost: 10.250 
+   remark #15478: estimated potential speedup: 3.020 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::vector(std::vector<double, std::allocator<double>> *, std::vector<double, std::allocator<double>>::size_type, const std::vector<double, std::allocator<double>>::value_type &, const std::vector<double, std::allocator<double>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CylinderAnalyticalF3D<bool, double>::vectorNorm(std::vector<double, std::allocator<double>> *, olb::CylinderAnalyticalF3D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 5.000 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::vector<int>(std::vector<double, std::allocator<double>> *, int, int, const std::vector<double, std::allocator<double>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(303,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CylinderAnalyticalF3D<bool, double>::operator()(std::vector<bool, std::allocator<bool>> *, olb::CylinderAnalyticalF3D<bool, double> *, std::vector<double, std::allocator<double>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at indicatorF.hh(101,34) inlined into indicatorF.hh(139,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34) inlined into indicatorF.hh(139,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 5.000 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(101,34) inlined into indicatorF.hh(139,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 32 
+   remark #15477: vector loop cost: 10.250 
+   remark #15478: estimated potential speedup: 3.020 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(106,34) inlined into indicatorF.hh(139,25)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 3.120 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(141,31)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(146,31)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(146,31)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 3.250 
+   remark #15478: estimated potential speedup: 2.860 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(146,31)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Peeled, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Multiversioned v1>
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 5.000 
+   remark #15479: lightweight vector operations: 7 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Remainder, Multiversioned v1>
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at indicatorF.hh(126,28) inlined into indicatorF.hh(150,20)
+<Remainder, Multiversioned v2>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<bool, std::allocator<bool>>::vector(std::vector<bool, std::allocator<bool>> *, std::vector<bool, std::allocator<bool>>::size_type, const bool &, const std::vector<bool, std::allocator<bool>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/stl_bvector.h(514,7)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/stl_bvector.h(514,7)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/stl_bvector.h(514,7)
+<Remainder>
+LOOP END
+===========================================================================

@@ -1,0 +1,970 @@
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into entropicDynamics.hh(72,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 7 
+   remark #15449: unmasked aligned unit stride stores: 4 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 6 
+   remark #15467: unmasked aligned streaming stores: 4 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 695 
+   remark #15477: vector loop cost: 130.000 
+   remark #15478: estimated potential speedup: 3.430 
+   remark #15479: lightweight vector operations: 177 
+   remark #15487: type converts: 6 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(218,8) inlined into entropicDynamics.hh(87,20)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15467: unmasked aligned streaming stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 9 
+      remark #15477: vector loop cost: 1.750 
+      remark #15478: estimated potential speedup: 3.110 
+      remark #15479: lightweight vector operations: 7 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 4 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 143 
+      remark #15477: vector loop cost: 29.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 17 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(97,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 20 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 2.160 
+   remark #15479: lightweight vector operations: 13 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(97,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor>::staticCollide(olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into entropicDynamics.hh(118,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.640 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers2D.h(61,5) inlined into entropicDynamics.hh(123,18)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 7 
+   remark #15449: unmasked aligned unit stride stores: 4 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15460: masked strided loads: 6 
+   remark #15467: unmasked aligned streaming stores: 4 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 741 
+   remark #15477: vector loop cost: 195.500 
+   remark #15478: estimated potential speedup: 2.790 
+   remark #15479: lightweight vector operations: 253 
+   remark #15487: type converts: 6 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers2D.h(61,5) inlined into entropicDynamics.hh(123,18)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(218,8) inlined into entropicDynamics.hh(133,20)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15467: unmasked aligned streaming stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 9 
+      remark #15477: vector loop cost: 1.750 
+      remark #15478: estimated potential speedup: 3.110 
+      remark #15479: lightweight vector operations: 7 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 4 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 143 
+      remark #15477: vector loop cost: 29.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 17 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(143,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 20 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 2.160 
+   remark #15479: lightweight vector operations: 13 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(143,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor>::computeEntropy(olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(169,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 139 
+   remark #15477: vector loop cost: 29.750 
+   remark #15478: estimated potential speedup: 3.030 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor>::computeEntropyGrowth(olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *, const double *, const double &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(184,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 11 
+   remark #15477: vector loop cost: 4.750 
+   remark #15478: estimated potential speedup: 1.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(184,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 139 
+   remark #15477: vector loop cost: 29.750 
+   remark #15478: estimated potential speedup: 3.030 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,30)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 137 
+   remark #15477: vector loop cost: 28.250 
+   remark #15478: estimated potential speedup: 3.120 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,30)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor>::computeEntropyGrowthDerivative(olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor> *, const double *, const double *, const double &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(198,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 146 
+   remark #15477: vector loop cost: 32.250 
+   remark #15478: estimated potential speedup: 2.950 
+   remark #15479: lightweight vector operations: 16 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(198,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor>::getAlpha(olb::EntropicDynamics<double, olb::descriptors::D2Q9Descriptor> *, double &, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(186,34) inlined into entropicDynamics.hh(220,19)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(220,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15467: unmasked aligned streaming stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 11 
+      remark #15477: vector loop cost: 4.750 
+      remark #15478: estimated potential speedup: 1.700 
+      remark #15479: lightweight vector operations: 6 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 139 
+      remark #15477: vector loop cost: 29.750 
+      remark #15478: estimated potential speedup: 3.030 
+      remark #15479: lightweight vector operations: 11 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 3.120 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(221,29)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 146 
+      remark #15477: vector loop cost: 32.250 
+      remark #15478: estimated potential speedup: 2.950 
+      remark #15479: lightweight vector operations: 16 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(220,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(221,29)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into entropicDynamics.hh(72,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.700 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Distributed chunk1>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 2.320 
+   remark #15479: lightweight vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15460: masked strided loads: 9 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 700 
+   remark #15477: vector loop cost: 142.500 
+   remark #15478: estimated potential speedup: 2.970 
+   remark #15479: lightweight vector operations: 176 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 9 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Remainder, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Distributed chunk3>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 2 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 13 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 2.740 
+   remark #15479: lightweight vector operations: 10 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(75,3)
+<Remainder, Distributed chunk3>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(218,8) inlined into entropicDynamics.hh(87,20)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15467: unmasked aligned streaming stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 9 
+      remark #15477: vector loop cost: 1.750 
+      remark #15478: estimated potential speedup: 2.940 
+      remark #15479: lightweight vector operations: 7 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 2.900 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 2.900 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(87,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 4 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 143 
+      remark #15477: vector loop cost: 29.250 
+      remark #15478: estimated potential speedup: 2.910 
+      remark #15479: lightweight vector operations: 17 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(87,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(97,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(97,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 2 
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15467: unmasked aligned streaming stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 20 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 14 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(97,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../src/core/util.h(92,3) inlined into entropicDynamics.hh(118,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 10 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 0.730 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers3D.h(63,5) inlined into entropicDynamics.hh(123,18)
+<Distributed chunk1>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 2.320 
+   remark #15479: lightweight vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers3D.h(63,5) inlined into entropicDynamics.hh(123,18)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers3D.h(63,5) inlined into entropicDynamics.hh(123,18)
+<Distributed chunk2>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15460: masked strided loads: 9 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 772 
+   remark #15477: vector loop cost: 213.250 
+   remark #15478: estimated potential speedup: 2.510 
+   remark #15479: lightweight vector operations: 264 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15487: type converts: 9 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers3D.h(63,5) inlined into entropicDynamics.hh(123,18)
+<Remainder, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers3D.h(63,5) inlined into entropicDynamics.hh(123,18)
+<Distributed chunk3>
+   remark #15301: PARTIAL LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 2 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15467: unmasked aligned streaming stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 13 
+   remark #15477: vector loop cost: 3.000 
+   remark #15478: estimated potential speedup: 2.740 
+   remark #15479: lightweight vector operations: 10 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicLbHelpers3D.h(63,5) inlined into entropicDynamics.hh(123,18)
+<Remainder, Distributed chunk3>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(218,8) inlined into entropicDynamics.hh(133,20)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15467: unmasked aligned streaming stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 9 
+      remark #15477: vector loop cost: 1.750 
+      remark #15478: estimated potential speedup: 2.940 
+      remark #15479: lightweight vector operations: 7 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 2.900 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 2.900 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(133,20)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 4 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 143 
+      remark #15477: vector loop cost: 29.250 
+      remark #15478: estimated potential speedup: 2.910 
+      remark #15479: lightweight vector operations: 17 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(133,20)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(143,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(143,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15449: unmasked aligned unit stride stores: 2 
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15467: unmasked aligned streaming stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 20 
+   remark #15477: vector loop cost: 4.500 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 14 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(143,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor>::computeEntropy(olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(169,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 139 
+   remark #15477: vector loop cost: 29.750 
+   remark #15478: estimated potential speedup: 2.840 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor>::computeEntropyGrowth(olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *, const double *, const double &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(184,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 11 
+   remark #15477: vector loop cost: 5.500 
+   remark #15478: estimated potential speedup: 1.770 
+   remark #15479: lightweight vector operations: 5 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(184,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,10)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 139 
+   remark #15477: vector loop cost: 29.750 
+   remark #15478: estimated potential speedup: 2.840 
+   remark #15479: lightweight vector operations: 11 
+   remark #15480: medium-overhead vector operations: 2 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,10)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,30)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 137 
+   remark #15477: vector loop cost: 28.250 
+   remark #15478: estimated potential speedup: 2.900 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(189,30)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor>::computeEntropyGrowthDerivative(olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor> *, const double *, const double *, const double &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(198,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15450: unmasked unaligned unit stride loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 146 
+   remark #15477: vector loop cost: 32.250 
+   remark #15478: estimated potential speedup: 2.780 
+   remark #15479: lightweight vector operations: 16 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15482: vectorized math library calls: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at entropicDynamics.hh(198,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor>::getAlpha(olb::EntropicDynamics<double, olb::descriptors::D3Q19Descriptor> *, double &, const double *, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at entropicDynamics.hh(186,34) inlined into entropicDynamics.hh(220,19)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(220,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15449: unmasked aligned unit stride stores: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15467: unmasked aligned streaming stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 11 
+      remark #15477: vector loop cost: 5.500 
+      remark #15478: estimated potential speedup: 1.770 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 139 
+      remark #15477: vector loop cost: 29.750 
+      remark #15478: estimated potential speedup: 2.840 
+      remark #15479: lightweight vector operations: 11 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 137 
+      remark #15477: vector loop cost: 28.250 
+      remark #15478: estimated potential speedup: 2.900 
+      remark #15479: lightweight vector operations: 12 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(221,29)
+      remark #15300: LOOP WAS VECTORIZED
+      remark #15448: unmasked aligned unit stride loads: 1 
+      remark #15450: unmasked unaligned unit stride loads: 2 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 146 
+      remark #15477: vector loop cost: 32.250 
+      remark #15478: estimated potential speedup: 2.780 
+      remark #15479: lightweight vector operations: 16 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15482: vectorized math library calls: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(184,3) inlined into entropicDynamics.hh(220,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(169,3) inlined into entropicDynamics.hh(220,19)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at entropicDynamics.hh(198,3) inlined into entropicDynamics.hh(221,29)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================

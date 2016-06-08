@@ -1,0 +1,709 @@
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::~sOffLatticeBoundaryCondition3D(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(76,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::~sOffLatticeBoundaryCondition3D(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(76,36) inlined into superOffBoundaryCondition3D.hh(74,1)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addOnePointZeroVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(89,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(97,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(97,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(97,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(97,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addTwoPointZeroVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(113,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(121,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(121,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(121,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(121,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addOnePointVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(137,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(145,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(145,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(145,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(145,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addTwoPointVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(161,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(169,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(169,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(169,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(169,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addOffDynamics(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(235,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(236,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(237,5)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(185,3) inlined into superOffBoundaryCondition3D.hh(243,7)
+            remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(243,7)
+               remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(243,7)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+                  LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(243,7)
+                     remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                     remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+                     LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(243,7)
+                        remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                     LOOP END
+                  LOOP END
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addOffDynamics(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(185,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(193,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(193,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(193,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(193,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addOffDynamics(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, double *, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(209,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(217,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(217,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(217,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(217,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addZeroVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::STLreader<double> &, std::list<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(267,7)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(268,7)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(270,40)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(272,11)
+            remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(89,3) inlined into superOffBoundaryCondition3D.hh(322,15)
+               remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(322,15)
+                  remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+                  LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(322,15)
+                     remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+                     LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(322,15)
+                        remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                        remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+                        LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(322,15)
+                           remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                        LOOP END
+                     LOOP END
+                  LOOP END
+               LOOP END
+            LOOP END
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(113,3) inlined into superOffBoundaryCondition3D.hh(322,15)
+               remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(322,15)
+                  remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+                  LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(322,15)
+                     remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+                     LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(322,15)
+                        remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                        remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+                        LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(322,15)
+                           remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+                        LOOP END
+                     LOOP END
+                  LOOP END
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(254,50)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(266,7)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addZeroVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(89,3) inlined into superOffBoundaryCondition3D.hh(339,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(339,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(339,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(339,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(339,5)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(113,3) inlined into superOffBoundaryCondition3D.hh(341,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(341,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(341,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(341,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(341,5)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::STLreader<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(355,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 358 and  line 359
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(356,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 358 and  line 359
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(357,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, int, int, olb::STLreader<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(370,3)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(370,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.600 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(370,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(377,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(383,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed ANTI dependence between c line 384 and this line 425
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(455,3) inlined into superOffBoundaryCondition3D.hh(441,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between distancesCopy line 456 and distances line 457
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(209,3) inlined into superOffBoundaryCondition3D.hh(441,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(441,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(441,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(441,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(441,3)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(462,3) inlined into superOffBoundaryCondition3D.hh(441,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(137,3) inlined into superOffBoundaryCondition3D.hh(441,3)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(441,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(441,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(441,3)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(441,3)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(161,3) inlined into superOffBoundaryCondition3D.hh(441,3)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(441,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(441,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(441,3)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(441,3)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, int, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(455,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between distancesCopy line 456 and distances line 457
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(209,3) inlined into superOffBoundaryCondition3D.hh(460,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(460,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(460,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(460,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(460,3)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(462,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(137,3) inlined into superOffBoundaryCondition3D.hh(465,7)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(465,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(465,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(465,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(465,7)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(161,3) inlined into superOffBoundaryCondition3D.hh(465,7)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(465,7)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(465,7)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(465,7)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+               LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(465,7)
+                  remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addVelocityBoundary(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(137,3) inlined into superOffBoundaryCondition3D.hh(475,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(475,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(475,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(475,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(475,5)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(161,3) inlined into superOffBoundaryCondition3D.hh(477,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5) inlined into superOffBoundaryCondition3D.hh(477,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7) inlined into superOffBoundaryCondition3D.hh(477,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9) inlined into superOffBoundaryCondition3D.hh(477,5)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11) inlined into superOffBoundaryCondition3D.hh(477,5)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::setBoundaryIntersection(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(489,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::getBoundaryIntersection(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(506,42)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(523,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::defineU(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, olb::SuperGeometry3D &, int, olb::AnalyticalF3D<double, double> &, std::list<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(506,42) inlined into superOffBoundaryCondition3D.hh(564,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(523,3) inlined into superOffBoundaryCondition3D.hh(570,27)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(548,5)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(549,7)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(550,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(553,13)
+            remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+            LOOP BEGIN at superOffBoundaryCondition3D.hh(560,46)
+               remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>::addPoints2CommBC(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(594,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superOffBoundaryCondition3D.hh(595,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+      LOOP BEGIN at superOffBoundaryCondition3D.hh(596,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between  line 604 and  line 606
+
+         LOOP BEGIN at superOffBoundaryCondition3D.hh(597,11)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createBouzidiBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(633,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createBouzidiBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor>(olb::sOffLatticeBoundaryCondition3D<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superOffBoundaryCondition3D.hh(633,3) inlined into superOffBoundaryCondition3D.h(122,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================

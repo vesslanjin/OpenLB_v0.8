@@ -1,0 +1,770 @@
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::~PiecewiseFunction(olb::graphics::PiecewiseFunction<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(83,36) inlined into colormaps.hh(82,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::~PiecewiseFunction(olb::graphics::PiecewiseFunction<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(83,36) inlined into colormaps.hh(82,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::PiecewiseFunction(olb::graphics::PiecewiseFunction<double> *const, const olb::graphics::PiecewiseFunction<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(66,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::operator=(olb::graphics::PiecewiseFunction<double> *, const olb::graphics::PiecewiseFunction<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(77,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(83,36) inlined into colormaps.hh(77,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::operator()(const olb::graphics::PiecewiseFunction<double> *, double) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(112,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::clone(const olb::graphics::PiecewiseFunction<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(123,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::ColorMap<double>::ColorMap(olb::graphics::ColorMap<double> *, const olb::graphics::PiecewiseFunction<double> &, const olb::graphics::PiecewiseFunction<double> &, const olb::graphics::PiecewiseFunction<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(130,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(130,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(130,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::ColorMap<double>::ColorMap(olb::graphics::ColorMap<double> *const, const olb::graphics::PiecewiseFunction<double> &, const olb::graphics::PiecewiseFunction<double> &, const olb::graphics::PiecewiseFunction<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(127,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(127,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(127,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::ColorMap<double>::get(const olb::graphics::ColorMap<double> *, double) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(112,3) inlined into colormaps.hh(135,21)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at colormaps.hh(112,3) inlined into colormaps.hh(135,31)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at colormaps.hh(112,3) inlined into colormaps.hh(135,40)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateMap<double>(olb::graphics::ColorMap<double> *, std::string *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(371,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(371,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(371,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(377,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(377,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(377,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(381,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(382,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(383,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(383,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(70,36) inlined into colormaps.hh(383,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(387,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(387,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(388,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(388,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(388,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(389,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(389,14)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::graphics::ScalarFunction<double> *, std::allocator<olb::graphics::ScalarFunction<double> *>>::vector(std::vector<olb::graphics::ScalarFunction<double> *, std::allocator<olb::graphics::ScalarFunction<double> *>> *, std::vector<olb::graphics::ScalarFunction<double> *, std::allocator<olb::graphics::ScalarFunction<double> *>>::size_type, const std::vector<olb::graphics::ScalarFunction<double> *, std::allocator<olb::graphics::ScalarFunction<double> *>>::value_type &, const std::vector<olb::graphics::ScalarFunction<double> *, std::allocator<olb::graphics::ScalarFunction<double> *>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.290 
+   remark #15479: lightweight vector operations: 2 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>>::vector(std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>> *, const std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::~PiecewiseFunction(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(83,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::addPiece(olb::graphics::PiecewiseFunction<double> *, olb::graphics::Piece<double>, olb::graphics::ScalarFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(98,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into colormaps.hh(102,26)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15460: masked strided loads: 2 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 0.710 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into colormaps.hh(102,26)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into colormaps.hh(102,26)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into colormaps.hh(102,26)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into colormaps.hh(102,26)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into colormaps.hh(102,26)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::PiecewiseFunction<double>::PiecewiseFunction(olb::graphics::PiecewiseFunction<double> *, const olb::graphics::PiecewiseFunction<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(70,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateLeeLooGreen<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(337,80)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(337,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(338,80)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(338,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(339,80)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(339,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(340,80)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(340,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(341,80)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(341,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>>::_M_insert_aux(std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>> *, std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>>::iterator, const std::vector<olb::graphics::Piece<double>, std::allocator<olb::graphics::Piece<double>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15460: masked strided loads: 2 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 5 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 0.710 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15452: unmasked strided loads: 2 
+   remark #15453: unmasked strided stores: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 23 
+   remark #15477: vector loop cost: 70.000 
+   remark #15478: estimated potential speedup: 0.320 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateLeeLooBlue<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(357,80)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(357,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(358,79)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(358,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(359,79)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(359,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(360,79)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(360,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateLeeLooRed<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(317,78)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(317,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(318,78)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(318,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(319,78)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(319,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(36,8) inlined into colormaps.hh(320,78)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 2.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(320,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateEarthRed<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(148,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(149,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(150,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateWaterGreen<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(208,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(209,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(210,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateEarthGreen<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(163,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(164,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(165,14)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateEarthBlue<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(178,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(179,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(180,13)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::mapGenerators::generateWaterRed<double>(olb::graphics::PiecewiseFunction<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(193,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(194,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at colormaps.hh(98,3) inlined into colormaps.hh(195,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

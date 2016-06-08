@@ -1,0 +1,1597 @@
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<std::vector<int, std::allocator<int>>>::pointer>(std::allocator<std::vector<int, std::allocator<int>>>::pointer, std::allocator<std::vector<int, std::allocator<int>>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 132 and  line 95
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::MultiScalarField3D(olb::MultiScalarField3D<double> *, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(53,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::MultiScalarField3D(olb::MultiScalarField3D<double> *const, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(40,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::~MultiScalarField3D(olb::MultiScalarField3D<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(130,31) inlined into multiDataFields3D.hh(57,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(166,29) inlined into multiDataFields3D.hh(57,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::~MultiScalarField3D(olb::MultiScalarField3D<double> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(130,31) inlined into multiDataFields3D.hh(57,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(166,29) inlined into multiDataFields3D.hh(57,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::~MultiScalarField3D(olb::MultiScalarField3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(130,31) inlined into multiDataFields3D.hh(58,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(166,29) inlined into multiDataFields3D.hh(59,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::MultiScalarField3D(olb::MultiScalarField3D<double> *const, const olb::MultiScalarField3D<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(66,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(118,31) inlined into multiDataFields3D.hh(66,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(87,31) inlined into multiDataFields3D.hh(66,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::operator=(olb::MultiScalarField3D<double> *, const olb::MultiScalarField3D<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(130,31) inlined into multiDataFields3D.hh(99,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(166,29) inlined into multiDataFields3D.hh(99,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::MultiScalarField3D(olb::MultiScalarField3D<double> *, const olb::MultiScalarField3D<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(82,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(118,31) inlined into multiDataFields3D.hh(84,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(87,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::construct(olb::MultiScalarField3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(118,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::deConstruct(olb::MultiScalarField3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(130,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::reset(olb::MultiScalarField3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(142,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::computeReduction(const olb::MultiScalarField3D<double> *, olb::DataReduction<double> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(289,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at multiDataFields3D.hh(294,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iX line 294 and iX line 297
+
+      LOOP BEGIN at multiDataFields3D.hh(295,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed FLOW dependence between iY line 295 and iY line 297
+
+         LOOP BEGIN at multiDataFields3D.hh(296,11)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>>::vector(std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>> *, const std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::vector(std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> *, const std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockParameters3D, std::allocator<olb::BlockParameters3D>>::vector(std::vector<olb::BlockParameters3D, std::allocator<olb::BlockParameters3D>> *, const std::vector<olb::BlockParameters3D, std::allocator<olb::BlockParameters3D>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(244,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::allocateFields(olb::MultiScalarField3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiScalarField3D<double>::deAllocateFields(olb::MultiScalarField3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(166,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy3D<double, 3>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy3D<double, 3> *, int, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(756,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy3D<double, 3>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy3D<double, 3> *, int, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(791,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::MultiTensorField3D(olb::MultiTensorField3D<double, 3> *, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(361,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(362,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(362,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::MultiTensorField3D(olb::MultiTensorField3D<double, 3> *const, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(348,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::~MultiTensorField3D(olb::MultiTensorField3D<double, 3> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::~MultiTensorField3D(olb::MultiTensorField3D<double, 3> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::~MultiTensorField3D(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(367,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(368,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(369,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::MultiTensorField3D(olb::MultiTensorField3D<double, 3> *const, const olb::MultiTensorField3D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(376,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::operator=(olb::MultiTensorField3D<double, 3> *, const olb::MultiTensorField3D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3) inlined into multiDataFields3D.hh(408,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(409,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::MultiTensorField3D(olb::MultiTensorField3D<double, 3> *, const olb::MultiTensorField3D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(391,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(392,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(394,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(392,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::swap(olb::MultiTensorField3D<double, 3> *, olb::MultiTensorField3D<double, 3> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::construct(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(431,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::deConstruct(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(443,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::reset(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(455,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::get(olb::MultiTensorField3D<double, 3> *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::get(const olb::MultiTensorField3D<double, 3> *, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 1.000 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::extractComponent(const olb::MultiTensorField3D<double, 3> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(641,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::allocateFields(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::deAllocateFields(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(479,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::allocateComponents(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(488,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 3>::deAllocateComponents(olb::MultiTensorField3D<double, 3> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy3D<double, 6>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy3D<double, 6> *, int, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(756,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy3D<double, 6>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy3D<double, 6> *, int, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(791,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::MultiTensorField3D(olb::MultiTensorField3D<double, 6> *, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(361,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(362,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(362,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::MultiTensorField3D(olb::MultiTensorField3D<double, 6> *const, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(348,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::~MultiTensorField3D(olb::MultiTensorField3D<double, 6> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::~MultiTensorField3D(olb::MultiTensorField3D<double, 6> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::~MultiTensorField3D(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(367,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(368,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(369,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::MultiTensorField3D(olb::MultiTensorField3D<double, 6> *const, const olb::MultiTensorField3D<double, 6> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(376,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::operator=(olb::MultiTensorField3D<double, 6> *, const olb::MultiTensorField3D<double, 6> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3) inlined into multiDataFields3D.hh(408,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(409,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::MultiTensorField3D(olb::MultiTensorField3D<double, 6> *, const olb::MultiTensorField3D<double, 6> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(391,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(392,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(394,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(392,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::swap(olb::MultiTensorField3D<double, 6> *, olb::MultiTensorField3D<double, 6> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::construct(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(431,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::deConstruct(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(443,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::reset(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(455,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::get(olb::MultiTensorField3D<double, 6> *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 7.500 
+   remark #15478: estimated potential speedup: 1.330 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::get(const olb::MultiTensorField3D<double, 6> *, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+   remark #15399: vectorization support: unroll factor set to 3
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 7.500 
+   remark #15478: estimated potential speedup: 1.330 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::extractComponent(const olb::MultiTensorField3D<double, 6> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(641,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::allocateFields(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::deAllocateFields(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(479,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::allocateComponents(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(488,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 6>::deAllocateComponents(olb::MultiTensorField3D<double, 6> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy3D<double, 9>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy3D<double, 9> *, int, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(756,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy3D<double, 9>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy3D<double, 9> *, int, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(791,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::MultiTensorField3D(olb::MultiTensorField3D<double, 9> *, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(361,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(362,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(362,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::MultiTensorField3D(olb::MultiTensorField3D<double, 9> *const, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(348,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::~MultiTensorField3D(olb::MultiTensorField3D<double, 9> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::~MultiTensorField3D(olb::MultiTensorField3D<double, 9> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::~MultiTensorField3D(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(367,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(368,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(369,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::MultiTensorField3D(olb::MultiTensorField3D<double, 9> *const, const olb::MultiTensorField3D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(376,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::operator=(olb::MultiTensorField3D<double, 9> *, const olb::MultiTensorField3D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3) inlined into multiDataFields3D.hh(408,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(409,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::MultiTensorField3D(olb::MultiTensorField3D<double, 9> *, const olb::MultiTensorField3D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(391,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(392,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(394,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(392,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::swap(olb::MultiTensorField3D<double, 9> *, olb::MultiTensorField3D<double, 9> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::construct(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(431,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::deConstruct(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(443,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::reset(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(455,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::get(olb::MultiTensorField3D<double, 9> *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::get(const olb::MultiTensorField3D<double, 9> *, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 1.750 
+   remark #15478: estimated potential speedup: 1.710 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::extractComponent(const olb::MultiTensorField3D<double, 9> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(641,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::allocateFields(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::deAllocateFields(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(479,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::allocateComponents(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(488,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 9>::deAllocateComponents(olb::MultiTensorField3D<double, 9> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldSerializerPolicy3D<double, 19>::serializeElement(const olb::ParallelTensorFieldSerializerPolicy3D<double, 19> *, int, int, int, int, double *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(756,16)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ParallelTensorFieldUnSerializerPolicy3D<double, 19>::unSerializeElement(olb::ParallelTensorFieldUnSerializerPolicy3D<double, 19> *, int, int, int, int, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(791,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::MultiTensorField3D(olb::MultiTensorField3D<double, 19> *, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(361,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(362,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(362,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::MultiTensorField3D(olb::MultiTensorField3D<double, 19> *const, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(348,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(348,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::~MultiTensorField3D(olb::MultiTensorField3D<double, 19> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::~MultiTensorField3D(olb::MultiTensorField3D<double, 19> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(366,29)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(366,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::~MultiTensorField3D(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(367,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(368,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(369,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::MultiTensorField3D(olb::MultiTensorField3D<double, 19> *const, const olb::MultiTensorField3D<double, 19> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31) inlined into multiDataFields3D.hh(376,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(376,29)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::operator=(olb::MultiTensorField3D<double, 19> *, const olb::MultiTensorField3D<double, 19> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3) inlined into multiDataFields3D.hh(408,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __a line 82
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(495,3) inlined into multiDataFields3D.hh(409,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(443,31) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(479,29) inlined into multiDataFields3D.hh(409,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::MultiTensorField3D(olb::MultiTensorField3D<double, 19> *, const olb::MultiTensorField3D<double, 19> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29) inlined into multiDataFields3D.hh(391,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(392,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(431,31) inlined into multiDataFields3D.hh(394,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(397,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3) inlined into multiDataFields3D.hh(392,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::swap(olb::MultiTensorField3D<double, 19> *, olb::MultiTensorField3D<double, 19> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(418,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __a line 81 and __b line 83
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::construct(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(431,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::deConstruct(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(443,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::reset(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(455,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::get(olb::MultiTensorField3D<double, 19> *, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.230 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(511,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::get(const olb::MultiTensorField3D<double, 19> *, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.230 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataFields3D.hh(538,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::extractComponent(const olb::MultiTensorField3D<double, 19> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(641,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::allocateFields(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(465,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::deAllocateFields(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(479,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::allocateComponents(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(152,29) inlined into multiDataFields3D.hh(488,51)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataFields3D.hh(487,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiTensorField3D<double, 19>::deAllocateComponents(olb::MultiTensorField3D<double, 19> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataFields3D.hh(495,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================

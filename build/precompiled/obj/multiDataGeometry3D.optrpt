@@ -1,0 +1,901 @@
+
+Begin optimization report for: olb::MultiDataDistribution3D::operator=(olb::MultiDataDistribution3D *, const olb::MultiDataDistribution3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into multiDataGeometry3D.cpp(80,10)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(80,10)
+<Distributed chunk1>
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 1 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.390 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(80,10)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(80,10)
+<Distributed chunk2>
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __result line 343 and __first line 343
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(80,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __result line 343 and __first line 343
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(80,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into multiDataGeometry3D.cpp(81,18)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Multiversioned v1, Distributed chunk1>
+   remark #15310: loop was not vectorized: operation cannot be vectorized   [ /usr/include/c++/4.4.7/bits/stl_algobase.h(343,9) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Multiversioned v1, Distributed chunk2>
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 1 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.390 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __result line 343 and __first line 343
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(81,18)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(81,18)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(81,18)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,23) inlined into multiDataGeometry3D.cpp(82,20)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Multiversioned v1, Distributed chunk1>
+   remark #15310: loop was not vectorized: operation cannot be vectorized   [ /usr/include/c++/4.4.7/bits/stl_algobase.h(343,9) ]
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Remainder, Multiversioned v1, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Multiversioned v1, Distributed chunk2>
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 1 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.390 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Remainder, Multiversioned v1, Distributed chunk2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Multiversioned v2>
+   remark #15304: loop was not vectorized: non-vectorizable loop instance from multiversioning
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Remainder, Multiversioned v2>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __result line 343 and __first line 343
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into multiDataGeometry3D.cpp(82,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(82,20)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(82,20)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::addBlock(olb::MultiDataDistribution3D *, int, int, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(111,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into multiDataGeometry3D.cpp(111,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::computeNormalOverlaps(olb::MultiDataDistribution3D *, const olb::BlockParameters3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into multiDataGeometry3D.cpp(154,13)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(157,29)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>>::_M_insert_aux(std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>> *, std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>>::iterator, const std::vector<olb::Overlap3D, std::allocator<olb::Overlap3D>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+<Distributed chunk1>
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 1 
+   remark #15477: vector loop cost: 2.500 
+   remark #15478: estimated potential speedup: 0.390 
+   remark #15479: lightweight vector operations: 4 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+<Remainder, Distributed chunk1>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+<Distributed chunk2>
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between x0 line 546 and __result line 546
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __cur line 80 and __first line 80
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15452: unmasked strided loads: 14 
+   remark #15453: unmasked strided stores: 14 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 58 
+   remark #15477: vector loop cost: 487.250 
+   remark #15478: estimated potential speedup: 0.110 
+   remark #15479: lightweight vector operations: 66 
+   remark #15480: medium-overhead vector operations: 8 
+   remark #15481: heavy-overhead vector operations: 5 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::_M_fill_insert(std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>> *, std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::iterator, std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::size_type, const std::vector<std::vector<int, std::allocator<int>>, std::allocator<std::vector<int, std::allocator<int>>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(385,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(390,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(690,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(185,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(402,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(690,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(185,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(425,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(432,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(449,8)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 132 and  line 95
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<std::vector<int, std::allocator<int>>>::pointer>(std::allocator<std::vector<int, std::allocator<int>>>::pointer, std::allocator<std::vector<int, std::allocator<int>>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between __first line 132 and  line 95
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::computePeriodicOverlaps(olb::MultiDataDistribution3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(182,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(173,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataGeometry3D.cpp(174,5)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at multiDataGeometry3D.cpp(175,7)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::locate(const olb::MultiDataDistribution3D *, int, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(121,34)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::locateInEnvelopes(const olb::MultiDataDistribution3D *, int, int, int, std::vector<int, std::allocator<int>> &, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(136,15)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(142,61)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::getNumAllocatedBulkCells(const olb::MultiDataDistribution3D *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(205,41)
+   remark #15313: loop was not vectorized: unsupported data type   [ multiDataGeometry3D.cpp(204,16) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::getNextChunkX(const olb::MultiDataDistribution3D *, int, int, int, int &, int &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(214,17)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(217,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(217,31)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::getNextChunkY(const olb::MultiDataDistribution3D *, int, int, int, int &, int &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(230,17)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(233,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(233,31)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::getNextChunkZ(const olb::MultiDataDistribution3D *, int, int, int, int &, int &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(246,17)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(249,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataGeometry3D.cpp(121,34) inlined into multiDataGeometry3D.cpp(249,31)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RelevantIndexes3D::RelevantIndexes3D(olb::RelevantIndexes3D *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(261,20)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.200 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(261,20)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RelevantIndexes3D::listAllIndexes(olb::RelevantIndexes3D *, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(276,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between SI32 line 277 and SI32 line 278
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(276,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(281,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between SI32 line 282 and this line 282
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(281,3)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(281,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(284,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(284,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(284,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(284,20)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(284,20)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(285,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(285,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(285,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(285,25)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.500 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into multiDataGeometry3D.cpp(285,25)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(286,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between SI32 line 287 and SI32 line 288
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(286,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<int, std::allocator<int>>::_M_fill_insert(std::vector<int, std::allocator<int>> *, std::vector<int, std::allocator<int>>::iterator, std::vector<int, std::allocator<int>>::size_type, const std::vector<int, std::allocator<int>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(392,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(397,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(701,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(406,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 2 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(419,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RelevantIndexes3D::RelevantIndexes3D(olb::RelevantIndexes3D *const, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(261,20)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.200 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(261,20)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RelevantIndexes3D::RelevantIndexes3D(olb::RelevantIndexes3D *, const olb::MultiDataDistribution3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(267,20)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.200 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(267,20)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RelevantIndexes3D::computeRelevantIndexesInParallel(olb::RelevantIndexes3D *, const olb::MultiDataDistribution3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.cpp(296,46)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(314,50)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.cpp(325,50)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2102,57) inlined into multiDataGeometry3D.cpp(340,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between _M_current line 2105 and _M_current line 2073
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2067,7) inlined into multiDataGeometry3D.cpp(340,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2147,53) inlined into multiDataGeometry3D.cpp(340,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between _M_current line 2148 and _M_current line 2073
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2067,7) inlined into multiDataGeometry3D.cpp(340,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2102,57) inlined into multiDataGeometry3D.cpp(340,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2067,7) inlined into multiDataGeometry3D.cpp(340,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(4349,7) inlined into multiDataGeometry3D.cpp(341,68)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(1200,7) inlined into multiDataGeometry3D.cpp(341,68)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::__introsort_loop<std::vector<int, std::allocator<int>>::iterator, long>(std::vector<int, std::allocator<int>>::iterator, std::vector<int, std::allocator<int>>::iterator, long)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_iterator.h(708,4) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2262,23)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form.
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2209,4) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2262,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2212,4) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2262,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(390,46) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+   remark #15522: loop was not vectorized: loop control flow is too complex. Try using canonical loop form.
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(229,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(134,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(1905,54) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between _M_current line 1906 and _M_current line 140
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(229,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(134,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(462,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(229,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+
+   LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_heap.h(134,7) inlined into /usr/include/c++/4.4.7/bits/stl_algo.h(2256,8)
+      remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algo.h(2252,7)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::RelevantIndexes3D::RelevantIndexes3D(olb::RelevantIndexes3D *const, const olb::MultiDataDistribution3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(267,20)
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 1.500 
+   remark #15478: estimated potential speedup: 1.200 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at multiDataGeometry3D.h(38,3) inlined into multiDataGeometry3D.cpp(267,20)
+<Remainder>
+LOOP END
+===========================================================================

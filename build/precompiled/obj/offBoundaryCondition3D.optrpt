@@ -1,0 +1,75 @@
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>>::~OffBoundaryConditionInstantiator3D(olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator3D.h(86,59)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>>::~OffBoundaryConditionInstantiator3D(olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator3D.h(86,59) inlined into offBoundaryInstantiator3D.h(85,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>>::~OffBoundaryConditionInstantiator3D(olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator3D.h(86,59) inlined into offBoundaryInstantiator3D.h(85,66)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>>::addOffDynamics(olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>> *, olb::BlockGeometryStatistics3D *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator3D.h(163,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 166 and  line 170
+
+   LOOP BEGIN at offBoundaryInstantiator3D.h(164,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 166 and  line 170
+
+      LOOP BEGIN at offBoundaryInstantiator3D.h(165,5)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>>::addZeroVelocityBoundary(olb::OffBoundaryConditionInstantiator3D<double, olb::descriptors::D3Q19Descriptor, olb::BouzidiBoundaryManager3D<double, olb::descriptors::D3Q19Descriptor, olb::BGKdynamics<double, olb::descriptors::D3Q19Descriptor>>> *, olb::BlockGeometryStatistics3D *, olb::STLreader<double> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at offBoundaryInstantiator3D.h(196,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 199 and  line 211
+
+   LOOP BEGIN at offBoundaryInstantiator3D.h(197,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 199 and  line 211
+
+      LOOP BEGIN at offBoundaryInstantiator3D.h(198,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at offBoundaryInstantiator3D.h(200,13)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between c line 202 and dist line 211
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

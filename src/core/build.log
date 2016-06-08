@@ -1,0 +1,748 @@
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from blockLattice3D.cpp(27):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from blockLattice3D.cpp(27):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from dataAnalysis3D.h(32),
+                 from blockLatticeView3D.hh(32),
+                 from blockLatticeView3D.cpp(28):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from dataAnalysis3D.h(32),
+                 from blockLatticeView3D.hh(32),
+                 from blockLatticeView3D.cpp(28):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from boundaryPostProcessors3D.h(32),
+                 from boundaryCondition3D.h(31),
+                 from boundaryCondition3D.cpp(24):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from boundaryPostProcessors3D.h(32),
+                 from boundaryCondition3D.h(31),
+                 from boundaryCondition3D.cpp(24):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from offBoundaryPostProcessors3D.h(28),
+                 from offBoundaryCondition3D.h(30),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from offBoundaryPostProcessors3D.h(28),
+                 from offBoundaryCondition3D.h(30),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(272): warning #858: type qualifier on return type is meaningless
+  		const bool operator[] (const std::size_t index) const
+  		^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(853): warning #858: type qualifier on return type is meaningless
+  const bool strictComp(const StaticVector<T, DIMS> &lhs, const U &rhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(869): warning #858: type qualifier on return type is meaningless
+  const bool strictComp(const StaticVector<T, DIMS> &lhs, const U &rhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(885): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(893): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(901): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const StaticVector<T, DIMS> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(908): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const StaticVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(916): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(924): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(932): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const StaticVector<T, DIMS> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(939): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const StaticVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(946): warning #858: type qualifier on return type is meaningless
+  const bool comp(const StaticVector<T, DIMS> &lhs, const U &rhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(958): warning #858: type qualifier on return type is meaningless
+  const bool comp(const StaticVector<T, DIMS> &lhs, const U &rhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(970): warning #858: type qualifier on return type is meaningless
+  const bool operator<=(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(977): warning #858: type qualifier on return type is meaningless
+  const bool operator<=(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(984): warning #858: type qualifier on return type is meaningless
+  const bool operator<=(const StaticVector<T, DIMS> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(990): warning #858: type qualifier on return type is meaningless
+  const bool operator<=(const StaticVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(998): warning #858: type qualifier on return type is meaningless
+  const bool operator>=(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1005): warning #858: type qualifier on return type is meaningless
+  const bool operator>=(const StaticVector<T, DIMS> &lhs,
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1012): warning #858: type qualifier on return type is meaningless
+  const bool operator>=(const StaticVector<T, DIMS> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1018): warning #858: type qualifier on return type is meaningless
+  const bool operator>=(const StaticVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1250): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const DynamicVector<T> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1267): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const DynamicVector<T> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1284): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const DynamicVector<T> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1300): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const DynamicVector<T> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1316): warning #858: type qualifier on return type is meaningless
+  const bool operator<=(const DynamicVector<T> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1332): warning #858: type qualifier on return type is meaningless
+  const bool operator>=(const DynamicVector<T> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1348): warning #858: type qualifier on return type is meaningless
+  const bool operator<=(const DynamicVector<T> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1363): warning #858: type qualifier on return type is meaningless
+  const bool operator>=(const DynamicVector<T> &lhs, const T &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1378): warning #858: type qualifier on return type is meaningless
+  const bool operator==(const U &lhs, const DynamicVector<T> &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1384): warning #858: type qualifier on return type is meaningless
+  const bool operator!=(const DynamicVector<T> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1390): warning #858: type qualifier on return type is meaningless
+  const bool operator!=(const U &lhs, const DynamicVector<T> &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1675): warning #858: type qualifier on return type is meaningless
+  const bool operator==(const StaticSortedVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1683): warning #858: type qualifier on return type is meaningless
+  const bool operator!=(const StaticSortedVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1689): warning #858: type qualifier on return type is meaningless
+  const bool operator<(const StaticSortedVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/math/Vectors(50),
+                 from ../../src/external/cvmlcpp/math/Math(280),
+                 from ../../src/external/cvmlcpp/base/Allocators(49),
+                 from ../../src/external/cvmlcpp/base/Matrix.hpp(34),
+                 from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/math/Vectors.hpp(1706): warning #858: type qualifier on return type is meaningless
+  const bool operator>(const StaticSortedVector<T, DIMS> &lhs, const U &rhs)
+  ^
+
+In file included from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/base/Matrix.hpp(94): warning #858: type qualifier on return type is meaningless
+  		typename CDH::value_type* const operator->()
+  		                          ^
+
+In file included from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/base/Matrix.hpp(133): warning #858: type qualifier on return type is meaningless
+  		const typename CDH::value_type* const operator->() const
+  		                                ^
+
+In file included from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/base/Matrix.hpp(154): warning #858: type qualifier on return type is meaningless
+  bool const operator==(const _CDHIterator<CDH> &lhs, const OtherIterator &rhs)
+       ^
+
+In file included from ../../src/external/cvmlcpp/base/Matrix(43),
+                 from ../io/stlReader.h(36),
+                 from offBoundaryCondition3D.h(33),
+                 from offBoundaryCondition3D.cpp(24):
+../../src/external/cvmlcpp/base/Matrix.hpp(160): warning #858: type qualifier on return type is meaningless
+  bool const operator!=(const _CDHIterator<CDH> &lhs, const OtherIterator &rhs)
+       ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from boundaryPostProcessors2D.cpp(29):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from boundaryPostProcessors2D.cpp(29):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from offBoundaryPostProcessors2D.cpp(27):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from offBoundaryPostProcessors2D.cpp(27):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from boundaryPostProcessors3D.h(32),
+                 from boundaryPostProcessors3D.cpp(26):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from boundaryPostProcessors3D.h(32),
+                 from boundaryPostProcessors3D.cpp(26):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from offBoundaryPostProcessors3D.h(28),
+                 from offBoundaryPostProcessors3D.cpp(24):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from offBoundaryPostProcessors3D.h(28),
+                 from offBoundaryPostProcessors3D.cpp(24):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from latticeStatistics.hh(28),
+                 from latticeStatistics.cpp(25):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from latticeStatistics.hh(28),
+                 from latticeStatistics.cpp(25):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from ../../src/core/blockGeometry3D.h(42),
+                 from ../../src/complexGrids/cuboidStructure/cuboidGeometry3D.h(34),
+                 from heuristicLoadBalancer.h(29),
+                 from heuristicLoadBalancer.cpp(24):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from ../../src/core/blockGeometry3D.h(42),
+                 from ../../src/complexGrids/cuboidStructure/cuboidGeometry3D.h(34),
+                 from heuristicLoadBalancer.h(29),
+                 from heuristicLoadBalancer.cpp(24):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from postProcessing2D.cpp(25):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from postProcessing2D.cpp(25):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from postProcessing3D.cpp(25):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from postProcessing.hh(28),
+                 from postProcessing3D.cpp(25):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from simulationSetup3D.h(27),
+                 from simulationSetup3D.cpp(24):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from simulationSetup3D.h(27),
+                 from simulationSetup3D.cpp(24):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from dataAnalysis3D.h(32),
+                 from dataAnalysis3D.cpp(28):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockLattice3D.h(36),
+                 from dataAnalysis3D.h(32),
+                 from dataAnalysis3D.cpp(28):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockGeometry3D.cpp(39):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockGeometry3D.cpp(39):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockGeometryStatistics3D.cpp(34):
+../../src/functors/genericF.h(60): warning #858: type qualifier on return type is meaningless
+    const int getSourceDim() const;
+    ^
+
+In file included from ../../src/functors/analyticalF.h(30),
+                 from blockGeometry3D.h(42),
+                 from blockGeometryStatistics3D.cpp(34):
+../../src/functors/genericF.h(61): warning #858: type qualifier on return type is meaningless
+    const int getTargetDim() const;
+    ^
+

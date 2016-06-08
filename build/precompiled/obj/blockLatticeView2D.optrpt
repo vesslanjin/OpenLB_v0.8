@@ -1,0 +1,22 @@
+
+Begin optimization report for: olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>::BlockLatticeView2D(olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor> *, const olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLatticeView2D.hh(74,8)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 74 and rhs line 74
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>::BlockLatticeView2D(olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor> *const, const olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at blockLatticeView2D.hh(74,8) inlined into blockLatticeView2D.hh(72,32)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between this line 74 and __p2_12813 line 74
+LOOP END
+===========================================================================

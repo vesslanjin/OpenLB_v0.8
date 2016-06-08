@@ -1,0 +1,556 @@
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::SuperLattice2D(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, olb::CuboidGeometry2D<double> &, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(73,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into superLattice2D.hh(91,15)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice2D.hh(91,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice2D.hh(91,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into superLattice2D.hh(91,15)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice2D.hh(87,27)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>>::pointer>(std::allocator<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>>::pointer, std::allocator<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>>::_M_insert_aux(std::vector<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>> *, std::vector<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>>::iterator, const std::vector<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(359,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>::pointer>(std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>::pointer, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::Communicator2D<double, olb::descriptors::D2Q9Descriptor>::~Communicator2D(olb::Communicator2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into communicator2D.h(59,7)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>>::~vector(std::vector<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>>>::~vector(std::vector<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>, std::allocator<olb::BlockLatticeView2D<double, olb::descriptors::D2Q9Descriptor>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::~map(std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into /usr/include/c++/4.4.7/bits/stl_map.h(86,11)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::loadBalancer::~loadBalancer(olb::loadBalancer *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into ../../../src/core/loadBalancer.h(35,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7) inlined into ../../../src/core/loadBalancer.h(35,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type>::_M_erase(std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type> *, std::_Rb_tree<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_type, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type, std::_Select1st<std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::value_type>, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::key_compare, std::map<int, int, std::less<int>, std::allocator<std::pair<const int, int>>>::_Pair_alloc_type>::_Link_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_tree.h(968,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::SuperLattice2D(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *const, olb::CuboidGeometry2D<double> &, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(73,27) inlined into superLattice2D.hh(52,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into superLattice2D.hh(52,28)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice2D.hh(52,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into superLattice2D.hh(52,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into superLattice2D.hh(52,28)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice2D.hh(87,27) inlined into superLattice2D.hh(52,28)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::set(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, const olb::Cell<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(109,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::get(const olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(125,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineDynamics(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double, olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(192,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineDynamics(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, olb::BlockGeometryStatistics2D *, double, double, double, double, olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(205,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(206,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(209,37)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineDynamics(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, olb::BlockGeometryStatistics2D *, olb::Dynamics<double, olb::descriptors::D2Q9Descriptor> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(205,3) inlined into superLattice2D.hh(227,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(206,5) inlined into superLattice2D.hh(227,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(209,37) inlined into superLattice2D.hh(227,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineRhoU(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(238,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(240,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(241,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineRho(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(254,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(257,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(258,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineU(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(271,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(274,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(275,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::defineExternalField(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double, int, int, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(287,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(289,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(290,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::iniEquilibrium(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double, double, const double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(304,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at superLattice2D.hh(306,7)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at superLattice2D.hh(307,9)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::collide(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(327,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::collide(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(318,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::stream(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(365,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(376,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(543,27) inlined into superLattice2D.hh(379,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(567,27) inlined into superLattice2D.hh(379,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::stream(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(341,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(351,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(543,27) inlined into superLattice2D.hh(354,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(567,27) inlined into superLattice2D.hh(354,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::collideAndStream(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(385,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(394,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(403,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(422,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(543,27) inlined into superLattice2D.hh(425,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(567,27) inlined into superLattice2D.hh(425,23)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::stripeOffDensityOffset(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, int, int, int, int, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(434,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::stripeOffDensityOffset(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, double)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(446,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::save(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, std::string *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice2D.hh(458,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice2D.hh(458,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(482,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice2D.hh(453,42)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::load(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *, std::string *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice2D.hh(501,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/basic_ios.h(450,7) inlined into superLattice2D.hh(501,41)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 4 
+   remark #15477: vector loop cost: 6.000 
+   remark #15478: estimated potential speedup: 1.060 
+   remark #15479: lightweight vector operations: 2 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(519,7)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLattice2D.hh(496,42)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::reset_statistics(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(543,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at superLattice2D.hh(567,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor>::initialize(olb::SuperLattice2D<double, olb::descriptors::D2Q9Descriptor> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLattice2D.hh(180,27)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================

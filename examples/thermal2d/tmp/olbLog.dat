@@ -1,0 +1,13 @@
+2D rayleigh-benard
+
+Velocity in lattice units: u=0.05
+Raynleigh number:          Ra=10000
+Prandlt number:            Pr=1
+Kinematic viscosity:       Nu=0.025
+AdvectionDiffusion conductivity:      Kappa=0.025
+Lattice resolution:        N=50
+Extent of the system:      lx=2
+Extent of the system:      ly=1
+Extent of the system:      lz=0
+Grid spacing deltaX:       dx=0.02
+Time step deltaT:          dt=0.001

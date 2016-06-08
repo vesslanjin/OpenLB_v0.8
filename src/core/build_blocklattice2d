@@ -1,0 +1,1 @@
+mpiicpc -DPARALLEL_MODE_MPI -DMPICH_IGNORE_CXX_SEEK -vec-report6 -DOLB_PRECOMPILED -O3 -Wall -vec-report6 -I../../src -I../../src/external -I../../src/external/cvmlcpp -I../../src/external/boost -I../../src/external/kaffpa -c blockLattice2D.cpp -o ../../build/precompiled/obj/blockLattice2D.o 2>log

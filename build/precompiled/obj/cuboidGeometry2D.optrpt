@@ -1,0 +1,419 @@
+
+Begin optimization report for: std::vector<olb::Cuboid2D<double>, std::allocator<olb::Cuboid2D<double>>>::~vector(std::vector<olb::Cuboid2D<double>, std::allocator<olb::Cuboid2D<double>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::CuboidGeometry2D(olb::CuboidGeometry2D<double> *, double, double, double, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(54,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry2D.hh(54,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(54,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(54,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(54,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry2D.hh(54,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::CuboidGeometry2D(olb::CuboidGeometry2D<double> *const, double, double, double, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(49,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry2D.hh(49,22)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(49,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(49,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(49,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry2D.hh(49,22)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_minRatio(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(84,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_maxRatio(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(95,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_minVolume(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(106,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_maxVolume(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(117,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_minNodes(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(128,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_maxNodes(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(139,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_minDelta(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(150,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_maxDelta(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(161,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::printStatistics(const olb::CuboidGeometry2D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(150,33) inlined into cuboidGeometry2D.hh(218,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(161,33) inlined into cuboidGeometry2D.hh(219,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(84,33) inlined into cuboidGeometry2D.hh(220,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(95,33) inlined into cuboidGeometry2D.hh(221,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(128,33) inlined into cuboidGeometry2D.hh(222,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(139,33) inlined into cuboidGeometry2D.hh(223,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_iC(const olb::CuboidGeometry2D<double> *, double, double, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(230,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_iC(const olb::CuboidGeometry2D<double> *, double, double, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(239,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::add(olb::CuboidGeometry2D<double> *, olb::Cuboid2D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry2D.hh(253,12)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(253,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(253,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(253,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::remove(olb::CuboidGeometry2D<double> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry2D.hh(259,37)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::remove(olb::CuboidGeometry2D<double> *, olb::ScalarField2D<int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(272,37)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry2D.hh(279,31)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(279,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(279,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(279,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(281,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(282,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(284,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(269,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidGeometry2D.hh(271,35)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+
+LOOP BEGIN at cuboidGeometry2D.hh(278,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::Cuboid2D<double>>::pointer>(std::allocator<olb::Cuboid2D<double>>::pointer, std::allocator<olb::Cuboid2D<double>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<bool, std::allocator<bool>>::_M_insert_aux(std::vector<bool, std::allocator<bool>> *, std::vector<bool, std::allocator<bool>>::iterator, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(658,35)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(668,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(670,59)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::split(olb::CuboidGeometry2D<double> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry2D.hh(293,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::get_cuboidNeighbourhood(olb::CuboidGeometry2D<double> *, int, std::vector<int, std::allocator<int>> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(298,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::refineArea(olb::CuboidGeometry2D<double> *, double, double, double, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry2D.hh(342,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(342,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(342,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(342,4)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidGeometry2D.hh(313,20)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Cuboid2D<double>, std::allocator<olb::Cuboid2D<double>>>::_M_insert_aux(std::vector<olb::Cuboid2D<double>, std::allocator<olb::Cuboid2D<double>>> *, std::vector<olb::Cuboid2D<double>, std::allocator<olb::Cuboid2D<double>>>::iterator, const std::vector<olb::Cuboid2D<double>, std::allocator<olb::Cuboid2D<double>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(359,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry2D<double>::reInit(olb::CuboidGeometry2D<double> *, double, double, double, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(60,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry2D.hh(63,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(63,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry2D.hh(63,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry2D.hh(63,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry2D.hh(64,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================

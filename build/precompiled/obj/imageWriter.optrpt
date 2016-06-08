@@ -1,0 +1,54 @@
+
+Begin optimization report for: olb::graphics::ImageWriter<double>::writeScaledPpm(const olb::graphics::ImageWriter<double> *, const std::string &, const olb::ScalarFieldBase2D<double> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at imageWriter.hh(90,36) inlined into imageWriter.hh(172,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at imageWriter.hh(89,5) inlined into imageWriter.hh(172,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::ImageWriter<double>::writePpm(const olb::graphics::ImageWriter<double> *, const std::string &, const olb::ScalarFieldBase2D<double> &, double, double) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at imageWriter.hh(90,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at imageWriter.hh(89,5)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::graphics::ImageWriter<double>::writeText(const olb::graphics::ImageWriter<double> *, const std::string &, const olb::ScalarFieldBase2D<double> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at imageWriter.hh(190,36)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at imageWriter.hh(189,5)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================

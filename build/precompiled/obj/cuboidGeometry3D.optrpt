@@ -1,0 +1,802 @@
+
+Begin optimization report for: std::vector<olb::Cuboid3D<double>, std::allocator<olb::Cuboid3D<double>>>::~vector(std::vector<olb::Cuboid3D<double>, std::allocator<olb::Cuboid3D<double>>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(313,9)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::CuboidGeometry3D(olb::CuboidGeometry3D<double> *, double, double, double, double, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(49,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(49,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry3D.hh(49,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(49,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __result line 51 and __first line 51
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::CuboidGeometry3D(olb::CuboidGeometry3D<double> *const, double, double, double, double, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(45,22)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(45,22)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry3D.hh(45,22)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(45,22)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __result line 51 and __first line 51
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_minRatio(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(85,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_maxRatio(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(102,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_minVolume(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(119,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_maxVolume(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(130,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_minNodes(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(141,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_maxNodes(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(152,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_minDelta(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(163,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_maxDelta(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(174,33)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_motherC(olb::Cuboid3D<double> *, const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(236,10)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p2_12771 line 51 and __p2_12771 line 51
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::printStatistics(const olb::CuboidGeometry3D<double> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(163,33) inlined into cuboidGeometry3D.hh(243,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(174,33) inlined into cuboidGeometry3D.hh(244,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(85,33) inlined into cuboidGeometry3D.hh(245,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(102,33) inlined into cuboidGeometry3D.hh(246,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(141,33) inlined into cuboidGeometry3D.hh(247,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(152,33) inlined into cuboidGeometry3D.hh(248,48)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_iC(const olb::CuboidGeometry3D<double> *, double, double, double, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(255,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_iC(const olb::CuboidGeometry3D<double> *, double, double, double, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(265,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::add(olb::CuboidGeometry3D<double> *, olb::Cuboid3D<double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and cuboid line 51
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.090 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(279,12)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(279,12)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(279,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::remove(olb::CuboidGeometry3D<double> *, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry3D.hh(285,37)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __result line 51 and __first line 51
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(285,37)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __result line 51 and __first line 51
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::remove(olb::CuboidGeometry3D<double> *, olb::BlockGeometry3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(299,39)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(307,31)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry3D.hh(307,31)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(307,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(307,31)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(307,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(307,31)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(307,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(309,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(310,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(312,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(295,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidGeometry3D.hh(297,35)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(298,37)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(306,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<olb::Cuboid3D<double>, std::allocator<olb::Cuboid3D<double>>>::_M_insert_aux(std::vector<olb::Cuboid3D<double>, std::allocator<olb::Cuboid3D<double>>> *, std::vector<olb::Cuboid3D<double>, std::allocator<olb::Cuboid3D<double>>>::iterator, const std::vector<olb::Cuboid3D<double>, std::allocator<olb::Cuboid3D<double>>>::value_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(301,18)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(308,4)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(330,22)
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15301: BLOCK WAS VECTORIZED
+   remark #15450: unmasked unaligned unit stride loads: 1 
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 6 
+   remark #15477: vector loop cost: 8.000 
+   remark #15478: estimated potential speedup: 1.090 
+   remark #15479: lightweight vector operations: 1 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15481: heavy-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(339,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(345,3)
+      remark #15399: vectorization support: unroll factor set to 2
+      remark #15301: BLOCK WAS VECTORIZED
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15451: unmasked unaligned unit stride stores: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 6 
+      remark #15477: vector loop cost: 8.000 
+      remark #15478: estimated potential speedup: 1.090 
+      remark #15479: lightweight vector operations: 1 
+      remark #15480: medium-overhead vector operations: 1 
+      remark #15481: heavy-overhead vector operations: 1 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(359,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::_Destroy_aux<false>::__destroy<std::allocator<olb::Cuboid3D<double>>::pointer>(std::allocator<olb::Cuboid3D<double>>::pointer, std::allocator<olb::Cuboid3D<double>>::pointer)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<bool, std::allocator<bool>>::_M_insert_aux(std::vector<bool, std::allocator<bool>> *, std::vector<bool, std::allocator<bool>>::iterator, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(658,35)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_offset line 131 and _M_offset line 129
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(668,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into /usr/include/c++/4.4.7/bits/vector.tcc(670,59)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between _M_p line 84 and _M_p line 86
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::shrink(olb::CuboidGeometry3D<double> *, olb::BlockGeometry3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(320,24)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at cuboidGeometry3D.hh(323,30)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(324,32)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at cuboidGeometry3D.hh(325,34)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(334,30)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(335,32)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at cuboidGeometry3D.hh(336,34)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(345,30)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(346,32)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at cuboidGeometry3D.hh(347,34)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(356,5)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+      LOOP BEGIN at cuboidGeometry3D.hh(357,7)
+         remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+         LOOP BEGIN at cuboidGeometry3D.hh(358,9)
+            remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(367,5)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+      LOOP BEGIN at cuboidGeometry3D.hh(368,7)
+         remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+         LOOP BEGIN at cuboidGeometry3D.hh(369,9)
+            remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(378,5)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+      LOOP BEGIN at cuboidGeometry3D.hh(379,7)
+         remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+         LOOP BEGIN at cuboidGeometry3D.hh(380,9)
+            remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::remove(olb::CuboidGeometry3D<double> *, olb::SuperGeometry3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(403,39)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(411,31)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry3D.hh(411,31)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(411,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(411,31)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(411,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(411,31)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(411,31)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(413,12)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(414,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(416,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(399,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidGeometry3D.hh(401,35)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(402,37)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at cuboidGeometry3D.hh(410,3)
+   remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::shrink(olb::CuboidGeometry3D<double> *, olb::SuperGeometry3D &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(424,24)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at cuboidGeometry3D.hh(427,30)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(428,32)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at cuboidGeometry3D.hh(429,34)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(438,30)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(439,32)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at cuboidGeometry3D.hh(440,34)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(449,30)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at cuboidGeometry3D.hh(450,32)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at cuboidGeometry3D.hh(451,34)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(460,5)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+      LOOP BEGIN at cuboidGeometry3D.hh(461,7)
+         remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+         LOOP BEGIN at cuboidGeometry3D.hh(462,9)
+            remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(471,5)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+      LOOP BEGIN at cuboidGeometry3D.hh(472,7)
+         remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+         LOOP BEGIN at cuboidGeometry3D.hh(473,9)
+            remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at cuboidGeometry3D.hh(482,5)
+      remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+      LOOP BEGIN at cuboidGeometry3D.hh(483,7)
+         remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+         LOOP BEGIN at cuboidGeometry3D.hh(484,9)
+            remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::split(olb::CuboidGeometry3D<double> *, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry3D.hh(504,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(504,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __result line 51 and __first line 51
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::get_cuboidNeighbourhood(olb::CuboidGeometry3D<double> *, int, std::vector<int, std::allocator<int>> &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidGeometry3D.hh(509,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidGeometry3D<double>::reInit(olb::CuboidGeometry3D<double> *, double, double, double, double, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(55,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+
+LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(58,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between __p line 51 and __val line 51
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(545,4) inlined into cuboidGeometry3D.hh(58,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(58,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(58,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_uninitialized.h(73,8) inlined into cuboidGeometry3D.hh(58,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(58,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __cur line 51 and __first line 51
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into cuboidGeometry3D.hh(58,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(341,4) inlined into cuboidGeometry3D.hh(59,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at cuboid3D.h(51,7) inlined into cuboidGeometry3D.hh(59,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between __result line 51 and __first line 51
+   LOOP END
+LOOP END
+===========================================================================

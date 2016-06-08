@@ -1,0 +1,222 @@
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::writeFlowField(const std::string &, const std::string &, std::vector<const olb::ScalarFieldBase3D<double> *, std::allocator<const olb::ScalarFieldBase3D<double> *>> *, const std::string &, std::vector<const olb::TensorFieldBase3D<double, 3> *, std::allocator<const olb::TensorFieldBase3D<double, 3> *>> *, const olb::CuboidGeometry3D<double> &, olb::loadBalancer &, double, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(229,7) inlined into cuboidVTKout3D.hh(107,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at cuboidVTKout3D.hh(244,7) inlined into cuboidVTKout3D.hh(107,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(93,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.hh(95,30)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidVTKout3D.hh(227,3) inlined into cuboidVTKout3D.hh(107,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at cuboidVTKout3D.hh(228,5) inlined into cuboidVTKout3D.hh(107,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at cuboidVTKout3D.hh(242,3) inlined into cuboidVTKout3D.hh(107,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at cuboidVTKout3D.hh(243,5) inlined into cuboidVTKout3D.hh(107,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::writeThread(const std::string &, const olb::CuboidGeometry3D<double> &, olb::loadBalancer &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(508,13)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(463,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.hh(465,30)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidVTKout3D.hh(506,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at cuboidVTKout3D.hh(507,11)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::writeDecomposition(const std::string &, const olb::CuboidGeometry3D<double> &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(407,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(385,33)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.hh(405,7)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidVTKout3D.hh(406,9)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::writeCuboid(const std::string &, const olb::CuboidGeometry3D<double> &, olb::loadBalancer &, double, double, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(592,13)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(568,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.hh(570,30)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidVTKout3D.hh(590,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at cuboidVTKout3D.hh(591,11)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::writePiece(std::string &, const std::string &, const olb::ScalarFieldBase3D<double> *, const std::string &, const olb::TensorFieldBase3D<double, 3> *, double, double, double, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(229,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at cuboidVTKout3D.hh(244,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.hh(227,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.hh(228,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+
+LOOP BEGIN at cuboidVTKout3D.hh(242,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.hh(243,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::writePiece<olb::descriptors::D3Q19Descriptor>(std::string &, const std::string &, olb::SuperLatticeF3D<double, olb::descriptors::D3Q19Descriptor> &, int, int, int, int, double, double, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.cpp(94,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.cpp(90,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.cpp(91,5)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidVTKout3D.cpp(92,7)
+         remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::CuboidVTKout3D<double>::write<olb::descriptors::D3Q19Descriptor>(olb::SuperLatticeF3D<double, olb::descriptors::D3Q19Descriptor> &, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at cuboidVTKout3D.cpp(94,11) inlined into cuboidVTKout3D.cpp(158,9)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at cuboidVTKout3D.cpp(139,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at cuboidVTKout3D.cpp(141,30)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at cuboidVTKout3D.cpp(90,3) inlined into cuboidVTKout3D.cpp(158,9)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at cuboidVTKout3D.cpp(91,5) inlined into cuboidVTKout3D.cpp(158,9)
+            remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+            LOOP BEGIN at cuboidVTKout3D.cpp(92,7) inlined into cuboidVTKout3D.cpp(158,9)
+               remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

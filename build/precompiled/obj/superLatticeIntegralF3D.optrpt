@@ -1,0 +1,261 @@
+
+Begin optimization report for: olb::SuperMax<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperMax<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(63,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(55,25)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(57,28)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(61,7)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(62,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperIntegral3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperIntegral3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(143,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(135,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(136,28)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(141,7)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(142,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperL1Norm3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperL1Norm3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(183,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(175,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(177,28)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(181,7)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(182,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperL223D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperL223D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(228,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(219,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(221,28)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(226,7)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(227,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLatticePhysDrag3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperLatticePhysDrag3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(102,11) inlined into superLatticeIntegralF3D.hh(324,26)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(95,25) inlined into superLatticeIntegralF3D.hh(324,26)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(96,28) inlined into superLatticeIntegralF3D.hh(324,26)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(100,7) inlined into superLatticeIntegralF3D.hh(324,26)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(101,9) inlined into superLatticeIntegralF3D.hh(324,26)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperSum3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperSum3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(102,11)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(95,25)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(96,28)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(100,7)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(101,9)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::vector(std::vector<double, std::allocator<double>> *, std::vector<double, std::allocator<double>>::size_type, const std::vector<double, std::allocator<double>>::value_type &, const std::vector<double, std::allocator<double>>::allocator_type &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Peeled>
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15442: entire loop may be executed in remainder
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 3 
+   remark #15477: vector loop cost: 0.750 
+   remark #15478: estimated potential speedup: 3.640 
+   remark #15479: lightweight vector operations: 3 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_algobase.h(757,7) inlined into /usr/include/c++/4.4.7/bits/stl_vector.h(230,9)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperGeometryFaces3D<double>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperGeometryFaces3D<double> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(265,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between  line 269 and  line 285
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(266,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between  line 269 and  line 285
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(267,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(296,5)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SuperLatticePhysCorrDrag3D<double, olb::descriptors::D3Q19Descriptor>::operator()(std::vector<double, std::allocator<double>> *, olb::SuperLatticePhysCorrDrag3D<double, olb::descriptors::D3Q19Descriptor> *, std::vector<int, std::allocator<int>> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(102,11) inlined into superLatticeIntegralF3D.hh(347,26)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at superLatticeIntegralF3D.hh(95,25) inlined into superLatticeIntegralF3D.hh(347,26)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at superLatticeIntegralF3D.hh(96,28) inlined into superLatticeIntegralF3D.hh(347,26)
+      remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+      LOOP BEGIN at superLatticeIntegralF3D.hh(100,7) inlined into superLatticeIntegralF3D.hh(347,26)
+         remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+         LOOP BEGIN at superLatticeIntegralF3D.hh(101,9) inlined into superLatticeIntegralF3D.hh(347,26)
+            remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

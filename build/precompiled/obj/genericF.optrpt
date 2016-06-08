@@ -1,0 +1,40 @@
+
+Begin optimization report for: olb::GenericF<bool, int>::myErase(olb::GenericF<bool, int> *, olb::GenericF<bool, int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at genericF.hh(86,35)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::GenericF<bool, double>::myErase(olb::GenericF<bool, double> *, olb::GenericF<bool, double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at genericF.hh(86,35)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::GenericF<double, int>::myErase(olb::GenericF<double, int> *, olb::GenericF<double, int> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at genericF.hh(86,35)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::GenericF<double, double>::myErase(olb::GenericF<double, double> *, olb::GenericF<double, double> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at genericF.hh(86,35)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================

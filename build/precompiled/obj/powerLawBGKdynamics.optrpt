@@ -1,0 +1,98 @@
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::collide(olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3) inlined into powerLawBGKdynamics.hh(60,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::staticCollide(olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3) inlined into powerLawBGKdynamics.hh(76,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::getPowerLawOmega(olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, olb::Cell<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3) inlined into powerLawBGKdynamics.hh(93,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor>::computeOmega(olb::PowerLawBGKdynamics<double, olb::descriptors::D2Q9Descriptor> *, double, double, double, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::collide(olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3) inlined into powerLawBGKdynamics.hh(60,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into powerLawBGKdynamics.hh(62,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::staticCollide(olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &, const double *, olb::LatticeStatistics<double> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3) inlined into powerLawBGKdynamics.hh(76,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+
+LOOP BEGIN at ../../src/core/lbHelpers3D.h(62,5) inlined into powerLawBGKdynamics.hh(77,12)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between cell line 63 and u line 40
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::getPowerLawOmega(olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, olb::Cell<double, olb::descriptors::D3Q19Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3) inlined into powerLawBGKdynamics.hh(93,16)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor>::computeOmega(olb::PowerLawBGKdynamics<double, olb::descriptors::D3Q19Descriptor> *, double, double, double, double *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at powerLawBGKdynamics.hh(112,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between tau line 115 and tau line 113
+LOOP END
+===========================================================================

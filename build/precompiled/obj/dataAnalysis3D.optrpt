@@ -1,0 +1,708 @@
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVelocity(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(151,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(151,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(151,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getMomentum(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(471,21) inlined into dataAnalysis3D.hh(159,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(472,23) inlined into dataAnalysis3D.hh(159,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(473,25) inlined into dataAnalysis3D.hh(159,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at dataAnalysis3D.hh(477,9) inlined into dataAnalysis3D.hh(159,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getPressure(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(490,21) inlined into dataAnalysis3D.hh(167,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(491,23) inlined into dataAnalysis3D.hh(167,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(492,25) inlined into dataAnalysis3D.hh(167,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeVorticityField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(870,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(870,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(870,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(876,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 879 and F64 line 879
+
+   LOOP BEGIN at dataAnalysis3D.hh(877,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 879 and F64 line 879
+
+      LOOP BEGIN at dataAnalysis3D.hh(878,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(886,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 830 and this line 893
+
+   LOOP BEGIN at dataAnalysis3D.hh(887,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(897,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 830 and this line 904
+
+   LOOP BEGIN at dataAnalysis3D.hh(898,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(908,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at dataAnalysis3D.hh(909,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVelocityNorm(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(183,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(183,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(183,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(508,26) inlined into dataAnalysis3D.hh(183,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../src/core/util.h(92,3) inlined into dataAnalysis3D.hh(183,3)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 10 
+      remark #15477: vector loop cost: 4.500 
+      remark #15478: estimated potential speedup: 0.730 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getVorticityNorm(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(519,26) inlined into dataAnalysis3D.hh(191,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../src/core/util.h(92,3) inlined into dataAnalysis3D.hh(191,3)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 10 
+      remark #15477: vector loop cost: 4.500 
+      remark #15478: estimated potential speedup: 0.730 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getQCrit(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(327,46) inlined into dataAnalysis3D.hh(199,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at dataAnalysis3D.hh(328,48) inlined into dataAnalysis3D.hh(199,3)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at dataAnalysis3D.hh(329,50) inlined into dataAnalysis3D.hh(199,3)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(199,3)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+            LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(199,3)
+               remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+               LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(199,3)
+                  remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeStrainRateField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(933,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at dataAnalysis3D.hh(934,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at dataAnalysis3D.hh(936,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 939 and F64 line 939
+
+         LOOP BEGIN at dataAnalysis3D.hh(937,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 939 and F64 line 939
+
+            LOOP BEGIN at dataAnalysis3D.hh(938,11)
+               remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at dataAnalysis3D.hh(945,7)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at dataAnalysis3D.hh(946,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between this line 786 and  line 774
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at dataAnalysis3D.hh(954,7)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at dataAnalysis3D.hh(955,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between this line 786 and  line 774
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at dataAnalysis3D.hh(963,7)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at dataAnalysis3D.hh(964,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed ANTI dependence between this line 786 and  line 774
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeMomentumField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(471,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(472,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(473,25)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at dataAnalysis3D.hh(477,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getStrainRateFromStress(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(987,21) inlined into dataAnalysis3D.hh(216,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(988,23) inlined into dataAnalysis3D.hh(216,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(989,25) inlined into dataAnalysis3D.hh(216,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at dataAnalysis3D.hh(992,9) inlined into dataAnalysis3D.hh(216,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeDivRhoUField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(1012,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1015 and F64 line 1015
+
+   LOOP BEGIN at dataAnalysis3D.hh(1013,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1015 and F64 line 1015
+
+      LOOP BEGIN at dataAnalysis3D.hh(1014,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1020,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 770 and this line 1023
+
+   LOOP BEGIN at dataAnalysis3D.hh(1021,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1027,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 770 and this line 1030
+
+   LOOP BEGIN at dataAnalysis3D.hh(1028,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1034,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 770 and this line 1037
+
+   LOOP BEGIN at dataAnalysis3D.hh(1035,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getPoissonTerm(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(232,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(232,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(232,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1055,3) inlined into dataAnalysis3D.hh(232,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1058 and F64 line 1058
+
+   LOOP BEGIN at dataAnalysis3D.hh(1056,5) inlined into dataAnalysis3D.hh(232,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1058 and F64 line 1058
+
+      LOOP BEGIN at dataAnalysis3D.hh(1057,7) inlined into dataAnalysis3D.hh(232,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1063,3) inlined into dataAnalysis3D.hh(232,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 1065 and this line 1066
+
+   LOOP BEGIN at dataAnalysis3D.hh(1064,5) inlined into dataAnalysis3D.hh(232,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1070,3) inlined into dataAnalysis3D.hh(232,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 1072 and this line 1073
+
+   LOOP BEGIN at dataAnalysis3D.hh(1071,5) inlined into dataAnalysis3D.hh(232,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1077,3) inlined into dataAnalysis3D.hh(232,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 1079 and this line 1080
+
+   LOOP BEGIN at dataAnalysis3D.hh(1078,5) inlined into dataAnalysis3D.hh(232,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::getPopulations(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(1096,3) inlined into dataAnalysis3D.hh(240,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1100 and F64 line 1100
+
+   LOOP BEGIN at dataAnalysis3D.hh(1097,5) inlined into dataAnalysis3D.hh(240,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1100 and F64 line 1100
+
+      LOOP BEGIN at dataAnalysis3D.hh(1098,7) inlined into dataAnalysis3D.hh(240,3)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1100 and F64 line 1100
+
+         LOOP BEGIN at dataAnalysis3D.hh(1099,9) inlined into dataAnalysis3D.hh(240,3)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeMeanEnstrophy(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(247,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(247,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(247,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(253,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at dataAnalysis3D.hh(254,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at dataAnalysis3D.hh(255,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeVelocityField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computePressureField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(490,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(491,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(492,25)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeVelocityNormField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(507,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(507,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(507,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(508,26)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../src/core/util.h(92,3) inlined into dataAnalysis3D.hh(509,37)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 10 
+      remark #15477: vector loop cost: 4.500 
+      remark #15478: estimated potential speedup: 0.730 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeVorticityNormField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(519,26)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../src/core/util.h(92,3) inlined into dataAnalysis3D.hh(520,38)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #15450: unmasked unaligned unit stride loads: 1 
+      remark #15475: --- begin vector loop cost summary ---
+      remark #15476: scalar loop cost: 10 
+      remark #15477: vector loop cost: 4.500 
+      remark #15478: estimated potential speedup: 0.730 
+      remark #15479: lightweight vector operations: 5 
+      remark #15480: medium-overhead vector operations: 2 
+      remark #15488: --- end vector loop cost summary ---
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeQCritField(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(327,46)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at dataAnalysis3D.hh(328,48)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at dataAnalysis3D.hh(329,50)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+         LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(331,42)
+            remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+            LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(331,42)
+               remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+               LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(331,42)
+                  remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+               LOOP END
+            LOOP END
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computeStrainRateFieldFromStress(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(987,21)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(988,23)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(989,25)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+         LOOP BEGIN at dataAnalysis3D.hh(992,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computePoissonTerm(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(1049,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(1049,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(1049,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1055,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1058 and F64 line 1058
+
+   LOOP BEGIN at dataAnalysis3D.hh(1056,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1058 and F64 line 1058
+
+      LOOP BEGIN at dataAnalysis3D.hh(1057,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1063,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 1065 and this line 1066
+
+   LOOP BEGIN at dataAnalysis3D.hh(1064,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1070,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 1072 and this line 1073
+
+   LOOP BEGIN at dataAnalysis3D.hh(1071,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+
+LOOP BEGIN at dataAnalysis3D.hh(1077,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed FLOW dependence between  line 1079 and this line 1080
+
+   LOOP BEGIN at dataAnalysis3D.hh(1078,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::computePopulations(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(1096,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1100 and F64 line 1100
+
+   LOOP BEGIN at dataAnalysis3D.hh(1097,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1100 and F64 line 1100
+
+      LOOP BEGIN at dataAnalysis3D.hh(1098,7)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         remark #15346: vector dependence: assumed OUTPUT dependence between F64 line 1100 and F64 line 1100
+
+         LOOP BEGIN at dataAnalysis3D.hh(1099,9)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor>::qCriterion(const olb::DataAnalysis3D<double, olb::descriptors::D3Q19Descriptor> *, int, int, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at dataAnalysis3D.hh(457,21) inlined into dataAnalysis3D.hh(345,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at dataAnalysis3D.hh(458,23) inlined into dataAnalysis3D.hh(345,3)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+      LOOP BEGIN at dataAnalysis3D.hh(459,25) inlined into dataAnalysis3D.hh(345,3)
+         remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

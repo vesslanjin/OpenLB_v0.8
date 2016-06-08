@@ -1,0 +1,485 @@
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::~ScalarField3D(olb::ScalarField3D<unsigned char> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(230,3) inlined into ../../../src/core/dataFields3D.hh(45,19)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::~ScalarField3D(olb::ScalarField3D<unsigned char> *const)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(230,3) inlined into ../../../src/core/dataFields3D.hh(45,19)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::~ScalarField3D(olb::ScalarField3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(230,3) inlined into ../../../src/core/dataFields3D.hh(48,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::ScalarField3D(olb::ScalarField3D<unsigned char> *, const olb::ScalarField3D<unsigned char> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(218,3) inlined into ../../../src/core/dataFields3D.hh(58,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(58,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 221 and this line 221
+   LOOP END
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(58,5)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(59,32)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::ScalarField3D(olb::ScalarField3D<unsigned char> *const, const olb::ScalarField3D<unsigned char> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(218,3) inlined into ../../../src/core/dataFields3D.hh(52,19)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(52,19)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 221 and this line 221
+   LOOP END
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(52,19)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(59,32) inlined into ../../../src/core/dataFields3D.hh(52,19)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::operator=(olb::ScalarField3D<unsigned char> *, const olb::ScalarField3D<unsigned char> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(218,3) inlined into ../../../src/core/dataFields3D.hh(67,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(67,24)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between field line 221 and field line 221
+   LOOP END
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(67,24)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(59,32) inlined into ../../../src/core/dataFields3D.hh(67,24)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(230,3) inlined into ../../../src/core/dataFields3D.hh(69,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::construct(olb::ScalarField3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(218,3) inlined into ../../../src/core/dataFields3D.hh(80,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(80,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 221 and this line 221
+   LOOP END
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5) inlined into ../../../src/core/dataFields3D.hh(80,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::deConstruct(olb::ScalarField3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(230,3) inlined into ../../../src/core/dataFields3D.hh(87,5)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::reset(olb::ScalarField3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(94,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::sliceX(const olb::ScalarField3D<unsigned char> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(102,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(103,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::sliceY(const olb::ScalarField3D<unsigned char> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(113,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(114,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::sliceZ(const olb::ScalarField3D<unsigned char> *, int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(124,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(125,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::computeReduction(const olb::ScalarField3D<unsigned char> *, olb::DataReduction<unsigned char> &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(185,26)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::allocateMemory(olb::ScalarField3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(218,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between this line 221 and this line 221
+   LOOP END
+
+   LOOP BEGIN at ../../../src/core/dataFields3D.hh(220,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::ScalarField3D<unsigned char>::releaseMemory(olb::ScalarField3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(230,3)
+   remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldSerializer3D<unsigned char>::getNextDataBuffer(const olb::SequentialScalarFieldSerializer3D<unsigned char> *, size_t &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(269,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(281,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::SequentialScalarFieldUnSerializer3D<unsigned char>::commitData(olb::SequentialScalarFieldUnSerializer3D<unsigned char> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(346,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at ../../../src/core/dataFields3D.hh(356,5)
+   remark #15521: loop was not vectorized: explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createRegularDataDistribution(olb::MultiDataDistribution3D *, int, int, int, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(51,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(43,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(47,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::MultiDataDistribution3D::~MultiDataDistribution3D(olb::MultiDataDistribution3D *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /usr/include/c++/4.4.7/bits/stl_construct.h(99,4) inlined into ../../../src/complexGrids/multiBlockStructure/multiDataGeometry3D.h(120,7)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createRegularDataDistribution(olb::MultiDataDistribution3D *, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(51,7) inlined into multiDataUtilities3D.cpp(67,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(43,3) inlined into multiDataUtilities3D.cpp(67,10)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(47,5) inlined into multiDataUtilities3D.cpp(67,10)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createXSlicedDataDistribution3D(olb::MultiDataDistribution3D *, const olb::CellTypeField3D &, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(90,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataUtilities3D.cpp(102,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(105,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(87,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(89,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createYSlicedDataDistribution3D(olb::MultiDataDistribution3D *, const olb::CellTypeField3D &, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(128,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataUtilities3D.cpp(140,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(143,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(125,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(127,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createZSlicedDataDistribution3D(olb::MultiDataDistribution3D *, const olb::CellTypeField3D &, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(166,7)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataUtilities3D.cpp(178,3)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(181,5)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(163,3)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(165,5)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createXSlicedDataDistribution3D(olb::MultiDataDistribution3D *, const olb::CellTypeField3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(90,7) inlined into multiDataUtilities3D.cpp(193,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataUtilities3D.cpp(102,3) inlined into multiDataUtilities3D.cpp(193,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(105,5) inlined into multiDataUtilities3D.cpp(193,10)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(87,3) inlined into multiDataUtilities3D.cpp(193,10)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(89,5) inlined into multiDataUtilities3D.cpp(193,10)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createYSlicedDataDistribution3D(olb::MultiDataDistribution3D *, const olb::CellTypeField3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(128,7) inlined into multiDataUtilities3D.cpp(199,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataUtilities3D.cpp(140,3) inlined into multiDataUtilities3D.cpp(199,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(143,5) inlined into multiDataUtilities3D.cpp(199,10)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(125,3) inlined into multiDataUtilities3D.cpp(199,10)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(127,5) inlined into multiDataUtilities3D.cpp(199,10)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::createZSlicedDataDistribution3D(olb::MultiDataDistribution3D *, const olb::CellTypeField3D &, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(166,7) inlined into multiDataUtilities3D.cpp(205,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at multiDataUtilities3D.cpp(178,3) inlined into multiDataUtilities3D.cpp(205,10)
+   remark #15520: loop was not vectorized: loop with early exits cannot be vectorized unless it meets search loop idiom criteria
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(181,5) inlined into multiDataUtilities3D.cpp(205,10)
+      remark #15523: loop was not vectorized: cannot compute loop iteration count before executing the loop.
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at multiDataUtilities3D.cpp(163,3) inlined into multiDataUtilities3D.cpp(205,10)
+   remark #15536: loop was not vectorized: inner loop throttling prevents vectorization of this outer loop. Refer to inner loop message for more details.
+
+   LOOP BEGIN at multiDataUtilities3D.cpp(165,5) inlined into multiDataUtilities3D.cpp(205,10)
+      remark #15341: loop was not vectorized: nonstandard loop is not a vectorization candidate
+   LOOP END
+LOOP END
+===========================================================================

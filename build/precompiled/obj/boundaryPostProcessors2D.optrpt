@@ -1,0 +1,592 @@
+
+Begin optimization report for: olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 0, 1>::processSubDomain(olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 0, 1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(64,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at boundaryPostProcessors2D.hh(66,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at boundaryPostProcessors2D.hh(90,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(92,24)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+               remark #15315: loop was not vectorized: low trip count
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15475: --- begin vector loop cost summary ---
+               remark #15479: lightweight vector operations: 35 
+               remark #15480: medium-overhead vector operations: 1 
+               remark #15481: heavy-overhead vector operations: 1 
+               remark #15487: type converts: 1 
+               remark #15488: --- end vector loop cost summary ---
+            LOOP END
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+            <Remainder>
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(73,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 3 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 17 
+         remark #15477: vector loop cost: 7.000 
+         remark #15478: estimated potential speedup: 1.700 
+         remark #15479: lightweight vector operations: 13 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(112,5) inlined into boundaryPostProcessors2D.hh(74,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 2 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 9 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 1.380 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(89,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 8 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 0.610 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 0, -1>::processSubDomain(olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 0, -1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(64,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at boundaryPostProcessors2D.hh(66,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at boundaryPostProcessors2D.hh(90,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(92,24)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+               remark #15315: loop was not vectorized: low trip count
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15475: --- begin vector loop cost summary ---
+               remark #15479: lightweight vector operations: 35 
+               remark #15480: medium-overhead vector operations: 1 
+               remark #15481: heavy-overhead vector operations: 1 
+               remark #15487: type converts: 1 
+               remark #15488: --- end vector loop cost summary ---
+            LOOP END
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+            <Remainder>
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(73,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 3 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 16 
+         remark #15477: vector loop cost: 6.500 
+         remark #15478: estimated potential speedup: 1.680 
+         remark #15479: lightweight vector operations: 12 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(112,5) inlined into boundaryPostProcessors2D.hh(74,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 2 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 9 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 1.380 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(89,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 8 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 0.610 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, 1>::processSubDomain(olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, 1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(64,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at boundaryPostProcessors2D.hh(66,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at boundaryPostProcessors2D.hh(90,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(92,24)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+               remark #15315: loop was not vectorized: low trip count
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15475: --- begin vector loop cost summary ---
+               remark #15479: lightweight vector operations: 35 
+               remark #15480: medium-overhead vector operations: 1 
+               remark #15481: heavy-overhead vector operations: 1 
+               remark #15487: type converts: 1 
+               remark #15488: --- end vector loop cost summary ---
+            LOOP END
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+            <Remainder>
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(112,5) inlined into boundaryPostProcessors2D.hh(73,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 2 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 9 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 1.800 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(74,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 3 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 17 
+         remark #15477: vector loop cost: 7.000 
+         remark #15478: estimated potential speedup: 1.700 
+         remark #15479: lightweight vector operations: 13 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(89,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 8 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 0.610 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, -1>::processSubDomain(olb::StraightFdBoundaryProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, -1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &, int, int, int, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(64,5)
+   remark #15542: loop was not vectorized: inner loop was already vectorized
+
+   LOOP BEGIN at boundaryPostProcessors2D.hh(66,7)
+      remark #15542: loop was not vectorized: inner loop was already vectorized
+
+      LOOP BEGIN at boundaryPostProcessors2D.hh(90,9)
+         remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+         LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(92,24)
+            remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+            remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+               remark #15315: loop was not vectorized: low trip count
+               remark #15450: unmasked unaligned unit stride loads: 2 
+               remark #15475: --- begin vector loop cost summary ---
+               remark #15479: lightweight vector operations: 35 
+               remark #15480: medium-overhead vector operations: 1 
+               remark #15481: heavy-overhead vector operations: 1 
+               remark #15487: type converts: 1 
+               remark #15488: --- end vector loop cost summary ---
+            LOOP END
+
+            LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(92,24)
+            <Remainder>
+            LOOP END
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(112,5) inlined into boundaryPostProcessors2D.hh(73,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 2 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 9 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 1.800 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(74,9)
+         remark #15300: LOOP WAS VECTORIZED
+         remark #15448: unmasked aligned unit stride loads: 3 
+         remark #15449: unmasked aligned unit stride stores: 1 
+         remark #15467: unmasked aligned streaming stores: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 16 
+         remark #15477: vector loop cost: 6.500 
+         remark #15478: estimated potential speedup: 1.680 
+         remark #15479: lightweight vector operations: 12 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(89,18)
+         remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+         remark #15448: unmasked aligned unit stride loads: 1 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15476: scalar loop cost: 8 
+         remark #15477: vector loop cost: 3.500 
+         remark #15478: estimated potential speedup: 0.610 
+         remark #15479: lightweight vector operations: 6 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, 1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, 1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 2.420 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 1.700 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, -1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, 1, -1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 2.420 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 1.680 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, 1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, 1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 17 
+   remark #15477: vector loop cost: 7.000 
+   remark #15478: estimated potential speedup: 1.700 
+   remark #15479: lightweight vector operations: 13 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, -1>::process(olb::OuterVelocityCornerProcessor2D<double, olb::descriptors::D2Q9Descriptor, -1, -1> *, olb::BlockLattice2D<double, olb::descriptors::D2Q9Descriptor> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(163,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 2.460 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at finiteDifference2D.h(66,5) inlined into boundaryPostProcessors2D.hh(164,3)
+   remark #15300: LOOP WAS VECTORIZED
+   remark #15448: unmasked aligned unit stride loads: 3 
+   remark #15449: unmasked aligned unit stride stores: 1 
+   remark #15467: unmasked aligned streaming stores: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 16 
+   remark #15477: vector loop cost: 6.500 
+   remark #15478: estimated potential speedup: 1.680 
+   remark #15479: lightweight vector operations: 12 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at util.h(92,3) inlined into boundaryPostProcessors2D.hh(185,12)
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+   remark #15448: unmasked aligned unit stride loads: 1 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 8 
+   remark #15477: vector loop cost: 3.500 
+   remark #15478: estimated potential speedup: 0.610 
+   remark #15479: lightweight vector operations: 6 
+   remark #15480: medium-overhead vector operations: 1 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at boundaryPostProcessors2D.hh(186,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+
+   LOOP BEGIN at firstOrderLbHelpers.h(66,5) inlined into boundaryPostProcessors2D.hh(189,7)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed FLOW dependence between iPi line 75 and iPi line 67
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+         remark #15315: loop was not vectorized: low trip count
+         remark #15450: unmasked unaligned unit stride loads: 2 
+         remark #15475: --- begin vector loop cost summary ---
+         remark #15479: lightweight vector operations: 35 
+         remark #15480: medium-overhead vector operations: 1 
+         remark #15481: heavy-overhead vector operations: 1 
+         remark #15487: type converts: 1 
+         remark #15488: --- end vector loop cost summary ---
+      LOOP END
+
+      LOOP BEGIN at firstOrderLbHelpers.h(67,7) inlined into boundaryPostProcessors2D.hh(189,7)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================
