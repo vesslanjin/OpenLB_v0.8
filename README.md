@@ -103,8 +103,8 @@ numactl --membind=1 mpirun –np 272 ./cylinder2d
 
 
 ## Performance
-For the cylinder2d workload we described above, we get up to a 1.5x speedup can be achieved when running this code on one Intel® Xeon Phi™ processor compared with optimized code on dual socket of Intel® Xeon® Processor E5-2697 v4.
 
+TO BE ADDED. 
 
 
 ## Contributing
