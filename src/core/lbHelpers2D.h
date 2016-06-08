@@ -31,6 +31,10 @@
 #include <iostream>
 #include <immintrin.h>
 
+
+
+#ifdef WITH_AVX512
+
 const double c0 = (double)1/(double)36;
 const double c0m4 = (double)1/(double)9;
 const double c0m16 = (double)4/(double)9;
@@ -44,7 +48,7 @@ const __m512d vc5 = _mm512_set_pd(0, 0, 4.5, 0, 0, 0, 4.5, 0);
 const __m512d vc6 = _mm512_set_pd(4.5, 0, 0, 0, 4.5, 0, 0, 0);
 
 const __m512d vone = _mm512_set_pd(1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0);
-
+#endif
 
 
 namespace olb {
@@ -77,7 +81,51 @@ struct lbDynamicsHelpers<T, descriptors::D2Q9DescriptorBase<T> > {
   }
 
   static T bgkCollision ( T* cell, T rho, const T u[2], T omega) {
-/*
+
+#ifdef WITH_AVX512
+    __m512d vu_0 = _mm512_set_pd(u[0], u[0], u[0], u[0], u[0], u[0], u[0], u[0]);
+    __m512d vu_1 = _mm512_set_pd(u[1], u[1], u[1], u[1], u[1], u[1], u[1], u[1]);
+
+    __m512d vcell = _mm512_loadu_pd(cell);
+    __m512d vomega = _mm512_set_pd(omega, omega, omega, omega, omega, omega, omega, omega);
+
+    __m512d vcell_0 = _mm512_mul_pd(vcell, _mm512_sub_pd(vone, vomega));
+
+    __m512d vrho = _mm512_set_pd(rho, rho, rho, rho, rho, rho, rho, rho);
+    __m512d vrho_m_1 = _mm512_sub_pd(vrho, vone);
+
+    __m512d vu_0_m_1 = _mm512_sub_pd(vu_0, vu_1);
+    __m512d vu_0_m_1_square = _mm512_mul_pd(_mm512_mul_pd(vu_0_m_1, vu_0_m_1), vc5);
+
+    __m512d vu_0_p_1 = _mm512_add_pd(vu_0, vu_1);
+    __m512d vu_0_p_1_square = _mm512_mul_pd(_mm512_mul_pd(vu_0_p_1, vu_0_p_1), vc6);
+
+    __m512d vu_square_sum = _mm512_add_pd(vu_0_m_1_square, vu_0_p_1_square);
+
+    __m512d vu_0_square = _mm512_mul_pd(_mm512_mul_pd(vu_0, vu_0), vc3);
+    __m512d vu_1_square = _mm512_mul_pd(_mm512_mul_pd(vu_1, vu_1), vc4);
+
+    __m512d vp0_0 = _mm512_fmadd_pd(vc1, vu_0, vu_0_square);
+    __m512d vp0_1 = _mm512_fmadd_pd(vc2, vu_1, vu_1_square);
+
+	__m512d vpp = _mm512_add_pd(_mm512_add_pd(vp0_0, vp0_1), vu_square_sum);
+
+    __m512d vp = _mm512_mul_pd(vc0, _mm512_fmadd_pd(vpp, vrho, vrho_m_1));
+
+    __m512d vcell_1 = _mm512_fmadd_pd(vomega, vp, vcell_0);
+    
+    _mm512_storeu_pd(cell, vcell_1);
+
+    double uxSqr = u[0] * u[0];
+    double uySqr = u[1] * u[1];
+
+    cell[8] *= (double)1-omega;
+    cell[8] += omega*((double)1/(double)9 * (rho-(double)1)+ (double)1/(double)9 * rho*((double)3 * u[1] + (double)3 * uySqr- (double)3/(double)2 * uxSqr));
+    
+	return uxSqr + uySqr;
+
+#else
+
     T uxSqr = u[0]*u[0];
     T uySqr = u[1]*u[1];
 
@@ -124,48 +172,9 @@ struct lbDynamicsHelpers<T, descriptors::D2Q9DescriptorBase<T> > {
     cell[5] += omega*(cf_ + rho_*(ux_ - uy_ + uxMySqr_ - uSqr_));
 
     return uxSqr + uySqr;
-*/
+
+#endif
     
-    __m512d vu_0 = _mm512_set_pd(u[0], u[0], u[0], u[0], u[0], u[0], u[0], u[0]);
-    __m512d vu_1 = _mm512_set_pd(u[1], u[1], u[1], u[1], u[1], u[1], u[1], u[1]);
-
-    __m512d vcell = _mm512_loadu_pd(cell);
-    __m512d vomega = _mm512_set_pd(omega, omega, omega, omega, omega, omega, omega, omega);
-
-    __m512d vcell_0 = _mm512_mul_pd(vcell, _mm512_sub_pd(vone, vomega));
-
-    __m512d vrho = _mm512_set_pd(rho, rho, rho, rho, rho, rho, rho, rho);
-    __m512d vrho_m_1 = _mm512_sub_pd(vrho, vone);
-
-    __m512d vu_0_m_1 = _mm512_sub_pd(vu_0, vu_1);
-    __m512d vu_0_m_1_square = _mm512_mul_pd(_mm512_mul_pd(vu_0_m_1, vu_0_m_1), vc5);
-
-    __m512d vu_0_p_1 = _mm512_add_pd(vu_0, vu_1);
-    __m512d vu_0_p_1_square = _mm512_mul_pd(_mm512_mul_pd(vu_0_p_1, vu_0_p_1), vc6);
-
-    __m512d vu_square_sum = _mm512_add_pd(vu_0_m_1_square, vu_0_p_1_square);
-
-    __m512d vu_0_square = _mm512_mul_pd(_mm512_mul_pd(vu_0, vu_0), vc3);
-    __m512d vu_1_square = _mm512_mul_pd(_mm512_mul_pd(vu_1, vu_1), vc4);
-
-    __m512d vp0_0 = _mm512_fmadd_pd(vc1, vu_0, vu_0_square);
-    __m512d vp0_1 = _mm512_fmadd_pd(vc2, vu_1, vu_1_square);
-
-	__m512d vpp = _mm512_add_pd(_mm512_add_pd(vp0_0, vp0_1), vu_square_sum);
-
-    __m512d vp = _mm512_mul_pd(vc0, _mm512_fmadd_pd(vpp, vrho, vrho_m_1));
-
-    __m512d vcell_1 = _mm512_fmadd_pd(vomega, vp, vcell_0);
-    
-    _mm512_storeu_pd(cell, vcell_1);
-
-    double uxSqr = u[0] * u[0];
-    double uySqr = u[1] * u[1];
-
-    cell[8] *= (double)1-omega;
-    cell[8] += omega*((double)1/(double)9 * (rho-(double)1)+ (double)1/(double)9 * rho*((double)3 * u[1] + (double)3 * uySqr- (double)3/(double)2 * uxSqr));
-    
-	return uxSqr + uySqr;
 
 
 
