@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisities
 
-To build this package, install the Intel® MPI Library 5.1.3.181 and Intel® C++ Composer XE 2016 or higher products on your host system.  Your host system must also have the Intel® MPSS for Linux* installed (installed separately from Intel® C++ Compiler XE).
+To build this package, install the Intel® MPI Library 5.1.3.181 and Intel® C++ Composer XE 2016.2.181 or higher products on your host system.  
 
 ### Download the source code
 
